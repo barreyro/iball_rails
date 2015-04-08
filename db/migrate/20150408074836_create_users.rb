@@ -11,6 +11,7 @@ class CreateUsers < ActiveRecord::Migration
       t.integer :age
       t.integer :games_total
       t.integer :games_won
+      t.text    :bio
 
       t.timestamps null: false
     end
