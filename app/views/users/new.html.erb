@@ -1,0 +1,19 @@
+<h3 class="error-heading">
+  <% if current_user %>
+    <%= @current_user.errors.messages if @current_user.errors.messages.any? %>
+  <% end %>
+</h3>
+
+<h1>Create a user:</h1>
+<div class="form-info">
+  <%= form_for @user do |f| %>
+    <%= f.text_field :email, placeholder: "Email" %>
+    <%= f.text_field :username, placeholder: "Username" %>
+    <%= f.password_field :password, placeholder: "Password" %>
+    <%= f.text_field :city, placeholder: "City" %>
+    <%= f.text_field :state, placeholder: "State" %>
+    <%= f.text_field :age, placeholder: "Age" %>
+    <%= f.text_field :bio, placeholder: "Bio" %>
+    <%= submit_tag 'signup' %>
+  <% end %>
+</div>
