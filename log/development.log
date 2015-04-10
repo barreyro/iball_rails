@@ -78,3 +78,98 @@ Migrating to CreateGames (20150408081227)
   [1m[36m (8.3ms)[0m  [1mcommit transaction[0m
   [1m[36mUser Load (2.8ms)[0m  [1mSELECT "users".* FROM "users"[0m
   [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
+
+
+Started GET "/" for ::1 at 2015-04-09 23:15:18 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (63.9ms)
+Completed 500 Internal Server Error in 90ms
+
+ActionView::Template::Error (undefined local variable or method `f' for #<#<Class:0x007feb0c1d7a28>:0x007feb0f952e58>):
+     5: </p>
+     6: 
+     7: <%= form_tag "/login" do %>
+     8:   <%= f.text_field :username, placeholder: "Username" %>
+     9:   <%= f.password_field :password, placeholder: "Password" %>
+    10:   <%= submit_tag %>
+    11: <% end %>
+  app/views/users/index.html.erb:8:in `block in _app_views_users_index_html_erb___3381413775879051351_70323778212760'
+  app/views/users/index.html.erb:7:in `_app_views_users_index_html_erb___3381413775879051351_70323778212760'
+
+
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.8ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.4ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (36.0ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (28.0ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (67.9ms)
+
+
+Started GET "/" for ::1 at 2015-04-09 23:16:00 -0700
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (3.5ms)
+Completed 500 Internal Server Error in 7ms
+
+ActionView::Template::Error (undefined method `text_field' for nil:NilClass):
+     5: </p>
+     6: 
+     7: <%= form_tag "/login" do |f| %>
+     8:   <%= f.text_field :username, placeholder: "Username" %>
+     9:   <%= f.password_field :password, placeholder: "Password" %>
+    10:   <%= submit_tag %>
+    11: <% end %>
+  app/views/users/index.html.erb:8:in `block in _app_views_users_index_html_erb___3381413775879051351_70323778753500'
+  app/views/users/index.html.erb:7:in `_app_views_users_index_html_erb___3381413775879051351_70323778753500'
+
+
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.8ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.4ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (32.0ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.8ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (21.8ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (84.7ms)
+
+
+Started GET "/" for ::1 at 2015-04-09 23:18:16 -0700
+Processing by UsersController#index as HTML
+  Rendered users/new.html.erb (3.6ms)
+  Rendered users/index.html.erb within layouts/application (28.2ms)
+Completed 500 Internal Server Error in 30ms
+
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+     6: 
+     7: <h1>Create a user:</h1>
+     8: <div class="form-info">
+     9:   <%= form_for @user do |f| %>
+    10:     <%= f.text_field :email, placeholder: "Email" %>
+    11:     <%= f.text_field :username, placeholder: "Username" %>
+    12:     <%= f.password_field :password, placeholder: "Password" %>
+  app/views/users/new.html.erb:9:in `_app_views_users_new_html_erb__3396876372399061608_70323786032980'
+  app/views/users/index.html.erb:15:in `_app_views_users_index_html_erb___3381413775879051351_70323761592100'
+
+
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.0ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.8ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (31.4ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (20.9ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (41.2ms)
