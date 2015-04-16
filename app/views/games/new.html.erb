@@ -1,0 +1,5 @@
+<%= form_tag(new_game_path, method: "get") do %>
+  <%= date_field_tag 'pick[draw_date]', nil, placeholder: 'date' %>
+  <%= select_tag :state, options_for_select(us_states) %>
+  <%= f.submit %>
+<% end %>

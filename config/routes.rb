@@ -9,9 +9,10 @@ Rails.application.routes.draw do
 
   resources :users do
     resources :comments
-    resources :games do
-      resources :comments
-    end
+  end
+
+  resources :games do
+    resources :comments
   end
 
 end
