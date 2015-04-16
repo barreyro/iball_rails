@@ -1,0 +1,9 @@
+<nav>
+ <% if !session[:user_id] %>
+    <a href="/login" class="nav-link">Login / </a>
+    <a href="/signup" class="nav-link">Signup / </a>
+  <% else %>
+      <%= User.session_user(session[:user_id]) %>
+    <a href="/logout" class="nav-link">Logout / </a>
+  <% end %>
+</nav>
