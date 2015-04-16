@@ -1,12 +1,6 @@
 <h1> Log In </h1>
-<%= User.first.username %>
-
-<p class="error">
-  <%= session[:errors] if session[:errors] %>
-</p>
 
   <%= form_tag(controller: "sessions", action: "login", method: "get") %>
-  <%= text_field_tag "user_input", nil, :placeholder => "Username or Email" %>
-  <%= password_field_tag "password", nil, :placeholder => "Password" %>
+  <%= text_field_tag "user_input", nil, :placeholder => "Enter Username or Email" %>
+  <%= password_field_tag "password", nil, :placeholder => "Enter Password" %>
   <%= submit_tag "Login" %>
-<br>
