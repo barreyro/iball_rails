@@ -1,3 +1,4 @@
 class Game < ActiveRecord::Base
-  belongs_to :creator, foreign_key: :users, class_name: "User"
+  belongs_to :user
+  has_many   :comments
 end
