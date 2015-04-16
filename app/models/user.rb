@@ -8,5 +8,13 @@ class User < ActiveRecord::Base
 
   has_many :comments
 
+  has_many :games
 
+  def self.session_user session_id
+    User.find_by_id(session_id)
+  end
+
+  def current_user? session_id
+    self.id.eql? User.session_user session_id
+  end
 end
