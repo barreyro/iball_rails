@@ -1,4 +1,4 @@
-class GamesController < ActionController
+class GamesController < ApplicationController
   def index
     @games = Game.all
   end
@@ -18,7 +18,6 @@ class GamesController < ActionController
     if params[:date] && params[:state]
       @game = Game.where(state: params[:state], date: params[:date])
     end
-
     render 'index'
   end
 
