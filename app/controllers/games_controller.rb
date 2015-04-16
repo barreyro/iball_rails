@@ -13,6 +13,10 @@ class GamesController < ApplicationController
     redirect_to @game
   end
 
+  def show
+    @game = Game.find(params[:id])
+  end
+
   def search
     @games = Game.all
     if params[:date] && params[:state]
