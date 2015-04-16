@@ -1,15 +1,1 @@
-<h1> Log In </h1>
-
-<p class="error">
-  <%= session[:errors] if session[:errors] %>
-</p>
-
-<%= form_for "/login" do |f| %>
-  <%= f.text_field :username, placeholder: "Username" %>
-  <%= f.password_field :password, placeholder: "Password" %>
-  <%= submit_tag %>
-<% end %>
-
-<br>
-
-<%= render template: "users/new" %>
+<%= render template: 'users/new' %>
