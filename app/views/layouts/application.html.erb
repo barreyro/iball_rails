@@ -7,9 +7,10 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-<%= render "shared/navigation" %>
-<%= render template: 'sessions/login' %>
-<%= yield %>
+<header>
+  <%= render partial: "layouts/navigation", locals: { user: @user } %>
+</header>
+  <%= yield %>
 
 </body>
 </html>
