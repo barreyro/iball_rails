@@ -1,18 +1,9 @@
 <br>
-Find basketball games in your area:
-
+Find basketball games in your area: <br>
 <% if !session[:user_id] %>
-
   <%= render partial: "layouts/login" %>
-
 <% else %>
-  <br>
-
-<%= render partial: "games/search" %>
-
-<br>
-  -OR-
-<br>
-<%= render partial: "games/new" %>
-
+  <%= render partial: "games/search" %>
+  <br> -OR- <br>
+  <%= render partial: "games/new" %>
 <% end %>
