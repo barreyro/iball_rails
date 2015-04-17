@@ -13,7 +13,7 @@
 
 ActiveRecord::Schema.define(version: 20150408081227) do
 
-  create_table "comments", force: :cascade do |t|
+  create_table "comments", force: true do |t|
     t.integer  "sender_id"
     t.integer  "receiver_id"
     t.text     "content"
@@ -21,7 +21,7 @@ ActiveRecord::Schema.define(version: 20150408081227) do
     t.datetime "updated_at"
   end
 
-  create_table "friendships", force: :cascade do |t|
+  create_table "friendships", force: true do |t|
     t.integer  "friendee_id"
     t.integer  "friend_id"
     t.string   "status"
@@ -29,7 +29,7 @@ ActiveRecord::Schema.define(version: 20150408081227) do
     t.datetime "updated_at"
   end
 
-  create_table "games", force: :cascade do |t|
+  create_table "games", force: true do |t|
     t.integer  "user_id_id"
     t.string   "title"
     t.date     "date"
@@ -41,7 +41,7 @@ ActiveRecord::Schema.define(version: 20150408081227) do
     t.datetime "updated_at", null: false
   end
 
-  create_table "users", force: :cascade do |t|
+  create_table "users", force: true do |t|
     t.string   "username"
     t.string   "first_name"
     t.string   "last_name"
