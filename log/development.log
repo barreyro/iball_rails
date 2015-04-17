@@ -15719,3 +15719,296 @@ Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 
 
 
 Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for ::1 at 2015-04-16 21:07:00 -0700
+  [1m[36m (1.5ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (1.0ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreateUsers (20150408074836)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (1.2ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "username" varchar, "first_name" varchar, "last_name" varchar, "email" varchar, "password_digest" varchar, "city" varchar, "state" varchar, "age" integer, "games_total" integer, "games_won" integer, "bio" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20150408074836"]]
+  [1m[35m (1.1ms)[0m  commit transaction
+Migrating to CreateFriendships (20150408080240)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+DEPRECATION WARNING: `#timestamp` was called without specifying an option for `null`. In Rails 5, this behavior will change to `null: false`. You should manually specify `null: true` to prevent the behavior of your existing migrations from changing. (called from block in change at /Users/stephaniebarreyro/Desktop/iball_rails/db/migrate/20150408080240_create_friendships.rb:8)
+  [1m[35m (0.9ms)[0m  CREATE TABLE "friendships" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "friendee_id" integer, "friend_id" integer, "status" varchar, "created_at" datetime, "updated_at" datetime) 
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20150408080240"]]
+  [1m[35m (1.1ms)[0m  commit transaction
+Migrating to CreateComments (20150408080522)
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+DEPRECATION WARNING: `#timestamp` was called without specifying an option for `null`. In Rails 5, this behavior will change to `null: false`. You should manually specify `null: true` to prevent the behavior of your existing migrations from changing. (called from block in change at /Users/stephaniebarreyro/Desktop/iball_rails/db/migrate/20150408080522_create_comments.rb:8)
+  [1m[35m (0.6ms)[0m  CREATE TABLE "comments" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "sender_id" integer, "receiver_id" integer, "content" text, "created_at" datetime, "updated_at" datetime) 
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20150408080522"]]
+  [1m[35m (1.4ms)[0m  commit transaction
+Migrating to CreateGames (20150408081227)
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.6ms)[0m  CREATE TABLE "games" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id_id" integer, "title" varchar, "date" date, "city" varchar, "state" varchar, "zip" varchar, "address" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20150408081227"]]
+  [1m[35m (1.2ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."username" = 'KD35' LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."email" = 'k@k.com' LIMIT 1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "users" ("username", "email", "password_digest", "first_name", "last_name", "age", "city", "state", "bio", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["username", "KD35"], ["email", "k@k.com"], ["password_digest", "$2a$10$9neweQflqqQY.Ik2J87aAeJVRcaTLwHXLEEekSc70I5lQ.Q1B.K7G"], ["first_name", "Kevin"], ["last_name", "Durant"], ["age", 26], ["city", "Oklahoma City"], ["state", "OK"], ["bio", "OKC"], ["created_at", "2015-04-17 05:59:15.770752"], ["updated_at", "2015-04-17 05:59:15.770752"]]
+  [1m[35m (1.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."username" = 'SwaggyP' LIMIT 1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 's@s.com' LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("username", "email", "password_digest", "first_name", "last_name", "age", "city", "state", "bio", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["username", "SwaggyP"], ["email", "s@s.com"], ["password_digest", "$2a$10$SlEloBgkDBe7Y4vRaq4T/e3LnVZqLS5WX7tyMv2v3Dl2fM2zO5U5."], ["first_name", "Nick"], ["last_name", "Young"], ["age", 26], ["city", "Los Angeles"], ["state", "CA"], ["bio", "LAL"], ["created_at", "2015-04-17 05:59:15.866352"], ["updated_at", "2015-04-17 05:59:15.866352"]]
+  [1m[36m (1.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."username" = 'Chef Stef' LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."email" = 'c@c.com' LIMIT 1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "users" ("username", "email", "password_digest", "first_name", "last_name", "age", "city", "state", "bio", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["username", "Chef Stef"], ["email", "c@c.com"], ["password_digest", "$2a$10$FnJP9LyfEQs8KwSr/mKXsOC1B5U5k3haTGsdwoX6AigTaRov/iEoa"], ["first_name", "Stephen"], ["last_name", "Curry"], ["age", 26], ["city", "Oakland"], ["state", "CA"], ["bio", "GSW"], ["created_at", "2015-04-17 05:59:15.956570"], ["updated_at", "2015-04-17 05:59:15.956570"]]
+  [1m[35m (1.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."username" = 'K.Love' LIMIT 1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'kl@kl.com' LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "users" ("username", "email", "password_digest", "first_name", "last_name", "age", "city", "state", "bio", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["username", "K.Love"], ["email", "kl@kl.com"], ["password_digest", "$2a$10$1hxDFzqe4XsSLHTAeBzrTel1Ia/37zJAAsPWcPUZD3R/IJuNBheWm"], ["first_name", "Kevin"], ["last_name", "Love"], ["age", 26], ["city", "Cleveland"], ["state", "OH"], ["bio", "CLC"], ["created_at", "2015-04-17 05:59:16.054703"], ["updated_at", "2015-04-17 05:59:16.054703"]]
+  [1m[36m (9.2ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."username" = 'Black Mamba' LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."email" = 'b@b.com' LIMIT 1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "users" ("username", "email", "password_digest", "first_name", "last_name", "age", "city", "state", "bio", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["username", "Black Mamba"], ["email", "b@b.com"], ["password_digest", "$2a$10$aAg5tmGGVxl53HUpb34K4.rFyADN.NXcogPPAaXE2z1q6lWG8gs2W"], ["first_name", "Kobe"], ["last_name", "Bryant"], ["age", 36], ["city", "Los Angeles"], ["state", "CA"], ["bio", "LAL"], ["created_at", "2015-04-17 05:59:16.153028"], ["updated_at", "2015-04-17 05:59:16.153028"]]
+  [1m[35m (1.2ms)[0m  commit transaction
+
+
+Started GET "/" for ::1 at 2015-04-16 22:59:49 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered layouts/_login.html.erb (2.2ms)
+  Rendered welcome/index.html.erb within layouts/application (10.0ms)
+  Rendered layouts/_navigation.html.erb (0.7ms)
+Completed 200 OK in 179ms (Views: 166.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-16 22:59:50 -0700
+
+
+Started GET "/assets/welcome-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-16 22:59:50 -0700
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-04-16 22:59:50 -0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-16 22:59:50 -0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-16 22:59:50 -0700
+
+
+Started GET "/assets/welcome-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-16 22:59:50 -0700
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for ::1 at 2015-04-16 22:59:50 -0700
+
+
+Started GET "/signup" for ::1 at 2015-04-16 23:00:52 -0700
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (14.4ms)
+  Rendered layouts/_navigation.html.erb (0.7ms)
+Completed 200 OK in 99ms (Views: 70.2ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/users" for ::1 at 2015-04-16 23:01:14 -0700
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"DyFilrtNKI5wVccIaydkq5SlEcBlEHi/bMYhuHyBAg9GEBPsyWxvxFvO10xY6DAAuHCr7XEbmhqY5dSi2QzbJA==", "user"=>{"email"=>"sister@sister.com", "username"=>"sister", "password"=>"[FILTERED]", "city"=>"eat", "state"=>"CA", "age"=>"90", "bio"=>"sign up"}, "commit"=>"signup"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."username" = 'sister' LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."email" = 'sister@sister.com' LIMIT 1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "users" ("username", "email", "password_digest", "city", "state", "age", "bio", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["username", "sister"], ["email", "sister@sister.com"], ["password_digest", "$2a$10$1gbj0/i4e5ST9gRmmBSq0e9zlYk7N99lezDEcw21an4sz0jpCV8/e"], ["city", "eat"], ["state", "CA"], ["age", 90], ["bio", "sign up"], ["created_at", "2015-04-17 06:01:14.739656"], ["updated_at", "2015-04-17 06:01:14.739656"]]
+  [1m[35m (8.2ms)[0m  commit transaction
+Redirected to http://localhost:3000/
+Completed 302 Found in 122ms (ActiveRecord: 9.2ms)
+
+
+Started GET "/" for ::1 at 2015-04-16 23:01:14 -0700
+Processing by WelcomeController#index as HTML
+  Rendered layouts/_login.html.erb (0.9ms)
+  Rendered welcome/index.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_navigation.html.erb (0.1ms)
+Completed 200 OK in 126ms (Views: 125.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-16 23:01:15 -0700
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-04-16 23:01:15 -0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-16 23:01:15 -0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-16 23:01:15 -0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-16 23:01:15 -0700
+
+
+Started GET "/assets/welcome-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-16 23:01:15 -0700
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for ::1 at 2015-04-16 23:01:15 -0700
+
+
+Started POST "/login?method=get" for ::1 at 2015-04-16 23:01:30 -0700
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"qYX48bxgWaseBx7jmIteg43YS23PW81MSzF4umbtJVjgtImLzkEe4TWcDqerRAoooQ3xQNtQL+m/Eo2gw2D8cw==", "user_input"=>"sister", "password"=>"[FILTERED]", "commit"=>"Login", "method"=>"get"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT 1[0m  [["username", "sister"]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 104ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2015-04-16 23:01:30 -0700
+Processing by WelcomeController#index as HTML
+  Rendered games/_search.html.erb (2.0ms)
+  Rendered games/_new.html.erb (1.6ms)
+  Rendered welcome/index.html.erb within layouts/application (14.2ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  Rendered layouts/_navigation.html.erb (2.1ms)
+Completed 200 OK in 102ms (Views: 100.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/welcome-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-16 23:01:30 -0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-16 23:01:30 -0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-16 23:01:30 -0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-16 23:01:30 -0700
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-04-16 23:01:30 -0700
+
+
+Started GET "/assets/welcome-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-16 23:01:30 -0700
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for ::1 at 2015-04-16 23:01:30 -0700
+
+
+Started GET "/" for ::1 at 2015-04-16 23:02:24 -0700
+Processing by WelcomeController#index as HTML
+  Rendered games/_search.html.erb (67.9ms)
+  Rendered games/_new.html.erb (1.1ms)
+  Rendered welcome/index.html.erb within layouts/application (70.9ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered layouts/_navigation.html.erb (1.5ms)
+Completed 200 OK in 118ms (Views: 117.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/welcome-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-16 23:02:25 -0700
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-04-16 23:02:25 -0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-16 23:02:25 -0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-16 23:02:25 -0700
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for ::1 at 2015-04-16 23:02:25 -0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-16 23:02:25 -0700
+
+
+Started GET "/assets/welcome-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-16 23:02:25 -0700
+
+
+Started GET "/" for ::1 at 2015-04-16 23:02:27 -0700
+Processing by WelcomeController#index as HTML
+  Rendered games/_search.html.erb (2.9ms)
+  Rendered games/_new.html.erb (2.7ms)
+  Rendered welcome/index.html.erb within layouts/application (9.5ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  Rendered layouts/_navigation.html.erb (1.4ms)
+Completed 200 OK in 92ms (Views: 91.2ms | ActiveRecord: 0.1ms)
+
+
+Started POST "/games" for ::1 at 2015-04-16 23:02:49 -0700
+Processing by GamesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"79jzNZVmqAttYg4l/4NHPNy1Rex9RVaX7qSPbVRuOpSm6YJP50fvQUb5HmHMTBOX8GD/wWlOtDIah3p38ePjvw==", "game"=>{"date"=>"2015-04-18", "title"=>"preprocessor", "address"=>"weshoulddothat", "city"=>"usedthat", "state"=>"AK", "zip"=>"10034"}, "commit"=>"Create"}
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "games" ("title", "date", "city", "state", "zip", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["title", "preprocessor"], ["date", "2015-04-18"], ["city", "usedthat"], ["state", "AK"], ["zip", "10034"], ["address", "weshoulddothat"], ["created_at", "2015-04-17 06:02:50.038842"], ["updated_at", "2015-04-17 06:02:50.038842"]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/games/1
+Completed 302 Found in 29ms (ActiveRecord: 2.2ms)
+
+
+Started GET "/games/1" for ::1 at 2015-04-16 23:02:50 -0700
+Processing by GamesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mGame Load (0.2ms)[0m  SELECT  "games".* FROM "games" WHERE "games"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered games/show.html.erb within layouts/application (0.6ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered layouts/_navigation.html.erb (0.8ms)
+Completed 200 OK in 48ms (Views: 46.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/welcome-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-16 23:02:50 -0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-16 23:02:50 -0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-16 23:02:50 -0700
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-04-16 23:02:50 -0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-16 23:02:50 -0700
+
+
+Started GET "/assets/welcome-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-16 23:02:50 -0700
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for ::1 at 2015-04-16 23:02:50 -0700
+
+
+Started GET "/" for ::1 at 2015-04-16 23:02:54 -0700
+Processing by WelcomeController#index as HTML
+  Rendered games/_search.html.erb (1.0ms)
+  Rendered games/_new.html.erb (0.9ms)
+  Rendered welcome/index.html.erb within layouts/application (3.2ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  Rendered layouts/_navigation.html.erb (1.0ms)
+Completed 200 OK in 86ms (Views: 85.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/games?utf8=%E2%9C%93&date=2015-04-18&state=AK&commit=Find" for ::1 at 2015-04-16 23:02:58 -0700
+Processing by GamesController#index as HTML
+  Parameters: {"utf8"=>"✓", "date"=>"2015-04-18", "state"=>"AK", "commit"=>"Find"}
+  [1m[36mGame Load (0.4ms)[0m  [1mSELECT "games".* FROM "games"[0m
+  Rendered games/index.html.erb within layouts/application (1.0ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  Rendered layouts/_navigation.html.erb (0.8ms)
+Completed 200 OK in 120ms (Views: 116.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-16 23:02:58 -0700
+
+
+Started GET "/assets/welcome-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-16 23:02:58 -0700
+
+
+Started GET "/assets/welcome-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-16 23:02:58 -0700
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-04-16 23:02:58 -0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-16 23:02:58 -0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-16 23:02:58 -0700
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for ::1 at 2015-04-16 23:02:58 -0700
