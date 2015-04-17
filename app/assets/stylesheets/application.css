@@ -18,7 +18,11 @@
  */
 @font-face {
   font-family: "Intro Cond Black Free";
-  src: url('/assets/IntroCondBlackFree.otf') format("truetype");
+  src: url('/assets/introcondblackfree.otf') format("truetype");
+}
+@font-face {
+  font-family: "Krinkes";
+  src: url('/assets/krinkes.ttf') format("truetype");
 }
 
 .rotate {
@@ -45,9 +49,25 @@ body{
   font-family: "Intro Cond Black Free";
   font-size: 3em;
   line-height: 76%;
-  letter-spacing: -.1em;
+  letter-spacing: -.06em;
+  margin-top: 1em;
+}
+
+#iball{
+  font-family: "Krinkes";
+  color: white;
+  -webkit-transform: rotate(340deg);
+  -moz-transform: rotate(340deg);
+  -ms-transform: rotate(340deg);
+  -o-transform: rotate(340deg);
+  transform: rotate(340deg);
+}
+
+#quote{
+  margin-top: .5em;
 }
 
 #welcome-login {
   color: white;
+  margin-top: 5em;
 }

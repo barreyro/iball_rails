@@ -19730,3 +19730,1289 @@ Started GET "/assets/wood2.jpg" for 127.0.0.1 at 2015-04-17 16:39:04 -0700
 
 
 Started GET "/assets/IntroCondBlackFree.otf" for 127.0.0.1 at 2015-04-17 16:39:04 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-17 16:46:01 -0700
+Processing by WelcomeController#index as HTML
+  Rendered layouts/_login.html.erb (1.6ms)
+  Rendered welcome/index.html.erb within layouts/application (6.6ms)
+  Rendered layouts/_navigation.html.erb (0.1ms)
+Completed 200 OK in 219ms (Views: 219.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 16:46:01 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 16:46:01 -0700
+
+
+Started GET "/assets/application.self-a3beccd68bfae094c244d3e5bb0a8a3028764073cb3b72ce20bdf1a0fdf993d4.css?body=1" for 127.0.0.1 at 2015-04-17 16:46:01 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 16:46:01 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 16:46:01 -0700
+
+
+Started GET "/assets/krinkes.ttf" for 127.0.0.1 at 2015-04-17 16:46:01 -0700
+
+ActionController::RoutingError (No route matches [GET] "/assets/krinkes.ttf"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  thin (1.5.1) lib/thin/connection.rb:81:in `block in pre_process'
+  thin (1.5.1) lib/thin/connection.rb:79:in `catch'
+  thin (1.5.1) lib/thin/connection.rb:79:in `pre_process'
+  thin (1.5.1) lib/thin/connection.rb:54:in `process'
+  thin (1.5.1) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.5) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.5) lib/eventmachine.rb:187:in `run'
+  thin (1.5.1) lib/thin/backends/base.rb:63:in `start'
+  thin (1.5.1) lib/thin/server.rb:159:in `start'
+  rack (1.5.2) lib/rack/handler/thin.rb:16:in `run'
+  rack (1.5.2) lib/rack/server.rb:264:in `start'
+  railties (4.1.8) lib/rails/commands/server.rb:69:in `start'
+  railties (4.1.8) lib/rails/commands/commands_tasks.rb:81:in `block in server'
+  railties (4.1.8) lib/rails/commands/commands_tasks.rb:76:in `tap'
+  railties (4.1.8) lib/rails/commands/commands_tasks.rb:76:in `server'
+  railties (4.1.8) lib/rails/commands/commands_tasks.rb:40:in `run_command!'
+  railties (4.1.8) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:4:in `require'
+  bin/rails:4:in `<main>'
+
+
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (6.5ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (16.1ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (97.5ms)
+
+
+Started GET "/assets/IntroCondBlackFree.otf" for 127.0.0.1 at 2015-04-17 16:46:02 -0700
+
+
+Started GET "/assets/wood2.jpg" for 127.0.0.1 at 2015-04-17 16:46:02 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-17 16:46:24 -0700
+Processing by WelcomeController#index as HTML
+  Rendered layouts/_login.html.erb (0.9ms)
+  Rendered welcome/index.html.erb within layouts/application (2.1ms)
+  Rendered layouts/_navigation.html.erb (0.1ms)
+Completed 200 OK in 178ms (Views: 177.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 16:46:24 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 16:46:24 -0700
+
+
+Started GET "/assets/application.self-b709e84d51fc4487da520cf27f808da9760bdc68a69922b633e0c8b07c1f70df.css?body=1" for 127.0.0.1 at 2015-04-17 16:46:24 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 16:46:24 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 16:46:24 -0700
+
+
+Started GET "/assets/wood2.jpg" for 127.0.0.1 at 2015-04-17 16:46:24 -0700
+
+
+Started GET "/assets/krinkes.ttf" for 127.0.0.1 at 2015-04-17 16:46:24 -0700
+
+ActionController::RoutingError (No route matches [GET] "/assets/krinkes.ttf"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  thin (1.5.1) lib/thin/connection.rb:81:in `block in pre_process'
+  thin (1.5.1) lib/thin/connection.rb:79:in `catch'
+  thin (1.5.1) lib/thin/connection.rb:79:in `pre_process'
+  thin (1.5.1) lib/thin/connection.rb:54:in `process'
+  thin (1.5.1) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.5) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.5) lib/eventmachine.rb:187:in `run'
+  thin (1.5.1) lib/thin/backends/base.rb:63:in `start'
+  thin (1.5.1) lib/thin/server.rb:159:in `start'
+  rack (1.5.2) lib/rack/handler/thin.rb:16:in `run'
+  rack (1.5.2) lib/rack/server.rb:264:in `start'
+  railties (4.1.8) lib/rails/commands/server.rb:69:in `start'
+  railties (4.1.8) lib/rails/commands/commands_tasks.rb:81:in `block in server'
+  railties (4.1.8) lib/rails/commands/commands_tasks.rb:76:in `tap'
+  railties (4.1.8) lib/rails/commands/commands_tasks.rb:76:in `server'
+  railties (4.1.8) lib/rails/commands/commands_tasks.rb:40:in `run_command!'
+  railties (4.1.8) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:4:in `require'
+  bin/rails:4:in `<main>'
+
+
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.3ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.3ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (66.0ms)
+
+
+Started GET "/assets/IntroCondBlackFree.otf" for 127.0.0.1 at 2015-04-17 16:46:24 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-17 16:46:36 -0700
+Processing by WelcomeController#index as HTML
+  Rendered layouts/_login.html.erb (0.7ms)
+  Rendered welcome/index.html.erb within layouts/application (2.7ms)
+  Rendered layouts/_navigation.html.erb (0.1ms)
+Completed 200 OK in 37ms (Views: 36.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 16:46:36 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 16:46:36 -0700
+
+
+Started GET "/assets/application.self-b709e84d51fc4487da520cf27f808da9760bdc68a69922b633e0c8b07c1f70df.css?body=1" for 127.0.0.1 at 2015-04-17 16:46:36 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 16:46:36 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 16:46:36 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-17 16:46:39 -0700
+Processing by WelcomeController#index as HTML
+  Rendered layouts/_login.html.erb (0.6ms)
+  Rendered welcome/index.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_navigation.html.erb (0.0ms)
+Completed 200 OK in 40ms (Views: 39.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 16:46:39 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 16:46:39 -0700
+
+
+Started GET "/assets/application.self-b709e84d51fc4487da520cf27f808da9760bdc68a69922b633e0c8b07c1f70df.css?body=1" for 127.0.0.1 at 2015-04-17 16:46:39 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 16:46:39 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 16:46:39 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-17 16:46:44 -0700
+Processing by WelcomeController#index as HTML
+  Rendered layouts/_login.html.erb (0.7ms)
+  Rendered welcome/index.html.erb within layouts/application (2.9ms)
+  Rendered layouts/_navigation.html.erb (0.1ms)
+Completed 200 OK in 38ms (Views: 37.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 16:46:44 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 16:46:44 -0700
+
+
+Started GET "/assets/application.self-b709e84d51fc4487da520cf27f808da9760bdc68a69922b633e0c8b07c1f70df.css?body=1" for 127.0.0.1 at 2015-04-17 16:46:44 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 16:46:44 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 16:46:44 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-17 16:47:13 -0700
+Processing by WelcomeController#index as HTML
+  Rendered layouts/_login.html.erb (0.9ms)
+  Rendered welcome/index.html.erb within layouts/application (2.8ms)
+  Rendered layouts/_navigation.html.erb (0.1ms)
+Completed 200 OK in 126ms (Views: 125.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 16:47:13 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 16:47:13 -0700
+
+
+Started GET "/assets/application.self-b709e84d51fc4487da520cf27f808da9760bdc68a69922b633e0c8b07c1f70df.css?body=1" for 127.0.0.1 at 2015-04-17 16:47:13 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 16:47:13 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 16:47:13 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-17 16:47:23 -0700
+Processing by WelcomeController#index as HTML
+  Rendered layouts/_login.html.erb (0.9ms)
+  Rendered welcome/index.html.erb within layouts/application (2.8ms)
+  Rendered layouts/_navigation.html.erb (0.0ms)
+Completed 200 OK in 98ms (Views: 97.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 16:47:23 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 16:47:23 -0700
+
+
+Started GET "/assets/application.self-89ae583d96258ab9764b6c6838d5af88edce11fa29f8996791a487486c5f5a30.css?body=1" for 127.0.0.1 at 2015-04-17 16:47:23 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 16:47:23 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 16:47:23 -0700
+
+
+Started GET "/assets/wood2.jpg" for 127.0.0.1 at 2015-04-17 16:47:23 -0700
+
+
+Started GET "/assets/krinkes.ttf" for 127.0.0.1 at 2015-04-17 16:47:23 -0700
+
+ActionController::RoutingError (No route matches [GET] "/assets/krinkes.ttf"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  thin (1.5.1) lib/thin/connection.rb:81:in `block in pre_process'
+  thin (1.5.1) lib/thin/connection.rb:79:in `catch'
+  thin (1.5.1) lib/thin/connection.rb:79:in `pre_process'
+  thin (1.5.1) lib/thin/connection.rb:54:in `process'
+  thin (1.5.1) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.5) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.5) lib/eventmachine.rb:187:in `run'
+  thin (1.5.1) lib/thin/backends/base.rb:63:in `start'
+  thin (1.5.1) lib/thin/server.rb:159:in `start'
+  rack (1.5.2) lib/rack/handler/thin.rb:16:in `run'
+  rack (1.5.2) lib/rack/server.rb:264:in `start'
+  railties (4.1.8) lib/rails/commands/server.rb:69:in `start'
+  railties (4.1.8) lib/rails/commands/commands_tasks.rb:81:in `block in server'
+  railties (4.1.8) lib/rails/commands/commands_tasks.rb:76:in `tap'
+  railties (4.1.8) lib/rails/commands/commands_tasks.rb:76:in `server'
+  railties (4.1.8) lib/rails/commands/commands_tasks.rb:40:in `run_command!'
+  railties (4.1.8) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:4:in `require'
+  bin/rails:4:in `<main>'
+
+
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.1ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.6ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (52.6ms)
+
+
+Started GET "/assets/IntroCondBlackFree.otf" for 127.0.0.1 at 2015-04-17 16:47:23 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-17 16:47:37 -0700
+Processing by WelcomeController#index as HTML
+  Rendered layouts/_login.html.erb (0.7ms)
+  Rendered welcome/index.html.erb within layouts/application (2.6ms)
+  Rendered layouts/_navigation.html.erb (0.1ms)
+Completed 200 OK in 96ms (Views: 95.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 16:47:37 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 16:47:37 -0700
+
+
+Started GET "/assets/application.self-9fc36d4bc2cf7a848d9da1a6174eae44d27c46bc6f9d188ebdcfc6eaceadd341.css?body=1" for 127.0.0.1 at 2015-04-17 16:47:37 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 16:47:37 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 16:47:37 -0700
+
+
+Started GET "/assets/wood2.jpg" for 127.0.0.1 at 2015-04-17 16:47:37 -0700
+
+
+Started GET "/assets/krinkes.ttf" for 127.0.0.1 at 2015-04-17 16:47:37 -0700
+
+ActionController::RoutingError (No route matches [GET] "/assets/krinkes.ttf"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  thin (1.5.1) lib/thin/connection.rb:81:in `block in pre_process'
+  thin (1.5.1) lib/thin/connection.rb:79:in `catch'
+  thin (1.5.1) lib/thin/connection.rb:79:in `pre_process'
+  thin (1.5.1) lib/thin/connection.rb:54:in `process'
+  thin (1.5.1) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.5) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.5) lib/eventmachine.rb:187:in `run'
+  thin (1.5.1) lib/thin/backends/base.rb:63:in `start'
+  thin (1.5.1) lib/thin/server.rb:159:in `start'
+  rack (1.5.2) lib/rack/handler/thin.rb:16:in `run'
+  rack (1.5.2) lib/rack/server.rb:264:in `start'
+  railties (4.1.8) lib/rails/commands/server.rb:69:in `start'
+  railties (4.1.8) lib/rails/commands/commands_tasks.rb:81:in `block in server'
+  railties (4.1.8) lib/rails/commands/commands_tasks.rb:76:in `tap'
+  railties (4.1.8) lib/rails/commands/commands_tasks.rb:76:in `server'
+  railties (4.1.8) lib/rails/commands/commands_tasks.rb:40:in `run_command!'
+  railties (4.1.8) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:4:in `require'
+  bin/rails:4:in `<main>'
+
+
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.5ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (60.0ms)
+
+
+Started GET "/assets/IntroCondBlackFree.otf" for 127.0.0.1 at 2015-04-17 16:47:37 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-17 16:47:40 -0700
+Processing by WelcomeController#index as HTML
+  Rendered layouts/_login.html.erb (0.7ms)
+  Rendered welcome/index.html.erb within layouts/application (1.8ms)
+  Rendered layouts/_navigation.html.erb (0.2ms)
+Completed 200 OK in 116ms (Views: 115.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 16:47:40 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 16:47:40 -0700
+
+
+Started GET "/assets/application.self-9fc36d4bc2cf7a848d9da1a6174eae44d27c46bc6f9d188ebdcfc6eaceadd341.css?body=1" for 127.0.0.1 at 2015-04-17 16:47:40 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 16:47:40 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 16:47:40 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-17 16:47:42 -0700
+Processing by WelcomeController#index as HTML
+  Rendered layouts/_login.html.erb (1.0ms)
+  Rendered welcome/index.html.erb within layouts/application (2.2ms)
+  Rendered layouts/_navigation.html.erb (0.0ms)
+Completed 200 OK in 39ms (Views: 38.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 16:47:42 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 16:47:42 -0700
+
+
+Started GET "/assets/application.self-9fc36d4bc2cf7a848d9da1a6174eae44d27c46bc6f9d188ebdcfc6eaceadd341.css?body=1" for 127.0.0.1 at 2015-04-17 16:47:42 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 16:47:42 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 16:47:42 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-17 16:47:48 -0700
+Processing by WelcomeController#index as HTML
+  Rendered layouts/_login.html.erb (0.9ms)
+  Rendered welcome/index.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_navigation.html.erb (0.1ms)
+Completed 200 OK in 104ms (Views: 103.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 16:47:48 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 16:47:48 -0700
+
+
+Started GET "/assets/application.self-9c4c48866d374e30831c5074a100cf4e005afeea7c2d05416fd4aca8334e8494.css?body=1" for 127.0.0.1 at 2015-04-17 16:47:48 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 16:47:48 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 16:47:48 -0700
+
+
+Started GET "/assets/wood2.jpg" for 127.0.0.1 at 2015-04-17 16:47:48 -0700
+
+
+Started GET "/assets/krinkes.ttf" for 127.0.0.1 at 2015-04-17 16:47:48 -0700
+
+ActionController::RoutingError (No route matches [GET] "/assets/krinkes.ttf"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  thin (1.5.1) lib/thin/connection.rb:81:in `block in pre_process'
+  thin (1.5.1) lib/thin/connection.rb:79:in `catch'
+  thin (1.5.1) lib/thin/connection.rb:79:in `pre_process'
+  thin (1.5.1) lib/thin/connection.rb:54:in `process'
+  thin (1.5.1) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.5) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.5) lib/eventmachine.rb:187:in `run'
+  thin (1.5.1) lib/thin/backends/base.rb:63:in `start'
+  thin (1.5.1) lib/thin/server.rb:159:in `start'
+  rack (1.5.2) lib/rack/handler/thin.rb:16:in `run'
+  rack (1.5.2) lib/rack/server.rb:264:in `start'
+  railties (4.1.8) lib/rails/commands/server.rb:69:in `start'
+  railties (4.1.8) lib/rails/commands/commands_tasks.rb:81:in `block in server'
+  railties (4.1.8) lib/rails/commands/commands_tasks.rb:76:in `tap'
+  railties (4.1.8) lib/rails/commands/commands_tasks.rb:76:in `server'
+  railties (4.1.8) lib/rails/commands/commands_tasks.rb:40:in `run_command!'
+  railties (4.1.8) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:4:in `require'
+  bin/rails:4:in `<main>'
+
+
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.4ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.0ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (57.0ms)
+
+
+Started GET "/assets/IntroCondBlackFree.otf" for 127.0.0.1 at 2015-04-17 16:47:49 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-17 16:47:53 -0700
+Processing by WelcomeController#index as HTML
+  Rendered layouts/_login.html.erb (0.8ms)
+  Rendered welcome/index.html.erb within layouts/application (2.2ms)
+  Rendered layouts/_navigation.html.erb (0.1ms)
+Completed 200 OK in 40ms (Views: 39.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 16:47:53 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 16:47:53 -0700
+
+
+Started GET "/assets/application.self-9c4c48866d374e30831c5074a100cf4e005afeea7c2d05416fd4aca8334e8494.css?body=1" for 127.0.0.1 at 2015-04-17 16:47:53 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 16:47:53 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 16:47:53 -0700
+
+
+Started GET "/assets/wood2.jpg" for 127.0.0.1 at 2015-04-17 16:47:53 -0700
+
+
+Started GET "/assets/krinkes.ttf" for 127.0.0.1 at 2015-04-17 16:47:54 -0700
+
+ActionController::RoutingError (No route matches [GET] "/assets/krinkes.ttf"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  thin (1.5.1) lib/thin/connection.rb:81:in `block in pre_process'
+  thin (1.5.1) lib/thin/connection.rb:79:in `catch'
+  thin (1.5.1) lib/thin/connection.rb:79:in `pre_process'
+  thin (1.5.1) lib/thin/connection.rb:54:in `process'
+  thin (1.5.1) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.5) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.5) lib/eventmachine.rb:187:in `run'
+  thin (1.5.1) lib/thin/backends/base.rb:63:in `start'
+  thin (1.5.1) lib/thin/server.rb:159:in `start'
+  rack (1.5.2) lib/rack/handler/thin.rb:16:in `run'
+  rack (1.5.2) lib/rack/server.rb:264:in `start'
+  railties (4.1.8) lib/rails/commands/server.rb:69:in `start'
+  railties (4.1.8) lib/rails/commands/commands_tasks.rb:81:in `block in server'
+  railties (4.1.8) lib/rails/commands/commands_tasks.rb:76:in `tap'
+  railties (4.1.8) lib/rails/commands/commands_tasks.rb:76:in `server'
+  railties (4.1.8) lib/rails/commands/commands_tasks.rb:40:in `run_command!'
+  railties (4.1.8) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:4:in `require'
+  bin/rails:4:in `<main>'
+
+
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.4ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (56.0ms)
+
+
+Started GET "/assets/IntroCondBlackFree.otf" for 127.0.0.1 at 2015-04-17 16:47:54 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-17 16:48:29 -0700
+Processing by WelcomeController#index as HTML
+  Rendered layouts/_login.html.erb (0.8ms)
+  Rendered welcome/index.html.erb within layouts/application (4.7ms)
+  Rendered layouts/_navigation.html.erb (0.1ms)
+Completed 200 OK in 199ms (Views: 198.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 16:48:29 -0700
+
+
+Started GET "/assets/application.self-fa527852cb5958da51306297d4437f3ae325cd427ece8e722519db5553045c31.css?body=1" for 127.0.0.1 at 2015-04-17 16:48:29 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 16:48:29 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 16:48:29 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 16:48:29 -0700
+
+
+Started GET "/assets/wood2.jpg" for 127.0.0.1 at 2015-04-17 16:48:29 -0700
+
+
+Started GET "/assets/krinkes.ttf" for 127.0.0.1 at 2015-04-17 16:48:29 -0700
+
+ActionController::RoutingError (No route matches [GET] "/assets/krinkes.ttf"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  thin (1.5.1) lib/thin/connection.rb:81:in `block in pre_process'
+  thin (1.5.1) lib/thin/connection.rb:79:in `catch'
+  thin (1.5.1) lib/thin/connection.rb:79:in `pre_process'
+  thin (1.5.1) lib/thin/connection.rb:54:in `process'
+  thin (1.5.1) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.5) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.5) lib/eventmachine.rb:187:in `run'
+  thin (1.5.1) lib/thin/backends/base.rb:63:in `start'
+  thin (1.5.1) lib/thin/server.rb:159:in `start'
+  rack (1.5.2) lib/rack/handler/thin.rb:16:in `run'
+  rack (1.5.2) lib/rack/server.rb:264:in `start'
+  railties (4.1.8) lib/rails/commands/server.rb:69:in `start'
+  railties (4.1.8) lib/rails/commands/commands_tasks.rb:81:in `block in server'
+  railties (4.1.8) lib/rails/commands/commands_tasks.rb:76:in `tap'
+  railties (4.1.8) lib/rails/commands/commands_tasks.rb:76:in `server'
+  railties (4.1.8) lib/rails/commands/commands_tasks.rb:40:in `run_command!'
+  railties (4.1.8) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:4:in `require'
+  bin/rails:4:in `<main>'
+
+
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.0ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (108.2ms)
+
+
+Started GET "/assets/IntroCondBlackFree.otf" for 127.0.0.1 at 2015-04-17 16:48:29 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-17 16:48:49 -0700
+Processing by WelcomeController#index as HTML
+  Rendered layouts/_login.html.erb (0.6ms)
+  Rendered welcome/index.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_navigation.html.erb (0.1ms)
+Completed 200 OK in 167ms (Views: 166.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 16:48:49 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 16:48:50 -0700
+
+
+Started GET "/assets/application.self-7d055938c299a8a4511b66d7c8bb32895376e9019506dd89f87ae6c09c75fcf9.css?body=1" for 127.0.0.1 at 2015-04-17 16:48:50 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 16:48:50 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 16:48:50 -0700
+
+
+Started GET "/assets/wood2.jpg" for 127.0.0.1 at 2015-04-17 16:48:50 -0700
+
+
+Started GET "/assets/krinkes.ttf" for 127.0.0.1 at 2015-04-17 16:48:50 -0700
+
+ActionController::RoutingError (No route matches [GET] "/assets/krinkes.ttf"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  thin (1.5.1) lib/thin/connection.rb:81:in `block in pre_process'
+  thin (1.5.1) lib/thin/connection.rb:79:in `catch'
+  thin (1.5.1) lib/thin/connection.rb:79:in `pre_process'
+  thin (1.5.1) lib/thin/connection.rb:54:in `process'
+  thin (1.5.1) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.5) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.5) lib/eventmachine.rb:187:in `run'
+  thin (1.5.1) lib/thin/backends/base.rb:63:in `start'
+  thin (1.5.1) lib/thin/server.rb:159:in `start'
+  rack (1.5.2) lib/rack/handler/thin.rb:16:in `run'
+  rack (1.5.2) lib/rack/server.rb:264:in `start'
+  railties (4.1.8) lib/rails/commands/server.rb:69:in `start'
+  railties (4.1.8) lib/rails/commands/commands_tasks.rb:81:in `block in server'
+  railties (4.1.8) lib/rails/commands/commands_tasks.rb:76:in `tap'
+  railties (4.1.8) lib/rails/commands/commands_tasks.rb:76:in `server'
+  railties (4.1.8) lib/rails/commands/commands_tasks.rb:40:in `run_command!'
+  railties (4.1.8) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:4:in `require'
+  bin/rails:4:in `<main>'
+
+
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.6ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (79.7ms)
+
+
+Started GET "/assets/IntroCondBlackFree.otf" for 127.0.0.1 at 2015-04-17 16:48:50 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-17 16:48:57 -0700
+Processing by WelcomeController#index as HTML
+  Rendered layouts/_login.html.erb (1.0ms)
+  Rendered welcome/index.html.erb within layouts/application (2.2ms)
+  Rendered layouts/_navigation.html.erb (0.2ms)
+Completed 200 OK in 104ms (Views: 103.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 16:48:57 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 16:48:57 -0700
+
+
+Started GET "/assets/application.self-36f9617bb0f3128c734dd555a3d08cc73c7f05623e8cd7a74fc2b630c6058c7d.css?body=1" for 127.0.0.1 at 2015-04-17 16:48:57 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 16:48:57 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 16:48:57 -0700
+
+
+Started GET "/assets/wood2.jpg" for 127.0.0.1 at 2015-04-17 16:48:57 -0700
+
+
+Started GET "/assets/krinkes.ttf" for 127.0.0.1 at 2015-04-17 16:48:57 -0700
+
+ActionController::RoutingError (No route matches [GET] "/assets/krinkes.ttf"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  thin (1.5.1) lib/thin/connection.rb:81:in `block in pre_process'
+  thin (1.5.1) lib/thin/connection.rb:79:in `catch'
+  thin (1.5.1) lib/thin/connection.rb:79:in `pre_process'
+  thin (1.5.1) lib/thin/connection.rb:54:in `process'
+  thin (1.5.1) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.5) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.5) lib/eventmachine.rb:187:in `run'
+  thin (1.5.1) lib/thin/backends/base.rb:63:in `start'
+  thin (1.5.1) lib/thin/server.rb:159:in `start'
+  rack (1.5.2) lib/rack/handler/thin.rb:16:in `run'
+  rack (1.5.2) lib/rack/server.rb:264:in `start'
+  railties (4.1.8) lib/rails/commands/server.rb:69:in `start'
+  railties (4.1.8) lib/rails/commands/commands_tasks.rb:81:in `block in server'
+  railties (4.1.8) lib/rails/commands/commands_tasks.rb:76:in `tap'
+  railties (4.1.8) lib/rails/commands/commands_tasks.rb:76:in `server'
+  railties (4.1.8) lib/rails/commands/commands_tasks.rb:40:in `run_command!'
+  railties (4.1.8) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:4:in `require'
+  bin/rails:4:in `<main>'
+
+
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (83.1ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.2ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (136.4ms)
+
+
+Started GET "/assets/IntroCondBlackFree.otf" for 127.0.0.1 at 2015-04-17 16:48:57 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-17 16:49:02 -0700
+Processing by WelcomeController#index as HTML
+  Rendered layouts/_login.html.erb (1.0ms)
+  Rendered welcome/index.html.erb within layouts/application (2.2ms)
+  Rendered layouts/_navigation.html.erb (0.1ms)
+Completed 200 OK in 110ms (Views: 109.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 16:49:03 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 16:49:03 -0700
+
+
+Started GET "/assets/application.self-386e54ae94c5f1653f43abd8b0aa1c536c40fdce47758e365c6e36e13994878d.css?body=1" for 127.0.0.1 at 2015-04-17 16:49:03 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 16:49:03 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 16:49:03 -0700
+
+
+Started GET "/assets/wood2.jpg" for 127.0.0.1 at 2015-04-17 16:49:03 -0700
+
+
+Started GET "/assets/krinkes.ttf" for 127.0.0.1 at 2015-04-17 16:49:03 -0700
+
+ActionController::RoutingError (No route matches [GET] "/assets/krinkes.ttf"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  thin (1.5.1) lib/thin/connection.rb:81:in `block in pre_process'
+  thin (1.5.1) lib/thin/connection.rb:79:in `catch'
+  thin (1.5.1) lib/thin/connection.rb:79:in `pre_process'
+  thin (1.5.1) lib/thin/connection.rb:54:in `process'
+  thin (1.5.1) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.5) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.5) lib/eventmachine.rb:187:in `run'
+  thin (1.5.1) lib/thin/backends/base.rb:63:in `start'
+  thin (1.5.1) lib/thin/server.rb:159:in `start'
+  rack (1.5.2) lib/rack/handler/thin.rb:16:in `run'
+  rack (1.5.2) lib/rack/server.rb:264:in `start'
+  railties (4.1.8) lib/rails/commands/server.rb:69:in `start'
+  railties (4.1.8) lib/rails/commands/commands_tasks.rb:81:in `block in server'
+  railties (4.1.8) lib/rails/commands/commands_tasks.rb:76:in `tap'
+  railties (4.1.8) lib/rails/commands/commands_tasks.rb:76:in `server'
+  railties (4.1.8) lib/rails/commands/commands_tasks.rb:40:in `run_command!'
+  railties (4.1.8) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:4:in `require'
+  bin/rails:4:in `<main>'
+
+
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.4ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (3.3ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (55.5ms)
+
+
+Started GET "/assets/IntroCondBlackFree.otf" for 127.0.0.1 at 2015-04-17 16:49:03 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-17 16:49:12 -0700
+Processing by WelcomeController#index as HTML
+  Rendered layouts/_login.html.erb (0.6ms)
+  Rendered welcome/index.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_navigation.html.erb (0.1ms)
+Completed 200 OK in 175ms (Views: 174.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 16:49:12 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 16:49:12 -0700
+
+
+Started GET "/assets/application.self-93cfa108dea14fce0df751822fde5440c2b1eb5e90ff3cb17688e428f9bbb030.css?body=1" for 127.0.0.1 at 2015-04-17 16:49:12 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 16:49:12 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 16:49:12 -0700
+
+
+Started GET "/assets/wood2.jpg" for 127.0.0.1 at 2015-04-17 16:49:12 -0700
+
+
+Started GET "/assets/krinkes.ttf" for 127.0.0.1 at 2015-04-17 16:49:12 -0700
+
+ActionController::RoutingError (No route matches [GET] "/assets/krinkes.ttf"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  thin (1.5.1) lib/thin/connection.rb:81:in `block in pre_process'
+  thin (1.5.1) lib/thin/connection.rb:79:in `catch'
+  thin (1.5.1) lib/thin/connection.rb:79:in `pre_process'
+  thin (1.5.1) lib/thin/connection.rb:54:in `process'
+  thin (1.5.1) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.5) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.5) lib/eventmachine.rb:187:in `run'
+  thin (1.5.1) lib/thin/backends/base.rb:63:in `start'
+  thin (1.5.1) lib/thin/server.rb:159:in `start'
+  rack (1.5.2) lib/rack/handler/thin.rb:16:in `run'
+  rack (1.5.2) lib/rack/server.rb:264:in `start'
+  railties (4.1.8) lib/rails/commands/server.rb:69:in `start'
+  railties (4.1.8) lib/rails/commands/commands_tasks.rb:81:in `block in server'
+  railties (4.1.8) lib/rails/commands/commands_tasks.rb:76:in `tap'
+  railties (4.1.8) lib/rails/commands/commands_tasks.rb:76:in `server'
+  railties (4.1.8) lib/rails/commands/commands_tasks.rb:40:in `run_command!'
+  railties (4.1.8) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:4:in `require'
+  bin/rails:4:in `<main>'
+
+
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (7.7ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (56.2ms)
+
+
+Started GET "/assets/IntroCondBlackFree.otf" for 127.0.0.1 at 2015-04-17 16:49:12 -0700
+  [1m[36m (1.3ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (1.1ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreateUsers (20150408074836)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.6ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "username" varchar(255), "first_name" varchar(255), "last_name" varchar(255), "email" varchar(255), "password_digest" varchar(255), "city" varchar(255), "state" varchar(255), "age" integer, "games_total" integer, "games_won" integer, "bio" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20150408074836"]]
+  [1m[35m (1.0ms)[0m  commit transaction
+Migrating to CreateFriendships (20150408080240)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  CREATE TABLE "friendships" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "friendee_id" integer, "friend_id" integer, "status" varchar(255), "created_at" datetime, "updated_at" datetime) 
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20150408080240"]]
+  [1m[35m (1.1ms)[0m  commit transaction
+Migrating to CreateComments (20150408080522)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  CREATE TABLE "comments" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "sender_id" integer, "receiver_id" integer, "content" text, "created_at" datetime, "updated_at" datetime) 
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20150408080522"]]
+  [1m[35m (0.8ms)[0m  commit transaction
+Migrating to CreateGames (20150408081227)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  CREATE TABLE "games" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id_id" integer, "title" varchar(255), "date" date, "city" varchar(255), "state" varchar(255), "zip" varchar(255), "address" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20150408081227"]]
+  [1m[35m (1.1ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."username" = 'KD35' LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users"  WHERE "users"."email" = 'k@k.com' LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "users" ("age", "bio", "city", "created_at", "email", "first_name", "last_name", "password_digest", "state", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["age", 26], ["bio", "OKC"], ["city", "Oklahoma City"], ["created_at", "2015-04-17 23:50:04.055360"], ["email", "k@k.com"], ["first_name", "Kevin"], ["last_name", "Durant"], ["password_digest", "$2a$10$lPqtkLDa9BJku.4x6Z91KO.Z37OkLi9FTCZhnsFmIdRf58Vpqb1A."], ["state", "OK"], ["updated_at", "2015-04-17 23:50:04.055360"], ["username", "KD35"]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users"  WHERE "users"."username" = 'SwaggyP' LIMIT 1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 's@s.com' LIMIT 1[0m
+Binary data inserted for `string` type on column `password_digest`
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "users" ("age", "bio", "city", "created_at", "email", "first_name", "last_name", "password_digest", "state", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["age", 26], ["bio", "LAL"], ["city", "Los Angeles"], ["created_at", "2015-04-17 23:50:04.153267"], ["email", "s@s.com"], ["first_name", "Nick"], ["last_name", "Young"], ["password_digest", "$2a$10$tZuBOsvXvznybz/iKoCgW.be1q5/Tn70t6drKL2KHRgofESkf6r/a"], ["state", "CA"], ["updated_at", "2015-04-17 23:50:04.153267"], ["username", "SwaggyP"]]
+  [1m[36m (1.2ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."username" = 'Chef Stef' LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users"  WHERE "users"."email" = 'c@c.com' LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "users" ("age", "bio", "city", "created_at", "email", "first_name", "last_name", "password_digest", "state", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["age", 26], ["bio", "GSW"], ["city", "Oakland"], ["created_at", "2015-04-17 23:50:04.256853"], ["email", "c@c.com"], ["first_name", "Stephen"], ["last_name", "Curry"], ["password_digest", "$2a$10$opbtEm79sd59Uwk/XYgSJu7tzm.qIEw5zpoWDX7jBTu2kuqmhp9YK"], ["state", "CA"], ["updated_at", "2015-04-17 23:50:04.256853"], ["username", "Chef Stef"]]
+  [1m[35m (9.1ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE "users"."username" = 'K.Love' LIMIT 1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'kl@kl.com' LIMIT 1[0m
+Binary data inserted for `string` type on column `password_digest`
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("age", "bio", "city", "created_at", "email", "first_name", "last_name", "password_digest", "state", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["age", 26], ["bio", "CLC"], ["city", "Cleveland"], ["created_at", "2015-04-17 23:50:04.376139"], ["email", "kl@kl.com"], ["first_name", "Kevin"], ["last_name", "Love"], ["password_digest", "$2a$10$p3GzaRynANdbd/rvd4VrKOFcCqJj0ySKplRDFlpwKw.olExCFIhrq"], ["state", "OH"], ["updated_at", "2015-04-17 23:50:04.376139"], ["username", "K.Love"]]
+  [1m[36m (8.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."username" = 'Black Mamba' LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users"  WHERE "users"."email" = 'b@b.com' LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "users" ("age", "bio", "city", "created_at", "email", "first_name", "last_name", "password_digest", "state", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["age", 36], ["bio", "LAL"], ["city", "Los Angeles"], ["created_at", "2015-04-17 23:50:04.480696"], ["email", "b@b.com"], ["first_name", "Kobe"], ["last_name", "Bryant"], ["password_digest", "$2a$10$KVOxgGOn/9EqMGqS/DeHMe5Fq9kV9WjlK5MTw/KNG58hmS3qpwwBu"], ["state", "CA"], ["updated_at", "2015-04-17 23:50:04.480696"], ["username", "Black Mamba"]]
+  [1m[35m (8.1ms)[0m  commit transaction
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-17 16:50:14 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered layouts/_login.html.erb (2.2ms)
+  Rendered welcome/index.html.erb within layouts/application (49.1ms)
+  Rendered layouts/_navigation.html.erb (0.7ms)
+Completed 200 OK in 629ms (Views: 628.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/wood2.jpg" for 127.0.0.1 at 2015-04-17 16:50:16 -0700
+
+
+Started GET "/assets/krinkes.ttf" for 127.0.0.1 at 2015-04-17 16:50:16 -0700
+
+ActionController::RoutingError (No route matches [GET] "/assets/krinkes.ttf"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  thin (1.5.1) lib/thin/connection.rb:81:in `block in pre_process'
+  thin (1.5.1) lib/thin/connection.rb:79:in `catch'
+  thin (1.5.1) lib/thin/connection.rb:79:in `pre_process'
+  thin (1.5.1) lib/thin/connection.rb:54:in `process'
+  thin (1.5.1) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.5) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.5) lib/eventmachine.rb:187:in `run'
+  thin (1.5.1) lib/thin/backends/base.rb:63:in `start'
+  thin (1.5.1) lib/thin/server.rb:159:in `start'
+  rack (1.5.2) lib/rack/handler/thin.rb:16:in `run'
+  rack (1.5.2) lib/rack/server.rb:264:in `start'
+  railties (4.1.8) lib/rails/commands/server.rb:69:in `start'
+  railties (4.1.8) lib/rails/commands/commands_tasks.rb:81:in `block in server'
+  railties (4.1.8) lib/rails/commands/commands_tasks.rb:76:in `tap'
+  railties (4.1.8) lib/rails/commands/commands_tasks.rb:76:in `server'
+  railties (4.1.8) lib/rails/commands/commands_tasks.rb:40:in `run_command!'
+  railties (4.1.8) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:4:in `require'
+  bin/rails:4:in `<main>'
+
+
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.5ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (27.4ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (123.5ms)
+
+
+Started GET "/assets/IntroCondBlackFree.otf" for 127.0.0.1 at 2015-04-17 16:50:16 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-17 16:51:04 -0700
+Processing by WelcomeController#index as HTML
+  Rendered layouts/_login.html.erb (1.0ms)
+  Rendered welcome/index.html.erb within layouts/application (4.0ms)
+  Rendered layouts/_navigation.html.erb (0.1ms)
+Completed 200 OK in 51ms (Views: 50.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/wood2.jpg" for 127.0.0.1 at 2015-04-17 16:51:04 -0700
+
+
+Started GET "/assets/krinkes.ttf" for 127.0.0.1 at 2015-04-17 16:51:05 -0700
+
+ActionController::RoutingError (No route matches [GET] "/assets/krinkes.ttf"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  thin (1.5.1) lib/thin/connection.rb:81:in `block in pre_process'
+  thin (1.5.1) lib/thin/connection.rb:79:in `catch'
+  thin (1.5.1) lib/thin/connection.rb:79:in `pre_process'
+  thin (1.5.1) lib/thin/connection.rb:54:in `process'
+  thin (1.5.1) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.5) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.5) lib/eventmachine.rb:187:in `run'
+  thin (1.5.1) lib/thin/backends/base.rb:63:in `start'
+  thin (1.5.1) lib/thin/server.rb:159:in `start'
+  rack (1.5.2) lib/rack/handler/thin.rb:16:in `run'
+  rack (1.5.2) lib/rack/server.rb:264:in `start'
+  railties (4.1.8) lib/rails/commands/server.rb:69:in `start'
+  railties (4.1.8) lib/rails/commands/commands_tasks.rb:81:in `block in server'
+  railties (4.1.8) lib/rails/commands/commands_tasks.rb:76:in `tap'
+  railties (4.1.8) lib/rails/commands/commands_tasks.rb:76:in `server'
+  railties (4.1.8) lib/rails/commands/commands_tasks.rb:40:in `run_command!'
+  railties (4.1.8) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:4:in `require'
+  bin/rails:4:in `<main>'
+
+
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.7ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (68.7ms)
+
+
+Started GET "/assets/IntroCondBlackFree.otf" for 127.0.0.1 at 2015-04-17 16:51:05 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-17 16:52:46 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered layouts/_login.html.erb (1.6ms)
+  Rendered welcome/index.html.erb within layouts/application (20.1ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+Completed 200 OK in 542ms (Views: 542.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 16:52:47 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 16:52:47 -0700
+
+
+Started GET "/assets/application.self-96ea01a62f15d5e89a302c92bf28d407c45d7796c12e49520902059d3609582e.css?body=1" for 127.0.0.1 at 2015-04-17 16:52:47 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 16:52:47 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 16:52:47 -0700
+
+
+Started GET "/assets/wood2.jpg" for 127.0.0.1 at 2015-04-17 16:52:47 -0700
+
+
+Started GET "/assets/krinkes.ttf" for 127.0.0.1 at 2015-04-17 16:52:47 -0700
+
+
+Started GET "/assets/introcondblackfree.otf" for 127.0.0.1 at 2015-04-17 16:52:47 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-17 16:52:57 -0700
+Processing by WelcomeController#index as HTML
+  Rendered layouts/_login.html.erb (0.8ms)
+  Rendered welcome/index.html.erb within layouts/application (2.8ms)
+  Rendered layouts/_navigation.html.erb (0.2ms)
+Completed 200 OK in 105ms (Views: 105.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 16:52:57 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 16:52:57 -0700
+
+
+Started GET "/assets/application.self-96ea01a62f15d5e89a302c92bf28d407c45d7796c12e49520902059d3609582e.css?body=1" for 127.0.0.1 at 2015-04-17 16:52:57 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 16:52:57 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 16:52:57 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-17 16:53:38 -0700
+Processing by WelcomeController#index as HTML
+  Rendered layouts/_login.html.erb (0.6ms)
+  Rendered welcome/index.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_navigation.html.erb (0.1ms)
+Completed 200 OK in 161ms (Views: 160.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 16:53:38 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 16:53:38 -0700
+
+
+Started GET "/assets/application.self-97d01a1eaa18fe1ac76408a4ac26ac5f8d08cb14b9140a0513ed356aa560e0e0.css?body=1" for 127.0.0.1 at 2015-04-17 16:53:38 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 16:53:38 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 16:53:38 -0700
+
+
+Started GET "/assets/wood2.jpg" for 127.0.0.1 at 2015-04-17 16:53:38 -0700
+
+
+Started GET "/assets/krinkes.ttf" for 127.0.0.1 at 2015-04-17 16:53:38 -0700
+
+
+Started GET "/assets/introcondblackfree.otf" for 127.0.0.1 at 2015-04-17 16:53:38 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-17 16:53:44 -0700
+Processing by WelcomeController#index as HTML
+  Rendered layouts/_login.html.erb (0.6ms)
+  Rendered welcome/index.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_navigation.html.erb (0.1ms)
+Completed 200 OK in 166ms (Views: 165.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 16:53:44 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 16:53:44 -0700
+
+
+Started GET "/assets/application.self-cb06137c2bab481c39c9497be7beb09a343cd41f6f6b406d6c548648cb751488.css?body=1" for 127.0.0.1 at 2015-04-17 16:53:44 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 16:53:44 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 16:53:44 -0700
+
+
+Started GET "/assets/wood2.jpg" for 127.0.0.1 at 2015-04-17 16:53:44 -0700
+
+
+Started GET "/assets/krinkes.ttf" for 127.0.0.1 at 2015-04-17 16:53:44 -0700
+
+
+Started GET "/assets/introcondblackfree.otf" for 127.0.0.1 at 2015-04-17 16:53:44 -0700
