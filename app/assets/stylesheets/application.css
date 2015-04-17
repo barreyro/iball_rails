@@ -12,12 +12,17 @@
  *
  *= require_tree .
  *= require_self
+ *= require foundation
+ *= require foundation_and_overrides
+
  */
 
-body {
-  background: url('/assets/wood2.jpg') no-repeat center center fixed;
+body{
+  background: url('/assets/wood2.jpg') no-repeat center center fixed !important;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background-color: blue;
 }
+

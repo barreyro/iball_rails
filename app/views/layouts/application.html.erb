@@ -1,16 +1,22 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <title>IBallRails</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-  <%= csrf_meta_tags %>
-</head>
-<body>
-<header>
-  <%= render partial: "layouts/navigation", locals: { user: @user } %>
-</header>
-  <%= yield %>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-</body>
+    <title>iBall</title>
+
+    <%= stylesheet_link_tag    "application" %>
+    <%= javascript_include_tag "vendor/modernizr" %>
+    <%= javascript_include_tag "application" 'data-turbolinks-track' => true %>
+    <%= csrf_meta_tags %>
+  </head>
+
+  <body>
+    <header>
+      <%= render "layouts/navigation" %>
+    </header>
+    <%= yield %>
+
+  </body>
 </html>
