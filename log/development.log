@@ -16012,6 +16012,7 @@ Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 
 
 
 Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for ::1 at 2015-04-16 23:02:58 -0700
+<<<<<<< HEAD
 
 
 Started GET "/" for ::1 at 2015-04-16 23:03:37 -0700
@@ -16662,3 +16663,5 @@ Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 
 
 
 Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for ::1 at 2015-04-16 23:12:31 -0700
+=======
+>>>>>>> 06a8901cecf65a9ffe6d648276db71bdc4a121c3
