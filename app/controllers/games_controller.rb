@@ -1,6 +1,21 @@
 class GamesController < ApplicationController
   def index
     @games = Game.all
+    if params[:date] && params[:state]
+      @found_games = []
+      @games = Game.all
+      @games.each do |event|
+        p "&" * 100
+        p event.state == params[:state]
+        p ">" * 100
+        p params[:date]
+        p event.date.to_s
+        p params[:state]
+        if event.date.to_s == params[:date] && event.state == params[:state]
+          @found_games << event
+        end
+      end
+    end
   end
 
   def new
@@ -19,10 +34,7 @@ class GamesController < ApplicationController
 
   def search
     @games = Game.all
-    if params[:date] && params[:state]
-      @game = Game.where(state: params[:state], date: params[:date])
-    end
-    render 'index'
+    @results = Game.search(params[:date], params[:state])
   end
 
   private

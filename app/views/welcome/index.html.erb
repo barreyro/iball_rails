@@ -1,28 +1,18 @@
+<br>
 Find basketball games in your area:
 
 <% if !session[:user_id] %>
+
   <%= render partial: "layouts/login" %>
+
 <% else %>
   <br>
 
-  <%= form_tag("/games/search", method: "get") do %>
-    <%= date_field_tag 'game[date]', nil, placeholder: 'date' %>
-    <%= select_tag :state, options_for_select(us_states) %>
-    <%= submit_tag 'Search' %>
-  <% end %>
+<%= render partial: "games/search" %>
 
+<br>
   -OR-
-
-  Create a game:
-  <%= form_tag(games_path, method: "post") do %>
-    Date:<br>
-    <%= date_field_tag 'game[date]', nil, placeholder: 'date' %><br>
-    <%= text_field_tag 'game[title]', nil, placeholder:'title' %><br>
-    <%= text_field_tag 'game[address]', nil, placeholder:'address' %><br>
-    <%= text_field_tag 'game[city]', nil, placeholder:'city' %><br>
-    <%= select_tag :state, options_for_select(us_states) %><br>
-    <%= text_field_tag 'game[zip]', nil, placeholder:'zip' %><br>
-    <%= submit_tag 'Create' %>
-  <% end %>
+<br>
+<%= render partial: "games/new" %>
 
 <% end %>
