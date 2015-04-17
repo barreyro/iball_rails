@@ -1,5 +1,5 @@
 Create a game:
-  <%= form_tag(games_path, method: "post") do %>
+<%= form_tag(games_path, method: "post") do %>
     Date: <br>
     <%= date_field_tag 'game[date]', nil, placeholder: 'date' %> <br>
     <%= text_field_tag 'game[title]', nil, placeholder:'title' %> <br>
@@ -8,4 +8,4 @@ Create a game:
     <%= select_tag 'game[state]', options_for_select(us_states) %> <br>
     <%= text_field_tag 'game[zip]', nil, placeholder:'zip' %> <br>
     <%= submit_tag 'Create' %>
-  <% end %>
+<% end %>
