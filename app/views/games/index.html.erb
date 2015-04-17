@@ -1,5 +1,8 @@
-<%= form_tag("/games/search", method: "get") do %>
-  <%= date_field_tag 'pick[draw_date]', nil, placeholder: 'date' %>
-  <%= select_tag :state, options_for_select(us_states) %>
-  <%= f.submit %>
+<% if @found_games.empty? %>
+  <h1> Sorry, no games were found at the location and date.</h1>
+<% else %>
+  <% @found_games.map do |event| %>
+    <%= link_to event.title, event %><br>
+    <%= event.address %><br>
+  <% end %>
 <% end %>
