@@ -21,6 +21,16 @@
   src: url('/assets/IntroCondBlackFree.otf') format("truetype");
 }
 
+.rotate {
+  font-family: verdana, sans-serif;
+  color: #000000;
+  -webkit-transform: rotate(340deg);
+  -moz-transform: rotate(340deg);
+  -ms-transform: rotate(340deg);
+  -o-transform: rotate(340deg);
+  transform: rotate(340deg);
+}
+
 body{
   background: url('/assets/wood2.jpg') no-repeat center center fixed !important;
   -webkit-background-size: cover;
@@ -33,6 +43,9 @@ body{
 #welcome {
   color: white ;
   font-family: "Intro Cond Black Free";
+  font-size: 3em;
+  line-height: 76%;
+  letter-spacing: -.1em;
 }
 
 #welcome-login {

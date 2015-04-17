@@ -19469,3 +19469,264 @@ Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9d
 
 
 Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 16:26:44 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-17 16:27:47 -0700
+Processing by WelcomeController#index as HTML
+  Rendered layouts/_login.html.erb (93.9ms)
+  Rendered welcome/index.html.erb within layouts/application (95.6ms)
+  Rendered layouts/_navigation.html.erb (0.1ms)
+Completed 200 OK in 198ms (Views: 197.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 16:27:47 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 16:27:47 -0700
+
+
+Started GET "/assets/application.self-8f1a46211f4c7154d6e423352a127ba22e2f6fef2b3d69ee59e8002b54981895.css?body=1" for 127.0.0.1 at 2015-04-17 16:27:47 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 16:27:47 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 16:27:47 -0700
+
+
+Started GET "/assets/wood2.jpg" for 127.0.0.1 at 2015-04-17 16:27:47 -0700
+
+
+Started GET "/assets/IntroCondBlackFree.otf" for 127.0.0.1 at 2015-04-17 16:27:47 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-17 16:27:53 -0700
+Processing by WelcomeController#index as HTML
+  Rendered layouts/_login.html.erb (1.3ms)
+  Rendered welcome/index.html.erb within layouts/application (4.2ms)
+  Rendered layouts/_navigation.html.erb (0.0ms)
+Completed 200 OK in 41ms (Views: 40.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 16:27:53 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 16:27:53 -0700
+
+
+Started GET "/assets/application.self-8f1a46211f4c7154d6e423352a127ba22e2f6fef2b3d69ee59e8002b54981895.css?body=1" for 127.0.0.1 at 2015-04-17 16:27:53 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 16:27:53 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 16:27:53 -0700
+
+
+Started GET "/assets/wood2.jpg" for 127.0.0.1 at 2015-04-17 16:27:53 -0700
+
+
+Started GET "/assets/IntroCondBlackFree.otf" for 127.0.0.1 at 2015-04-17 16:27:53 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-17 16:37:00 -0700
+Processing by WelcomeController#index as HTML
+  Rendered layouts/_login.html.erb (1.0ms)
+  Rendered welcome/index.html.erb within layouts/application (2.4ms)
+  Rendered layouts/_navigation.html.erb (0.1ms)
+Completed 200 OK in 97ms (Views: 97.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 16:37:01 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 16:37:01 -0700
+
+
+Started GET "/assets/application.self-6bf46b8f5a703105ae638989336ba2c927d8bbfdc5d0bcde8f95aca2007ee2df.css?body=1" for 127.0.0.1 at 2015-04-17 16:37:01 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 16:37:01 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 16:37:01 -0700
+
+
+Started GET "/assets/wood2.jpg" for 127.0.0.1 at 2015-04-17 16:37:01 -0700
+
+
+Started GET "/assets/IntroCondBlackFree.otf" for 127.0.0.1 at 2015-04-17 16:37:01 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-17 16:37:09 -0700
+Processing by WelcomeController#index as HTML
+  Rendered layouts/_login.html.erb (0.6ms)
+  Rendered welcome/index.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_navigation.html.erb (0.1ms)
+Completed 200 OK in 184ms (Views: 183.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 16:37:09 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 16:37:09 -0700
+
+
+Started GET "/assets/application.self-2fb04471eafc3dc5e4f62c3b3b8b371a256349c8ed33d4f54a244e36e52f1352.css?body=1" for 127.0.0.1 at 2015-04-17 16:37:09 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 16:37:09 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 16:37:09 -0700
+
+
+Started GET "/assets/wood2.jpg" for 127.0.0.1 at 2015-04-17 16:37:09 -0700
+
+
+Started GET "/assets/IntroCondBlackFree.otf" for 127.0.0.1 at 2015-04-17 16:37:09 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-17 16:37:24 -0700
+Processing by WelcomeController#index as HTML
+  Rendered layouts/_login.html.erb (0.6ms)
+  Rendered welcome/index.html.erb within layouts/application (1.8ms)
+  Rendered layouts/_navigation.html.erb (0.1ms)
+Completed 200 OK in 35ms (Views: 34.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 16:37:24 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 16:37:24 -0700
+
+
+Started GET "/assets/application.self-2fb04471eafc3dc5e4f62c3b3b8b371a256349c8ed33d4f54a244e36e52f1352.css?body=1" for 127.0.0.1 at 2015-04-17 16:37:24 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 16:37:24 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 16:37:24 -0700
+
+
+Started GET "/assets/wood2.jpg" for 127.0.0.1 at 2015-04-17 16:37:24 -0700
+
+
+Started GET "/assets/IntroCondBlackFree.otf" for 127.0.0.1 at 2015-04-17 16:37:24 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-17 16:38:36 -0700
+Processing by WelcomeController#index as HTML
+  Rendered layouts/_login.html.erb (1.1ms)
+  Rendered welcome/index.html.erb within layouts/application (2.2ms)
+  Rendered layouts/_navigation.html.erb (0.1ms)
+Completed 200 OK in 192ms (Views: 192.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 16:38:36 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 16:38:36 -0700
+
+
+Started GET "/assets/application.self-725abdf425d9f2bf5cb511a5c155cff4e0dbc0ac57ed298f40e18f8b3c453649.css?body=1" for 127.0.0.1 at 2015-04-17 16:38:36 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 16:38:36 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 16:38:36 -0700
+
+
+Started GET "/assets/wood2.jpg" for 127.0.0.1 at 2015-04-17 16:38:36 -0700
+
+
+Started GET "/assets/IntroCondBlackFree.otf" for 127.0.0.1 at 2015-04-17 16:38:36 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-17 16:38:45 -0700
+Processing by WelcomeController#index as HTML
+  Rendered layouts/_login.html.erb (0.9ms)
+  Rendered welcome/index.html.erb within layouts/application (2.4ms)
+  Rendered layouts/_navigation.html.erb (0.1ms)
+Completed 200 OK in 197ms (Views: 196.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 16:38:45 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 16:38:45 -0700
+
+
+Started GET "/assets/application.self-f4de371f325387cf88ed70b186644af53d7db7f0b101803f579b6ea0989e721e.css?body=1" for 127.0.0.1 at 2015-04-17 16:38:45 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 16:38:45 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 16:38:45 -0700
+
+
+Started GET "/assets/wood2.jpg" for 127.0.0.1 at 2015-04-17 16:38:45 -0700
+
+
+Started GET "/assets/IntroCondBlackFree.otf" for 127.0.0.1 at 2015-04-17 16:38:45 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-17 16:38:50 -0700
+Processing by WelcomeController#index as HTML
+  Rendered layouts/_login.html.erb (1.0ms)
+  Rendered welcome/index.html.erb within layouts/application (2.2ms)
+  Rendered layouts/_navigation.html.erb (0.1ms)
+Completed 200 OK in 187ms (Views: 187.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 16:38:51 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 16:38:51 -0700
+
+
+Started GET "/assets/application.self-507bf20b746c5a8f2b17a606a5919b5057b79880b5893b66e0bd43df907f8cca.css?body=1" for 127.0.0.1 at 2015-04-17 16:38:51 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 16:38:51 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 16:38:51 -0700
+
+
+Started GET "/assets/wood2.jpg" for 127.0.0.1 at 2015-04-17 16:38:51 -0700
+
+
+Started GET "/assets/IntroCondBlackFree.otf" for 127.0.0.1 at 2015-04-17 16:38:51 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-17 16:39:04 -0700
+Processing by WelcomeController#index as HTML
+  Rendered layouts/_login.html.erb (1.4ms)
+  Rendered welcome/index.html.erb within layouts/application (3.1ms)
+  Rendered layouts/_navigation.html.erb (0.1ms)
+Completed 200 OK in 43ms (Views: 42.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 16:39:04 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 16:39:04 -0700
+
+
+Started GET "/assets/application.self-507bf20b746c5a8f2b17a606a5919b5057b79880b5893b66e0bd43df907f8cca.css?body=1" for 127.0.0.1 at 2015-04-17 16:39:04 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 16:39:04 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 16:39:04 -0700
+
+
+Started GET "/assets/wood2.jpg" for 127.0.0.1 at 2015-04-17 16:39:04 -0700
+
+
+Started GET "/assets/IntroCondBlackFree.otf" for 127.0.0.1 at 2015-04-17 16:39:04 -0700
