@@ -1,9 +1,22 @@
 <br>
-Find basketball games in your area: <br>
-<% if !session[:user_id] %>
-  <%= render partial: "layouts/login" %>
-<% else %>
-  <%= render partial: "games/search" %>
-  <br> -OR- <br>
-  <%= render partial: "games/new" %>
-<% end %>
+
+
+<div class="row">
+  <div class="small-12 medium-8 large-8 columns" id="welcome">
+    iBall<br>
+    Find pickup games in your area!
+  </div>
+</div>
+<div class="row"></div>
+<div class="row">
+  <div class="small-12 medium-4 medium-offset-7 large-4 columns large-offset-7" id="welcome-login">
+    Find games naooo: <br>
+    <% if !session[:user_id] %>
+        <%= render partial: "layouts/login" %>
+    <% else %>
+      <%= render partial: "games/search" %>
+      <br> -OR- <br>
+      <%= render partial: "games/new" %>
+    <% end %>
+  </div>
+</div>

@@ -17832,3 +17832,1143 @@ Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696a
 
 
 Started GET "/assets/wood2.jpg" for 127.0.0.1 at 2015-04-17 15:08:51 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-17 15:17:20 -0700
+Processing by WelcomeController#index as HTML
+  Rendered layouts/_login.html.erb (0.7ms)
+  Rendered welcome/index.html.erb within layouts/application (2.3ms)
+  Rendered layouts/_navigation.html.erb (0.1ms)
+Completed 200 OK in 45ms (Views: 44.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 15:17:20 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 15:17:20 -0700
+
+
+Started GET "/assets/application.self-20d1ae98477cf58365ef013fad6ed21faa686c692aab877557ec82a411453194.css?body=1" for 127.0.0.1 at 2015-04-17 15:17:20 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 15:17:20 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 15:17:20 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-17 15:19:25 -0700
+Processing by WelcomeController#index as HTML
+  Rendered layouts/_login.html.erb (1.8ms)
+  Rendered welcome/index.html.erb within layouts/application (3.9ms)
+  Rendered layouts/_navigation.html.erb (0.1ms)
+Completed 200 OK in 115ms (Views: 115.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 15:19:25 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 15:19:25 -0700
+
+
+Started GET "/assets/application.self-20d1ae98477cf58365ef013fad6ed21faa686c692aab877557ec82a411453194.css?body=1" for 127.0.0.1 at 2015-04-17 15:19:25 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 15:19:25 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 15:19:25 -0700
+
+
+Started GET "/assets/wood2.jpg" for 127.0.0.1 at 2015-04-17 15:19:25 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-17 15:19:36 -0700
+Processing by WelcomeController#index as HTML
+  Rendered layouts/_login.html.erb (1.7ms)
+  Rendered welcome/index.html.erb within layouts/application (3.1ms)
+  Rendered layouts/_navigation.html.erb (0.1ms)
+Completed 200 OK in 36ms (Views: 35.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 15:19:36 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 15:19:36 -0700
+
+
+Started GET "/assets/application.self-20d1ae98477cf58365ef013fad6ed21faa686c692aab877557ec82a411453194.css?body=1" for 127.0.0.1 at 2015-04-17 15:19:36 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 15:19:36 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 15:19:36 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-17 15:20:17 -0700
+Processing by WelcomeController#index as HTML
+  Rendered layouts/_login.html.erb (0.9ms)
+  Rendered welcome/index.html.erb within layouts/application (2.2ms)
+  Rendered layouts/_navigation.html.erb (0.1ms)
+Completed 200 OK in 40ms (Views: 39.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 15:20:17 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 15:20:17 -0700
+
+
+Started GET "/assets/application.self-20d1ae98477cf58365ef013fad6ed21faa686c692aab877557ec82a411453194.css?body=1" for 127.0.0.1 at 2015-04-17 15:20:17 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 15:20:17 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 15:20:17 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-17 15:20:41 -0700
+Processing by WelcomeController#index as HTML
+  Rendered layouts/_login.html.erb (0.4ms)
+  Rendered welcome/index.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_navigation.html.erb (0.1ms)
+Completed 200 OK in 40ms (Views: 39.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 15:20:41 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 15:20:41 -0700
+
+
+Started GET "/assets/application.self-20d1ae98477cf58365ef013fad6ed21faa686c692aab877557ec82a411453194.css?body=1" for 127.0.0.1 at 2015-04-17 15:20:41 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 15:20:41 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 15:20:41 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-17 15:20:50 -0700
+Processing by WelcomeController#index as HTML
+  Rendered layouts/_login.html.erb (0.6ms)
+  Rendered welcome/index.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_navigation.html.erb (0.1ms)
+Completed 200 OK in 43ms (Views: 43.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 15:20:50 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 15:20:50 -0700
+
+
+Started GET "/assets/application.self-20d1ae98477cf58365ef013fad6ed21faa686c692aab877557ec82a411453194.css?body=1" for 127.0.0.1 at 2015-04-17 15:20:50 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 15:20:50 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 15:20:50 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-17 15:20:53 -0700
+Processing by WelcomeController#index as HTML
+  Rendered layouts/_login.html.erb (0.6ms)
+  Rendered welcome/index.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_navigation.html.erb (0.1ms)
+Completed 200 OK in 33ms (Views: 32.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 15:20:54 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 15:20:54 -0700
+
+
+Started GET "/assets/application.self-20d1ae98477cf58365ef013fad6ed21faa686c692aab877557ec82a411453194.css?body=1" for 127.0.0.1 at 2015-04-17 15:20:54 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 15:20:54 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 15:20:54 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-17 15:21:14 -0700
+Processing by WelcomeController#index as HTML
+  Rendered layouts/_login.html.erb (1.8ms)
+  Rendered welcome/index.html.erb within layouts/application (3.3ms)
+  Rendered layouts/_navigation.html.erb (0.1ms)
+Completed 200 OK in 41ms (Views: 40.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 15:21:14 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 15:21:14 -0700
+
+
+Started GET "/assets/application.self-20d1ae98477cf58365ef013fad6ed21faa686c692aab877557ec82a411453194.css?body=1" for 127.0.0.1 at 2015-04-17 15:21:14 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 15:21:14 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 15:21:14 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-17 15:21:36 -0700
+Processing by WelcomeController#index as HTML
+  Rendered layouts/_login.html.erb (1.2ms)
+  Rendered welcome/index.html.erb within layouts/application (2.6ms)
+  Rendered layouts/_navigation.html.erb (0.1ms)
+Completed 200 OK in 137ms (Views: 136.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 15:21:36 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 15:21:36 -0700
+
+
+Started GET "/assets/application.self-20d1ae98477cf58365ef013fad6ed21faa686c692aab877557ec82a411453194.css?body=1" for 127.0.0.1 at 2015-04-17 15:21:36 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 15:21:36 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 15:21:36 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-17 15:26:29 -0700
+Processing by WelcomeController#index as HTML
+  Rendered layouts/_login.html.erb (1.2ms)
+  Rendered welcome/index.html.erb within layouts/application (2.9ms)
+  Rendered layouts/_navigation.html.erb (0.1ms)
+Completed 200 OK in 46ms (Views: 46.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 15:26:29 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 15:26:29 -0700
+
+
+Started GET "/assets/application.self-20d1ae98477cf58365ef013fad6ed21faa686c692aab877557ec82a411453194.css?body=1" for 127.0.0.1 at 2015-04-17 15:26:29 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 15:26:29 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 15:26:29 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-17 15:26:54 -0700
+Processing by WelcomeController#index as HTML
+  Rendered layouts/_login.html.erb (0.4ms)
+  Rendered welcome/index.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_navigation.html.erb (0.1ms)
+Completed 200 OK in 35ms (Views: 34.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 15:26:54 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 15:26:55 -0700
+
+
+Started GET "/assets/application.self-20d1ae98477cf58365ef013fad6ed21faa686c692aab877557ec82a411453194.css?body=1" for 127.0.0.1 at 2015-04-17 15:26:55 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 15:26:55 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 15:26:55 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-17 15:27:44 -0700
+Processing by WelcomeController#index as HTML
+  Rendered layouts/_login.html.erb (0.7ms)
+  Rendered welcome/index.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_navigation.html.erb (0.1ms)
+Completed 200 OK in 187ms (Views: 186.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 15:27:44 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 15:27:44 -0700
+
+
+Started GET "/assets/application.self-5f7f9ec7d9a64f59cf17c15abc4a2a711a685a437a6cae5535051f9bbd611c5e.css?body=1" for 127.0.0.1 at 2015-04-17 15:27:44 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 15:27:44 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 15:27:44 -0700
+
+
+Started GET "/assets/wood2.jpg" for 127.0.0.1 at 2015-04-17 15:27:44 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-17 15:27:51 -0700
+Processing by WelcomeController#index as HTML
+  Rendered layouts/_login.html.erb (0.9ms)
+  Rendered welcome/index.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_navigation.html.erb (0.1ms)
+Completed 200 OK in 99ms (Views: 99.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 15:27:51 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 15:27:51 -0700
+
+
+Started GET "/assets/application.self-eeb5d79e5ce97825987e5e095f50b4ddcb95f87a3d089c82b13ede02fed3d1ac.css?body=1" for 127.0.0.1 at 2015-04-17 15:27:51 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 15:27:51 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 15:27:51 -0700
+
+
+Started GET "/assets/wood2.jpg" for 127.0.0.1 at 2015-04-17 15:27:51 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-17 15:27:58 -0700
+Processing by WelcomeController#index as HTML
+  Rendered layouts/_login.html.erb (0.7ms)
+  Rendered welcome/index.html.erb within layouts/application (2.4ms)
+  Rendered layouts/_navigation.html.erb (0.1ms)
+Completed 200 OK in 184ms (Views: 183.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 15:27:58 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 15:27:58 -0700
+
+
+Started GET "/assets/application.self-a563bb06c9b14c621c44f7d69220492c8f0e2e7badb2643b9f1a31dad629ebb3.css?body=1" for 127.0.0.1 at 2015-04-17 15:27:59 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 15:27:59 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 15:27:59 -0700
+
+
+Started GET "/assets/wood2.jpg" for 127.0.0.1 at 2015-04-17 15:27:59 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-17 15:28:56 -0700
+Processing by WelcomeController#index as HTML
+  Rendered layouts/_login.html.erb (0.7ms)
+  Rendered welcome/index.html.erb within layouts/application (2.8ms)
+  Rendered layouts/_navigation.html.erb (0.1ms)
+Completed 200 OK in 46ms (Views: 45.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 15:28:56 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 15:28:56 -0700
+
+
+Started GET "/assets/application.self-a563bb06c9b14c621c44f7d69220492c8f0e2e7badb2643b9f1a31dad629ebb3.css?body=1" for 127.0.0.1 at 2015-04-17 15:28:56 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 15:28:56 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 15:28:56 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-17 15:29:03 -0700
+Processing by WelcomeController#index as HTML
+  Rendered layouts/_login.html.erb (0.5ms)
+  Rendered welcome/index.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_navigation.html.erb (0.1ms)
+Completed 200 OK in 44ms (Views: 43.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/wood2.jpg" for 127.0.0.1 at 2015-04-17 15:29:03 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-17 15:30:02 -0700
+Processing by WelcomeController#index as HTML
+  Rendered layouts/_login.html.erb (0.9ms)
+  Rendered welcome/index.html.erb within layouts/application (3.9ms)
+  Rendered layouts/_navigation.html.erb (0.1ms)
+Completed 200 OK in 43ms (Views: 42.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 15:30:02 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 15:30:02 -0700
+
+
+Started GET "/assets/application.self-a563bb06c9b14c621c44f7d69220492c8f0e2e7badb2643b9f1a31dad629ebb3.css?body=1" for 127.0.0.1 at 2015-04-17 15:30:02 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 15:30:02 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 15:30:02 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-17 15:30:21 -0700
+Processing by WelcomeController#index as HTML
+  Rendered layouts/_login.html.erb (1.0ms)
+  Rendered welcome/index.html.erb within layouts/application (3.1ms)
+  Rendered layouts/_navigation.html.erb (0.1ms)
+Completed 200 OK in 194ms (Views: 193.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-a5514537bc6ef8385c8572536eaf5b86d21a95c73499bf7f1898a21f1ce5c132.css?body=1" for 127.0.0.1 at 2015-04-17 15:30:21 -0700
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 15:30:21 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 15:30:21 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 15:30:21 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 15:30:21 -0700
+
+
+Started GET "/assets/wood2.jpg" for 127.0.0.1 at 2015-04-17 15:30:21 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-17 15:35:14 -0700
+Processing by WelcomeController#index as HTML
+  Rendered layouts/_login.html.erb (2.2ms)
+  Rendered welcome/index.html.erb within layouts/application (4.7ms)
+  Rendered layouts/_navigation.html.erb (0.1ms)
+Completed 200 OK in 54ms (Views: 53.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 15:35:14 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 15:35:14 -0700
+
+
+Started GET "/assets/application.self-a5514537bc6ef8385c8572536eaf5b86d21a95c73499bf7f1898a21f1ce5c132.css?body=1" for 127.0.0.1 at 2015-04-17 15:35:14 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 15:35:14 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 15:35:14 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-17 15:35:30 -0700
+Processing by WelcomeController#index as HTML
+  Rendered layouts/_login.html.erb (0.8ms)
+  Rendered welcome/index.html.erb within layouts/application (2.6ms)
+  Rendered layouts/_navigation.html.erb (0.1ms)
+Completed 200 OK in 34ms (Views: 33.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 15:35:30 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 15:35:30 -0700
+
+
+Started GET "/assets/application.self-a5514537bc6ef8385c8572536eaf5b86d21a95c73499bf7f1898a21f1ce5c132.css?body=1" for 127.0.0.1 at 2015-04-17 15:35:30 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 15:35:30 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 15:35:30 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-17 15:35:41 -0700
+Processing by WelcomeController#index as HTML
+  Rendered layouts/_login.html.erb (0.7ms)
+  Rendered welcome/index.html.erb within layouts/application (2.2ms)
+  Rendered layouts/_navigation.html.erb (0.1ms)
+Completed 200 OK in 39ms (Views: 38.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 15:35:42 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 15:35:42 -0700
+
+
+Started GET "/assets/application.self-a5514537bc6ef8385c8572536eaf5b86d21a95c73499bf7f1898a21f1ce5c132.css?body=1" for 127.0.0.1 at 2015-04-17 15:35:42 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 15:35:42 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 15:35:42 -0700
+
+
+Started GET "/assets/wood2.jpg" for 127.0.0.1 at 2015-04-17 15:35:42 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-17 15:36:01 -0700
+Processing by WelcomeController#index as HTML
+  Rendered layouts/_login.html.erb (0.7ms)
+  Rendered welcome/index.html.erb within layouts/application (2.3ms)
+  Rendered layouts/_navigation.html.erb (0.1ms)
+Completed 200 OK in 41ms (Views: 40.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 15:36:01 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 15:36:01 -0700
+
+
+Started GET "/assets/application.self-a5514537bc6ef8385c8572536eaf5b86d21a95c73499bf7f1898a21f1ce5c132.css?body=1" for 127.0.0.1 at 2015-04-17 15:36:01 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 15:36:01 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 15:36:01 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-17 15:36:21 -0700
+Processing by WelcomeController#index as HTML
+  Rendered layouts/_login.html.erb (0.6ms)
+  Rendered welcome/index.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_navigation.html.erb (0.1ms)
+Completed 200 OK in 40ms (Views: 39.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 15:36:21 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 15:36:21 -0700
+
+
+Started GET "/assets/application.self-a5514537bc6ef8385c8572536eaf5b86d21a95c73499bf7f1898a21f1ce5c132.css?body=1" for 127.0.0.1 at 2015-04-17 15:36:21 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 15:36:21 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 15:36:21 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-17 15:36:41 -0700
+Processing by WelcomeController#index as HTML
+  Rendered layouts/_login.html.erb (0.9ms)
+  Rendered welcome/index.html.erb within layouts/application (3.4ms)
+  Rendered layouts/_navigation.html.erb (0.1ms)
+Completed 200 OK in 39ms (Views: 38.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 15:36:41 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 15:36:41 -0700
+
+
+Started GET "/assets/application.self-a5514537bc6ef8385c8572536eaf5b86d21a95c73499bf7f1898a21f1ce5c132.css?body=1" for 127.0.0.1 at 2015-04-17 15:36:41 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 15:36:41 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 15:36:41 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-17 16:07:50 -0700
+Processing by WelcomeController#index as HTML
+  Rendered layouts/_login.html.erb (0.6ms)
+  Rendered welcome/index.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_navigation.html.erb (0.1ms)
+Completed 200 OK in 197ms (Views: 196.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 16:07:50 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 16:07:50 -0700
+
+
+Started GET "/assets/application.self-4ada95d97baaa2d48414cb70d06a477c00c0d7938ee8add8273cbd42815b4c64.css?body=1" for 127.0.0.1 at 2015-04-17 16:07:50 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 16:07:50 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 16:07:50 -0700
+
+
+Started GET "/assets/IntroCondBlackFree.otf" for 127.0.0.1 at 2015-04-17 16:07:50 -0700
+
+ActionController::RoutingError (No route matches [GET] "/assets/IntroCondBlackFree.otf"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  thin (1.5.1) lib/thin/connection.rb:81:in `block in pre_process'
+  thin (1.5.1) lib/thin/connection.rb:79:in `catch'
+  thin (1.5.1) lib/thin/connection.rb:79:in `pre_process'
+  thin (1.5.1) lib/thin/connection.rb:54:in `process'
+  thin (1.5.1) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.5) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.5) lib/eventmachine.rb:187:in `run'
+  thin (1.5.1) lib/thin/backends/base.rb:63:in `start'
+  thin (1.5.1) lib/thin/server.rb:159:in `start'
+  rack (1.5.2) lib/rack/handler/thin.rb:16:in `run'
+  rack (1.5.2) lib/rack/server.rb:264:in `start'
+  railties (4.1.8) lib/rails/commands/server.rb:69:in `start'
+  railties (4.1.8) lib/rails/commands/commands_tasks.rb:81:in `block in server'
+  railties (4.1.8) lib/rails/commands/commands_tasks.rb:76:in `tap'
+  railties (4.1.8) lib/rails/commands/commands_tasks.rb:76:in `server'
+  railties (4.1.8) lib/rails/commands/commands_tasks.rb:40:in `run_command!'
+  railties (4.1.8) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:4:in `require'
+  bin/rails:4:in `<main>'
+
+
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (6.8ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (91.6ms)
+
+
+Started GET "/assets/wood2.jpg" for 127.0.0.1 at 2015-04-17 16:07:50 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-17 16:08:15 -0700
+Processing by WelcomeController#index as HTML
+  Rendered layouts/_login.html.erb (0.8ms)
+  Rendered welcome/index.html.erb within layouts/application (2.1ms)
+  Rendered layouts/_navigation.html.erb (0.1ms)
+Completed 200 OK in 169ms (Views: 168.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 16:08:15 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 16:08:15 -0700
+
+
+Started GET "/assets/application.self-4365c48603d3573ba07614b61afabe721b011fd7f186d3ee4bcd114874cf0d3e.css?body=1" for 127.0.0.1 at 2015-04-17 16:08:15 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 16:08:15 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 16:08:15 -0700
+
+
+Started GET "/assets/wood2.jpg" for 127.0.0.1 at 2015-04-17 16:08:15 -0700
+
+
+Started GET "/assets/IntroCondBlackFree.otf" for 127.0.0.1 at 2015-04-17 16:08:15 -0700
+
+ActionController::RoutingError (No route matches [GET] "/assets/IntroCondBlackFree.otf"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  thin (1.5.1) lib/thin/connection.rb:81:in `block in pre_process'
+  thin (1.5.1) lib/thin/connection.rb:79:in `catch'
+  thin (1.5.1) lib/thin/connection.rb:79:in `pre_process'
+  thin (1.5.1) lib/thin/connection.rb:54:in `process'
+  thin (1.5.1) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.5) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.5) lib/eventmachine.rb:187:in `run'
+  thin (1.5.1) lib/thin/backends/base.rb:63:in `start'
+  thin (1.5.1) lib/thin/server.rb:159:in `start'
+  rack (1.5.2) lib/rack/handler/thin.rb:16:in `run'
+  rack (1.5.2) lib/rack/server.rb:264:in `start'
+  railties (4.1.8) lib/rails/commands/server.rb:69:in `start'
+  railties (4.1.8) lib/rails/commands/commands_tasks.rb:81:in `block in server'
+  railties (4.1.8) lib/rails/commands/commands_tasks.rb:76:in `tap'
+  railties (4.1.8) lib/rails/commands/commands_tasks.rb:76:in `server'
+  railties (4.1.8) lib/rails/commands/commands_tasks.rb:40:in `run_command!'
+  railties (4.1.8) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:4:in `require'
+  bin/rails:4:in `<main>'
+
+
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (5.4ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.7ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (78.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-17 16:08:19 -0700
+Processing by WelcomeController#index as HTML
+  Rendered layouts/_login.html.erb (1.0ms)
+  Rendered welcome/index.html.erb within layouts/application (2.6ms)
+  Rendered layouts/_navigation.html.erb (0.1ms)
+Completed 200 OK in 34ms (Views: 34.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 16:08:19 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 16:08:19 -0700
+
+
+Started GET "/assets/application.self-4365c48603d3573ba07614b61afabe721b011fd7f186d3ee4bcd114874cf0d3e.css?body=1" for 127.0.0.1 at 2015-04-17 16:08:19 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 16:08:19 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 16:08:19 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-17 16:12:12 -0700
+Processing by WelcomeController#index as HTML
+  Rendered layouts/_login.html.erb (0.8ms)
+  Rendered welcome/index.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_navigation.html.erb (0.0ms)
+Completed 200 OK in 98ms (Views: 97.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 16:12:12 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 16:12:12 -0700
+
+
+Started GET "/assets/application.self-a0b68b3bad191290ffd4d87666ed8d3143b3c6c75845f47adcdf52d2cc028df5.css?body=1" for 127.0.0.1 at 2015-04-17 16:12:12 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 16:12:12 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 16:12:12 -0700
+
+
+Started GET "/assets/wood2.jpg" for 127.0.0.1 at 2015-04-17 16:12:12 -0700
+
+
+Started GET "/assets/IntroCondBlackFree.otf" for 127.0.0.1 at 2015-04-17 16:12:12 -0700
+
+ActionController::RoutingError (No route matches [GET] "/assets/IntroCondBlackFree.otf"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  thin (1.5.1) lib/thin/connection.rb:81:in `block in pre_process'
+  thin (1.5.1) lib/thin/connection.rb:79:in `catch'
+  thin (1.5.1) lib/thin/connection.rb:79:in `pre_process'
+  thin (1.5.1) lib/thin/connection.rb:54:in `process'
+  thin (1.5.1) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.5) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.5) lib/eventmachine.rb:187:in `run'
+  thin (1.5.1) lib/thin/backends/base.rb:63:in `start'
+  thin (1.5.1) lib/thin/server.rb:159:in `start'
+  rack (1.5.2) lib/rack/handler/thin.rb:16:in `run'
+  rack (1.5.2) lib/rack/server.rb:264:in `start'
+  railties (4.1.8) lib/rails/commands/server.rb:69:in `start'
+  railties (4.1.8) lib/rails/commands/commands_tasks.rb:81:in `block in server'
+  railties (4.1.8) lib/rails/commands/commands_tasks.rb:76:in `tap'
+  railties (4.1.8) lib/rails/commands/commands_tasks.rb:76:in `server'
+  railties (4.1.8) lib/rails/commands/commands_tasks.rb:40:in `run_command!'
+  railties (4.1.8) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:4:in `require'
+  bin/rails:4:in `<main>'
+
+
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (5.8ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (3.3ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (193.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-17 16:13:21 -0700
+Processing by WelcomeController#index as HTML
+  Rendered layouts/_login.html.erb (0.7ms)
+  Rendered welcome/index.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_navigation.html.erb (0.1ms)
+Completed 200 OK in 92ms (Views: 92.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 16:13:22 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 16:13:22 -0700
+
+
+Started GET "/assets/application.self-87e4e5c5f46897196336b22c5a69859c213fcf7deb56247f56c51dea3a6c5af3.css?body=1" for 127.0.0.1 at 2015-04-17 16:13:22 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 16:13:22 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 16:13:22 -0700
+
+
+Started GET "/assets/wood2.jpg" for 127.0.0.1 at 2015-04-17 16:13:22 -0700
+
+
+Started GET "/assets/fonts/IntroCondBlackFree.otf" for 127.0.0.1 at 2015-04-17 16:13:22 -0700
+
+ActionController::RoutingError (No route matches [GET] "/assets/fonts/IntroCondBlackFree.otf"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  thin (1.5.1) lib/thin/connection.rb:81:in `block in pre_process'
+  thin (1.5.1) lib/thin/connection.rb:79:in `catch'
+  thin (1.5.1) lib/thin/connection.rb:79:in `pre_process'
+  thin (1.5.1) lib/thin/connection.rb:54:in `process'
+  thin (1.5.1) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.5) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.5) lib/eventmachine.rb:187:in `run'
+  thin (1.5.1) lib/thin/backends/base.rb:63:in `start'
+  thin (1.5.1) lib/thin/server.rb:159:in `start'
+  rack (1.5.2) lib/rack/handler/thin.rb:16:in `run'
+  rack (1.5.2) lib/rack/server.rb:264:in `start'
+  railties (4.1.8) lib/rails/commands/server.rb:69:in `start'
+  railties (4.1.8) lib/rails/commands/commands_tasks.rb:81:in `block in server'
+  railties (4.1.8) lib/rails/commands/commands_tasks.rb:76:in `tap'
+  railties (4.1.8) lib/rails/commands/commands_tasks.rb:76:in `server'
+  railties (4.1.8) lib/rails/commands/commands_tasks.rb:40:in `run_command!'
+  railties (4.1.8) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:4:in `require'
+  bin/rails:4:in `<main>'
+
+
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.4ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (68.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-17 16:14:03 -0700
+Processing by WelcomeController#index as HTML
+  Rendered layouts/_login.html.erb (0.6ms)
+  Rendered welcome/index.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_navigation.html.erb (0.1ms)
+Completed 200 OK in 49ms (Views: 48.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 16:14:03 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 16:14:03 -0700
+
+
+Started GET "/assets/application.self-a0b68b3bad191290ffd4d87666ed8d3143b3c6c75845f47adcdf52d2cc028df5.css?body=1" for 127.0.0.1 at 2015-04-17 16:14:03 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 16:14:03 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 16:14:03 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-17 16:14:05 -0700
+Processing by WelcomeController#index as HTML
+  Rendered layouts/_login.html.erb (0.6ms)
+  Rendered welcome/index.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_navigation.html.erb (0.1ms)
+Completed 200 OK in 128ms (Views: 128.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 16:14:05 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 16:14:05 -0700
+
+
+Started GET "/assets/application.self-a0b68b3bad191290ffd4d87666ed8d3143b3c6c75845f47adcdf52d2cc028df5.css?body=1" for 127.0.0.1 at 2015-04-17 16:14:05 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 16:14:05 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 16:14:05 -0700
+  [1m[36m (1.7ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.2ms)[0m  select sqlite_version(*)
+  [1m[36m (1.4ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreateUsers (20150408074836)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.8ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "username" varchar(255), "first_name" varchar(255), "last_name" varchar(255), "email" varchar(255), "password_digest" varchar(255), "city" varchar(255), "state" varchar(255), "age" integer, "games_total" integer, "games_won" integer, "bio" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20150408074836"]]
+  [1m[35m (0.9ms)[0m  commit transaction
+Migrating to CreateFriendships (20150408080240)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  CREATE TABLE "friendships" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "friendee_id" integer, "friend_id" integer, "status" varchar(255), "created_at" datetime, "updated_at" datetime) 
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20150408080240"]]
+  [1m[35m (1.0ms)[0m  commit transaction
+Migrating to CreateComments (20150408080522)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  CREATE TABLE "comments" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "sender_id" integer, "receiver_id" integer, "content" text, "created_at" datetime, "updated_at" datetime) 
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20150408080522"]]
+  [1m[35m (1.0ms)[0m  commit transaction
+Migrating to CreateGames (20150408081227)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.6ms)[0m  CREATE TABLE "games" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id_id" integer, "title" varchar(255), "date" date, "city" varchar(255), "state" varchar(255), "zip" varchar(255), "address" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20150408081227"]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."username" = 'KD35' LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users"  WHERE "users"."email" = 'k@k.com' LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "users" ("age", "bio", "city", "created_at", "email", "first_name", "last_name", "password_digest", "state", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["age", 26], ["bio", "OKC"], ["city", "Oklahoma City"], ["created_at", "2015-04-17 23:16:22.965383"], ["email", "k@k.com"], ["first_name", "Kevin"], ["last_name", "Durant"], ["password_digest", "$2a$10$E4.Ogcr0h2oluuFSPzoa2uwsTgBuOpBhPKAWuB1vmp5CAEGbbsIIu"], ["state", "OK"], ["updated_at", "2015-04-17 23:16:22.965383"], ["username", "KD35"]]
+  [1m[35m (1.3ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE "users"."username" = 'SwaggyP' LIMIT 1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 's@s.com' LIMIT 1[0m
+Binary data inserted for `string` type on column `password_digest`
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("age", "bio", "city", "created_at", "email", "first_name", "last_name", "password_digest", "state", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["age", 26], ["bio", "LAL"], ["city", "Los Angeles"], ["created_at", "2015-04-17 23:16:23.073212"], ["email", "s@s.com"], ["first_name", "Nick"], ["last_name", "Young"], ["password_digest", "$2a$10$FSVVi/r8Qi.ruu3dXa38kev2qaeG1LUpXSekvZnoiUWvfgm0zzOCa"], ["state", "CA"], ["updated_at", "2015-04-17 23:16:23.073212"], ["username", "SwaggyP"]]
+  [1m[36m (8.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."username" = 'Chef Stef' LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users"  WHERE "users"."email" = 'c@c.com' LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("age", "bio", "city", "created_at", "email", "first_name", "last_name", "password_digest", "state", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["age", 26], ["bio", "GSW"], ["city", "Oakland"], ["created_at", "2015-04-17 23:16:23.178498"], ["email", "c@c.com"], ["first_name", "Stephen"], ["last_name", "Curry"], ["password_digest", "$2a$10$wx.j4zryHa7YJ5c8MVL/iul7xla2CuHGqVNGZgS137LPwz7C1zp5a"], ["state", "CA"], ["updated_at", "2015-04-17 23:16:23.178498"], ["username", "Chef Stef"]]
+  [1m[35m (8.6ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE "users"."username" = 'K.Love' LIMIT 1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'kl@kl.com' LIMIT 1[0m
+Binary data inserted for `string` type on column `password_digest`
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("age", "bio", "city", "created_at", "email", "first_name", "last_name", "password_digest", "state", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["age", 26], ["bio", "CLC"], ["city", "Cleveland"], ["created_at", "2015-04-17 23:16:23.281887"], ["email", "kl@kl.com"], ["first_name", "Kevin"], ["last_name", "Love"], ["password_digest", "$2a$10$SY5b2w0sQpjY1Y//WvpUTOcKIOG7Rc1lOn63bK96lfboknTPnHOAK"], ["state", "OH"], ["updated_at", "2015-04-17 23:16:23.281887"], ["username", "K.Love"]]
+  [1m[36m (8.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."username" = 'Black Mamba' LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users"  WHERE "users"."email" = 'b@b.com' LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "users" ("age", "bio", "city", "created_at", "email", "first_name", "last_name", "password_digest", "state", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["age", 36], ["bio", "LAL"], ["city", "Los Angeles"], ["created_at", "2015-04-17 23:16:23.398008"], ["email", "b@b.com"], ["first_name", "Kobe"], ["last_name", "Bryant"], ["password_digest", "$2a$10$4IVrJHedZptKdMWXqJbvYuVfgqvUL0NYZd88/yiQGeyYBKB4v6NuC"], ["state", "CA"], ["updated_at", "2015-04-17 23:16:23.398008"], ["username", "Black Mamba"]]
+  [1m[35m (9.4ms)[0m  commit transaction
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-17 16:17:51 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered layouts/_login.html.erb (2.2ms)
+  Rendered welcome/index.html.erb within layouts/application (18.6ms)
+  Rendered layouts/_navigation.html.erb (0.9ms)
+Completed 200 OK in 20472ms (Views: 20471.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-17 16:18:12 -0700
+Processing by WelcomeController#index as HTML
+  Rendered layouts/_login.html.erb (1.2ms)
+  Rendered welcome/index.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_navigation.html.erb (0.1ms)
+Completed 200 OK in 70ms (Views: 69.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 16:18:12 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 16:18:12 -0700
+
+
+Started GET "/assets/application.self-a0b68b3bad191290ffd4d87666ed8d3143b3c6c75845f47adcdf52d2cc028df5.css?body=1" for 127.0.0.1 at 2015-04-17 16:18:12 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 16:18:12 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 16:18:12 -0700
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 16:18:12 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 16:18:12 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 16:18:12 -0700
+
+
+Started GET "/assets/application.self-a0b68b3bad191290ffd4d87666ed8d3143b3c6c75845f47adcdf52d2cc028df5.css?body=1" for 127.0.0.1 at 2015-04-17 16:18:12 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 16:18:13 -0700
+
+
+Started GET "/assets/wood2.jpg" for 127.0.0.1 at 2015-04-17 16:18:13 -0700
+
+
+Started GET "/assets/IntroCondBlackFree.otf" for 127.0.0.1 at 2015-04-17 16:18:13 -0700
+
+ActionController::RoutingError (No route matches [GET] "/assets/IntroCondBlackFree.otf"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  thin (1.5.1) lib/thin/connection.rb:81:in `block in pre_process'
+  thin (1.5.1) lib/thin/connection.rb:79:in `catch'
+  thin (1.5.1) lib/thin/connection.rb:79:in `pre_process'
+  thin (1.5.1) lib/thin/connection.rb:54:in `process'
+  thin (1.5.1) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.5) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.5) lib/eventmachine.rb:187:in `run'
+  thin (1.5.1) lib/thin/backends/base.rb:63:in `start'
+  thin (1.5.1) lib/thin/server.rb:159:in `start'
+  rack (1.5.2) lib/rack/handler/thin.rb:16:in `run'
+  rack (1.5.2) lib/rack/server.rb:264:in `start'
+  railties (4.1.8) lib/rails/commands/server.rb:69:in `start'
+  railties (4.1.8) lib/rails/commands/commands_tasks.rb:81:in `block in server'
+  railties (4.1.8) lib/rails/commands/commands_tasks.rb:76:in `tap'
+  railties (4.1.8) lib/rails/commands/commands_tasks.rb:76:in `server'
+  railties (4.1.8) lib/rails/commands/commands_tasks.rb:40:in `run_command!'
+  railties (4.1.8) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:4:in `require'
+  bin/rails:4:in `<main>'
+
+
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (146.4ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (130.8ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (477.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-17 16:18:22 -0700
+Processing by WelcomeController#index as HTML
+  Rendered layouts/_login.html.erb (0.8ms)
+  Rendered welcome/index.html.erb within layouts/application (2.4ms)
+  Rendered layouts/_navigation.html.erb (0.1ms)
+Completed 200 OK in 135ms (Views: 134.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 16:18:22 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 16:18:22 -0700
+
+
+Started GET "/assets/application.self-a0b68b3bad191290ffd4d87666ed8d3143b3c6c75845f47adcdf52d2cc028df5.css?body=1" for 127.0.0.1 at 2015-04-17 16:18:22 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 16:18:22 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 16:18:22 -0700
+  [1m[36m (9.2ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (1.9ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreateUsers (20150408074836)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "username" varchar(255), "first_name" varchar(255), "last_name" varchar(255), "email" varchar(255), "password_digest" varchar(255), "city" varchar(255), "state" varchar(255), "age" integer, "games_total" integer, "games_won" integer, "bio" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20150408074836"]]
+  [1m[35m (1.2ms)[0m  commit transaction
+Migrating to CreateFriendships (20150408080240)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.6ms)[0m  CREATE TABLE "friendships" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "friendee_id" integer, "friend_id" integer, "status" varchar(255), "created_at" datetime, "updated_at" datetime) 
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20150408080240"]]
+  [1m[35m (1.1ms)[0m  commit transaction
+Migrating to CreateComments (20150408080522)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  CREATE TABLE "comments" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "sender_id" integer, "receiver_id" integer, "content" text, "created_at" datetime, "updated_at" datetime) 
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20150408080522"]]
+  [1m[35m (1.2ms)[0m  commit transaction
+Migrating to CreateGames (20150408081227)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.6ms)[0m  CREATE TABLE "games" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id_id" integer, "title" varchar(255), "date" date, "city" varchar(255), "state" varchar(255), "zip" varchar(255), "address" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20150408081227"]]
+  [1m[35m (1.3ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-17 16:21:05 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered layouts/_login.html.erb (2.1ms)
+  Rendered welcome/index.html.erb within layouts/application (17.0ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+Completed 200 OK in 22004ms (Views: 22003.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/wood2.jpg" for 127.0.0.1 at 2015-04-17 16:21:27 -0700
+
+
+Started GET "/assets/IntroCondBlackFree.otf" for 127.0.0.1 at 2015-04-17 16:21:27 -0700

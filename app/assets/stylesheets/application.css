@@ -16,6 +16,10 @@
  *= require foundation_and_overrides
 
  */
+@font-face {
+  font-family: "Intro Cond Black Free";
+  src: url('/assets/IntroCondBlackFree.otf') format("truetype");
+}
 
 body{
   background: url('/assets/wood2.jpg') no-repeat center center fixed !important;
@@ -26,3 +30,11 @@ body{
   background-color: blue;
 }
 
+#welcome {
+  color: white ;
+  font-family: "Intro Cond Black Free";
+}
+
+#welcome-login {
+  color: white;
+}
