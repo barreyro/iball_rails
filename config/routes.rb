@@ -7,12 +7,16 @@ Rails.application.routes.draw do
   get '/signup', to: 'users#new'
   post 'signup', to: 'users#create'
 
+
   resources :users do
     resources :comments
   end
 
   resources :games do
     resources :comments
+    collection do
+      get 'search'
+    end
   end
 
 end
