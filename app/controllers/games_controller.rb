@@ -5,12 +5,6 @@ class GamesController < ApplicationController
       @found_games = []
       @games = Game.all
       @games.each do |event|
-        p "&" * 100
-        p event.state == params[:state]
-        p ">" * 100
-        p params[:date]
-        p event.date.to_s
-        p params[:state]
         if event.date.to_s == params[:date] && event.state == params[:state]
           @found_games << event
         end
