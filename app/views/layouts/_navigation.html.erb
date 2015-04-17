@@ -1,9 +1,10 @@
 <nav>
+<a href="/">home</a>
  <% if !session[:user_id] %>
     <a href="/login" class="nav-link">Login / </a>
     <a href="/signup" class="nav-link">Signup / </a>
   <% else %>
-      <%= User.session_user(session[:user_id]) %>
-    <a href="/logout" class="nav-link">Logout / </a>
+    <%= link_to current_user.username, current_user %>
+    <a href="/logout" class="nav-link">logout </a><br><br>
   <% end %>
 </nav>
