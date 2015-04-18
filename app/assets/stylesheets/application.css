@@ -119,8 +119,35 @@ body{
 }
 
 #newuserform{
-  margin-top: 2em;
+  margin-top: 3em;
   line-height: 76%;
   font-family: "Intro Cond Black Free";
   color: #ffffff;
+}
+
+#searchgame{
+  font-family: "Intro Cond Black Free";
+  color: #ffffff;
+  margin-top: 2em;
+}
+
+h1 {
+  font-family: "Intro Cond Black Free" !important;
+  text-align: center !important;
+  color: #C0392B !important;
+  font-size: 200% !important;
+}
+
+#newgameform{
+  line-height: 76%;
+  font-family: "Intro Cond Black Free";
+  color: #ffffff;
+}
+
+#searchgame a{
+  color: #7f8c8d !important;
+}
+
+#searchgame a:hover{
+  color: white !important;
 }

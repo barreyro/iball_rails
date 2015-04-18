@@ -28363,3 +28363,3094 @@ Started GET "/assets/wood2.jpg" for 127.0.0.1 at 2015-04-17 21:35:18 -0700
 
 
 Started GET "/assets/introcondblackfree.otf" for 127.0.0.1 at 2015-04-17 21:35:18 -0700
+
+
+Started GET "/signup" for 127.0.0.1 at 2015-04-17 21:37:21 -0700
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_navigation.html.erb (2.6ms)
+Completed 200 OK in 45ms (Views: 44.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 21:37:21 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 21:37:21 -0700
+
+
+Started GET "/assets/application.self-110bc9f08138de802c8ed634289319e4b84695a8d3c0b8d6e2ee75a557d5171b.css?body=1" for 127.0.0.1 at 2015-04-17 21:37:21 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 21:37:21 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 21:37:21 -0700
+
+
+Started GET "/assets/redball-5c9d074ad1d6d085e7f1a19051bf7bce49cacba408a523f43117b0d0e1b59be5.png" for 127.0.0.1 at 2015-04-17 21:37:21 -0700
+
+
+Started GET "/signup" for 127.0.0.1 at 2015-04-17 21:37:30 -0700
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_navigation.html.erb (1.6ms)
+Completed 200 OK in 137ms (Views: 136.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2015-04-17 21:38:11 -0700
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (2.4ms)
+  Rendered layouts/_navigation.html.erb (1.9ms)
+Completed 200 OK in 115ms (Views: 114.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 21:38:11 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 21:38:11 -0700
+
+
+Started GET "/assets/application.self-1afb66f8902f7f76fa2cb2b99f197725d14d420f1a8332338e5840aecd171adc.css?body=1" for 127.0.0.1 at 2015-04-17 21:38:12 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 21:38:12 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 21:38:12 -0700
+
+
+Started GET "/assets/redball-5c9d074ad1d6d085e7f1a19051bf7bce49cacba408a523f43117b0d0e1b59be5.png" for 127.0.0.1 at 2015-04-17 21:38:12 -0700
+
+
+Started GET "/assets/wood2.jpg" for 127.0.0.1 at 2015-04-17 21:38:12 -0700
+
+
+Started GET "/assets/introcondblackfree.otf" for 127.0.0.1 at 2015-04-17 21:38:12 -0700
+
+
+Started GET "/signup" for 127.0.0.1 at 2015-04-17 21:38:14 -0700
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_navigation.html.erb (1.7ms)
+Completed 200 OK in 116ms (Views: 115.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 21:38:14 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 21:38:14 -0700
+
+
+Started GET "/assets/application.self-1afb66f8902f7f76fa2cb2b99f197725d14d420f1a8332338e5840aecd171adc.css?body=1" for 127.0.0.1 at 2015-04-17 21:38:14 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 21:38:14 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 21:38:14 -0700
+
+
+Started GET "/assets/redball-5c9d074ad1d6d085e7f1a19051bf7bce49cacba408a523f43117b0d0e1b59be5.png" for 127.0.0.1 at 2015-04-17 21:38:14 -0700
+
+
+Started GET "/assets/wood2.jpg" for 127.0.0.1 at 2015-04-17 21:38:14 -0700
+
+
+Started GET "/assets/introcondblackfree.otf" for 127.0.0.1 at 2015-04-17 21:38:14 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-17 21:38:43 -0700
+Processing by WelcomeController#index as HTML
+  Rendered layouts/_login.html.erb (0.5ms)
+  Rendered welcome/index.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_navigation.html.erb (1.5ms)
+Completed 200 OK in 46ms (Views: 46.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/krinkes.ttf" for 127.0.0.1 at 2015-04-17 21:38:43 -0700
+
+
+Started GET "/signup" for 127.0.0.1 at 2015-04-17 21:38:48 -0700
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_navigation.html.erb (2.1ms)
+Completed 200 OK in 44ms (Views: 43.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-17 21:38:49 -0700
+Processing by WelcomeController#index as HTML
+  Rendered layouts/_login.html.erb (1.4ms)
+  Rendered welcome/index.html.erb within layouts/application (2.6ms)
+  Rendered layouts/_navigation.html.erb (1.6ms)
+Completed 200 OK in 42ms (Views: 41.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2015-04-17 21:39:25 -0700
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_navigation.html.erb (1.7ms)
+Completed 200 OK in 49ms (Views: 48.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2015-04-17 21:39:55 -0700
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"knKhutjZtaeNVJfCCD9ftvDS/JdhAnjdkaM0W4d/kg0=", "user"=>{"email"=>"hi@hi.com", "username"=>"hi", "password"=>"[FILTERED]", "city"=>"City", "state"=>"CA", "age"=>"20", "bio"=>"LAC"}, "commit"=>"signup"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (8.3ms)[0m  SELECT  1 AS one FROM "users"  WHERE "users"."username" = 'hi' LIMIT 1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'hi@hi.com' LIMIT 1[0m
+Binary data inserted for `string` type on column `password_digest`
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "users" ("age", "bio", "city", "created_at", "email", "password_digest", "state", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)  [["age", 20], ["bio", "LAC"], ["city", "City"], ["created_at", "2015-04-18 04:39:56.108730"], ["email", "hi@hi.com"], ["password_digest", "$2a$10$TMIl2uC5.hLlVWXtqx3IK.l8DJP5QHms329JFFQmot1Mw8909j.8O"], ["state", "CA"], ["updated_at", "2015-04-18 04:39:56.108730"], ["username", "hi"]]
+  [1m[36m (1.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 124ms (ActiveRecord: 9.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-17 21:39:56 -0700
+Processing by WelcomeController#index as HTML
+  Rendered layouts/_login.html.erb (0.5ms)
+  Rendered welcome/index.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_navigation.html.erb (4.3ms)
+Completed 200 OK in 47ms (Views: 46.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login?method=get" for 127.0.0.1 at 2015-04-17 21:40:09 -0700
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"knKhutjZtaeNVJfCCD9ftvDS/JdhAnjdkaM0W4d/kg0=", "user_input"=>"hi", "password"=>"[FILTERED]", "commit"=>"GO", "method"=>"get"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."username" = 'hi' LIMIT 1
+Redirected to http://localhost:3000/
+Completed 302 Found in 97ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-17 21:40:09 -0700
+Processing by WelcomeController#index as HTML
+  Rendered games/_search.html.erb (1.9ms)
+  Rendered welcome/index.html.erb within layouts/application (3.4ms)
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  Rendered layouts/_navigation.html.erb (4.9ms)
+Completed 200 OK in 135ms (Views: 133.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/users/7" for 127.0.0.1 at 2015-04-17 21:40:13 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 7]]
+  Rendered users/show.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  Rendered layouts/_navigation.html.erb (4.1ms)
+Completed 200 OK in 46ms (Views: 43.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-17 21:40:16 -0700
+Processing by WelcomeController#index as HTML
+  Rendered games/_search.html.erb (1.3ms)
+  Rendered welcome/index.html.erb within layouts/application (2.7ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  Rendered layouts/_navigation.html.erb (5.7ms)
+Completed 200 OK in 51ms (Views: 50.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/7" for 127.0.0.1 at 2015-04-17 21:41:15 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 7]]
+  Rendered users/show.html.erb within layouts/application (0.1ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  Rendered layouts/_navigation.html.erb (4.2ms)
+Completed 200 OK in 44ms (Views: 42.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/logout" for 127.0.0.1 at 2015-04-17 21:43:48 -0700
+Processing by SessionsController#logout as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-17 21:43:48 -0700
+Processing by WelcomeController#index as HTML
+  Rendered layouts/_login.html.erb (0.8ms)
+  Rendered welcome/index.html.erb within layouts/application (2.6ms)
+  Rendered layouts/_navigation.html.erb (2.0ms)
+Completed 200 OK in 37ms (Views: 36.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login?method=get" for 127.0.0.1 at 2015-04-17 21:43:54 -0700
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"knKhutjZtaeNVJfCCD9ftvDS/JdhAnjdkaM0W4d/kg0=", "user_input"=>"hi", "password"=>"[FILTERED]", "commit"=>"GO", "method"=>"get"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."username" = 'hi' LIMIT 1[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 94ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-17 21:43:54 -0700
+Processing by WelcomeController#index as HTML
+  Rendered games/_search.html.erb (1.1ms)
+  Rendered welcome/index.html.erb within layouts/application (1.9ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  Rendered layouts/_navigation.html.erb (3.5ms)
+Completed 200 OK in 42ms (Views: 41.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-17 21:48:55 -0700
+Processing by WelcomeController#index as HTML
+  Rendered games/_search.html.erb (1.9ms)
+  Rendered welcome/index.html.erb within layouts/application (3.4ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  Rendered layouts/_navigation.html.erb (4.4ms)
+Completed 200 OK in 161ms (Views: 160.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/krinkes.ttf" for 127.0.0.1 at 2015-04-17 21:48:56 -0700
+
+
+Started GET "/users/7" for 127.0.0.1 at 2015-04-17 21:48:59 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 7]]
+  Rendered users/show.html.erb within layouts/application (1.9ms)
+Completed 500 Internal Server Error in 5ms
+
+ActionView::Template::Error (Missing partial users/_search with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/stephaniebarreyro/Desktop/iball_rails/app/views"
+  * "/Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/foundation-rails-5.5.1.2/app/views"
+):
+    1: <row>
+    2: Search for games:<br>
+    3: <% render 'users/search' %>
+    4: </row>
+  app/views/users/show.html.erb:3:in `_app_views_users_show_html_erb___3320075711539710079_70122948959500'
+
+
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.2ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (19.7ms)
+
+
+Started GET "/users/7" for 127.0.0.1 at 2015-04-17 21:49:09 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 7]]
+  Rendered users/show.html.erb within layouts/application (3.8ms)
+Completed 500 Internal Server Error in 8ms
+
+ActionView::Template::Error (Missing partial users/_search with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/stephaniebarreyro/Desktop/iball_rails/app/views"
+  * "/Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/foundation-rails-5.5.1.2/app/views"
+):
+    1: <row>
+    2: Search for games:<br>
+    3: <%= render 'users/search' %>
+    4: </row>
+  app/views/users/show.html.erb:3:in `_app_views_users_show_html_erb___3320075711539710079_70123000190920'
+
+
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (11.1ms)
+
+
+Started GET "/users/7" for 127.0.0.1 at 2015-04-17 21:49:13 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 7]]
+  Rendered users/show.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 6ms
+
+SyntaxError (/Users/stephaniebarreyro/Desktop/iball_rails/app/views/users/show.html.erb:3: syntax error, unexpected tLABEL
+...@output_buffer.append=( render: 'users/search' );@output_buf...
+...                               ^):
+  app/views/users/show.html.erb:3: syntax error, unexpected tLABEL
+
+
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.9ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (22.9ms)
+
+
+Started GET "/users/7" for 127.0.0.1 at 2015-04-17 21:49:37 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 7]]
+  Rendered games/_search.html.erb (1.3ms)
+  Rendered users/show.html.erb within layouts/application (2.6ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  Rendered layouts/_navigation.html.erb (3.8ms)
+Completed 200 OK in 43ms (Views: 40.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 21:49:37 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 21:49:37 -0700
+
+
+Started GET "/assets/application.self-1afb66f8902f7f76fa2cb2b99f197725d14d420f1a8332338e5840aecd171adc.css?body=1" for 127.0.0.1 at 2015-04-17 21:49:37 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 21:49:37 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 21:49:37 -0700
+
+
+Started GET "/assets/redball-5c9d074ad1d6d085e7f1a19051bf7bce49cacba408a523f43117b0d0e1b59be5.png" for 127.0.0.1 at 2015-04-17 21:49:37 -0700
+
+
+Started GET "/users/7" for 127.0.0.1 at 2015-04-17 21:54:35 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 7]]
+  Rendered games/_search.html.erb (1.2ms)
+  Rendered users/show.html.erb within layouts/application (2.2ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  Rendered layouts/_navigation.html.erb (4.0ms)
+Completed 200 OK in 51ms (Views: 50.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 21:54:35 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 21:54:35 -0700
+
+
+Started GET "/assets/application.self-1afb66f8902f7f76fa2cb2b99f197725d14d420f1a8332338e5840aecd171adc.css?body=1" for 127.0.0.1 at 2015-04-17 21:54:35 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 21:54:35 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 21:54:35 -0700
+
+
+Started GET "/assets/redball-5c9d074ad1d6d085e7f1a19051bf7bce49cacba408a523f43117b0d0e1b59be5.png" for 127.0.0.1 at 2015-04-17 21:54:35 -0700
+
+
+Started GET "/users/7" for 127.0.0.1 at 2015-04-17 21:55:02 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 7]]
+  Rendered games/_search.html.erb (1.3ms)
+  Rendered users/show.html.erb within layouts/application (2.5ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  Rendered layouts/_navigation.html.erb (5.4ms)
+Completed 200 OK in 138ms (Views: 136.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 21:55:02 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 21:55:02 -0700
+
+
+Started GET "/assets/application.self-1afb66f8902f7f76fa2cb2b99f197725d14d420f1a8332338e5840aecd171adc.css?body=1" for 127.0.0.1 at 2015-04-17 21:55:02 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 21:55:02 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 21:55:02 -0700
+
+
+Started GET "/assets/redball-5c9d074ad1d6d085e7f1a19051bf7bce49cacba408a523f43117b0d0e1b59be5.png" for 127.0.0.1 at 2015-04-17 21:55:02 -0700
+
+
+Started GET "/users/7" for 127.0.0.1 at 2015-04-17 21:55:54 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 7]]
+  Rendered games/_search.html.erb (1.1ms)
+  Rendered users/show.html.erb within layouts/application (2.1ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  Rendered layouts/_navigation.html.erb (4.0ms)
+Completed 200 OK in 41ms (Views: 39.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 21:55:54 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 21:55:54 -0700
+
+
+Started GET "/assets/application.self-1afb66f8902f7f76fa2cb2b99f197725d14d420f1a8332338e5840aecd171adc.css?body=1" for 127.0.0.1 at 2015-04-17 21:55:54 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 21:55:54 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 21:55:54 -0700
+
+
+Started GET "/assets/redball-5c9d074ad1d6d085e7f1a19051bf7bce49cacba408a523f43117b0d0e1b59be5.png" for 127.0.0.1 at 2015-04-17 21:55:54 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-17 21:56:13 -0700
+Processing by WelcomeController#index as HTML
+  Rendered games/_search.html.erb (1.3ms)
+  Rendered welcome/index.html.erb within layouts/application (2.4ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  Rendered layouts/_navigation.html.erb (2.8ms)
+Completed 200 OK in 39ms (Views: 38.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/wood2.jpg" for 127.0.0.1 at 2015-04-17 21:56:13 -0700
+
+
+Started GET "/assets/introcondblackfree.otf" for 127.0.0.1 at 2015-04-17 21:56:13 -0700
+
+
+Started GET "/assets/krinkes.ttf" for 127.0.0.1 at 2015-04-17 21:56:13 -0700
+
+
+Started GET "/users/7" for 127.0.0.1 at 2015-04-17 21:56:17 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 7]]
+  Rendered games/_search.html.erb (3.1ms)
+  Rendered users/show.html.erb within layouts/application (6.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  Rendered layouts/_navigation.html.erb (3.9ms)
+Completed 200 OK in 52ms (Views: 50.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/introcondblackfree.otf" for 127.0.0.1 at 2015-04-17 21:56:17 -0700
+
+
+Started GET "/assets/wood2.jpg" for 127.0.0.1 at 2015-04-17 21:56:17 -0700
+
+
+Started GET "/users/7" for 127.0.0.1 at 2015-04-17 21:56:34 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 7]]
+  Rendered games/_search.html.erb (1.4ms)
+  Rendered users/show.html.erb within layouts/application (2.1ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  Rendered layouts/_navigation.html.erb (5.7ms)
+Completed 200 OK in 47ms (Views: 45.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 21:56:34 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 21:56:34 -0700
+
+
+Started GET "/assets/application.self-1afb66f8902f7f76fa2cb2b99f197725d14d420f1a8332338e5840aecd171adc.css?body=1" for 127.0.0.1 at 2015-04-17 21:56:34 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 21:56:34 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 21:56:34 -0700
+
+
+Started GET "/assets/redball-5c9d074ad1d6d085e7f1a19051bf7bce49cacba408a523f43117b0d0e1b59be5.png" for 127.0.0.1 at 2015-04-17 21:56:34 -0700
+
+
+Started GET "/assets/wood2.jpg" for 127.0.0.1 at 2015-04-17 21:56:34 -0700
+
+
+Started GET "/assets/introcondblackfree.otf" for 127.0.0.1 at 2015-04-17 21:56:34 -0700
+
+
+Started GET "/users/7" for 127.0.0.1 at 2015-04-17 21:57:18 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 7]]
+  Rendered games/_search.html.erb (105.4ms)
+  Rendered users/show.html.erb within layouts/application (106.9ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  Rendered layouts/_navigation.html.erb (4.1ms)
+Completed 200 OK in 151ms (Views: 149.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 21:57:19 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 21:57:19 -0700
+
+
+Started GET "/assets/application.self-1afb66f8902f7f76fa2cb2b99f197725d14d420f1a8332338e5840aecd171adc.css?body=1" for 127.0.0.1 at 2015-04-17 21:57:19 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 21:57:19 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 21:57:19 -0700
+
+
+Started GET "/assets/redball-5c9d074ad1d6d085e7f1a19051bf7bce49cacba408a523f43117b0d0e1b59be5.png" for 127.0.0.1 at 2015-04-17 21:57:19 -0700
+
+
+Started GET "/users/7" for 127.0.0.1 at 2015-04-17 21:58:00 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 7]]
+  Rendered games/_search.html.erb (3.6ms)
+  Rendered users/show.html.erb within layouts/application (4.9ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  Rendered layouts/_navigation.html.erb (4.1ms)
+Completed 200 OK in 96ms (Views: 94.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.self-f7ba5fe481fe9283944230589b8cc1d882f87c483e1ae088ba9c8b9bb1762f0c.css?body=1" for 127.0.0.1 at 2015-04-17 21:58:00 -0700
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 21:58:00 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 21:58:01 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 21:58:01 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 21:58:01 -0700
+
+
+Started GET "/assets/redball-5c9d074ad1d6d085e7f1a19051bf7bce49cacba408a523f43117b0d0e1b59be5.png" for 127.0.0.1 at 2015-04-17 21:58:01 -0700
+
+
+Started GET "/assets/wood2.jpg" for 127.0.0.1 at 2015-04-17 21:58:01 -0700
+
+
+Started GET "/assets/introcondblackfree.otf" for 127.0.0.1 at 2015-04-17 21:58:01 -0700
+
+
+Started GET "/users/7" for 127.0.0.1 at 2015-04-17 21:58:13 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 7]]
+  Rendered games/_search.html.erb (4.7ms)
+  Rendered users/show.html.erb within layouts/application (5.5ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  Rendered layouts/_navigation.html.erb (6.2ms)
+Completed 200 OK in 107ms (Views: 105.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 21:58:13 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 21:58:13 -0700
+
+
+Started GET "/assets/application.self-8f4c75fec80aec3fd9e90da1d02cefa912d0f4a98d399add244dc88eca95ae81.css?body=1" for 127.0.0.1 at 2015-04-17 21:58:13 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 21:58:13 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 21:58:13 -0700
+
+
+Started GET "/assets/redball-5c9d074ad1d6d085e7f1a19051bf7bce49cacba408a523f43117b0d0e1b59be5.png" for 127.0.0.1 at 2015-04-17 21:58:13 -0700
+
+
+Started GET "/assets/wood2.jpg" for 127.0.0.1 at 2015-04-17 21:58:13 -0700
+
+
+Started GET "/assets/introcondblackfree.otf" for 127.0.0.1 at 2015-04-17 21:58:13 -0700
+
+
+Started GET "/users/7" for 127.0.0.1 at 2015-04-17 21:58:36 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 7]]
+  Rendered games/_search.html.erb (1.3ms)
+  Rendered users/show.html.erb within layouts/application (2.0ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  Rendered layouts/_navigation.html.erb (5.2ms)
+Completed 200 OK in 204ms (Views: 201.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.self-8d76ebc7dd191233bc8306470e16a96ed0d359136572b9c5593d278737d24e1f.css?body=1" for 127.0.0.1 at 2015-04-17 21:58:36 -0700
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 21:58:36 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 21:58:36 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 21:58:36 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 21:58:36 -0700
+
+
+Started GET "/assets/redball-5c9d074ad1d6d085e7f1a19051bf7bce49cacba408a523f43117b0d0e1b59be5.png" for 127.0.0.1 at 2015-04-17 21:58:36 -0700
+
+
+Started GET "/assets/wood2.jpg" for 127.0.0.1 at 2015-04-17 21:58:36 -0700
+
+
+Started GET "/assets/introcondblackfree.otf" for 127.0.0.1 at 2015-04-17 21:58:36 -0700
+
+
+Started GET "/games?utf8=%E2%9C%93&date=2015-12-21&state=CA&commit=Find" for 127.0.0.1 at 2015-04-17 21:59:17 -0700
+Processing by GamesController#index as HTML
+  Parameters: {"utf8"=>"✓", "date"=>"2015-12-21", "state"=>"CA", "commit"=>"Find"}
+  [1m[36mGame Load (0.3ms)[0m  [1mSELECT "games".* FROM "games"[0m
+  Rendered games/index.html.erb within layouts/application (0.5ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  Rendered layouts/_navigation.html.erb (3.8ms)
+Completed 200 OK in 44ms (Views: 37.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-17 21:59:31 -0700
+Processing by WelcomeController#index as HTML
+  Rendered games/_search.html.erb (1.8ms)
+  Rendered welcome/index.html.erb within layouts/application (4.7ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  Rendered layouts/_navigation.html.erb (4.4ms)
+Completed 200 OK in 136ms (Views: 135.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/krinkes.ttf" for 127.0.0.1 at 2015-04-17 21:59:31 -0700
+
+
+Started GET "/users/7" for 127.0.0.1 at 2015-04-17 21:59:35 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 7]]
+  Rendered games/_search.html.erb (1.9ms)
+  Rendered users/show.html.erb within layouts/application (3.3ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  Rendered layouts/_navigation.html.erb (3.9ms)
+Completed 200 OK in 45ms (Views: 43.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/users/7" for 127.0.0.1 at 2015-04-17 22:00:39 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 7]]
+  Rendered games/_search.html.erb (2.6ms)
+  Rendered users/show.html.erb within layouts/application (4.6ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  Rendered layouts/_navigation.html.erb (4.5ms)
+Completed 200 OK in 57ms (Views: 55.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:00:39 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 22:00:39 -0700
+
+
+Started GET "/assets/application.self-8d76ebc7dd191233bc8306470e16a96ed0d359136572b9c5593d278737d24e1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:00:39 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:00:39 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 22:00:39 -0700
+
+
+Started GET "/assets/redball-5c9d074ad1d6d085e7f1a19051bf7bce49cacba408a523f43117b0d0e1b59be5.png" for 127.0.0.1 at 2015-04-17 22:00:39 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-17 22:11:34 -0700
+Processing by WelcomeController#index as HTML
+  Rendered games/_search.html.erb (2.0ms)
+  Rendered welcome/index.html.erb within layouts/application (4.6ms)
+  [1m[35mUser Load (0.7ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  Rendered layouts/_navigation.html.erb (6.4ms)
+Completed 200 OK in 71ms (Views: 70.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/wood2.jpg" for 127.0.0.1 at 2015-04-17 22:11:35 -0700
+
+
+Started GET "/assets/krinkes.ttf" for 127.0.0.1 at 2015-04-17 22:11:35 -0700
+
+
+Started GET "/assets/introcondblackfree.otf" for 127.0.0.1 at 2015-04-17 22:11:35 -0700
+
+
+Started GET "/routes" for 127.0.0.1 at 2015-04-17 22:11:40 -0700
+
+ActionController::RoutingError (No route matches [GET] "/routes"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  thin (1.5.1) lib/thin/connection.rb:81:in `block in pre_process'
+  thin (1.5.1) lib/thin/connection.rb:79:in `catch'
+  thin (1.5.1) lib/thin/connection.rb:79:in `pre_process'
+  thin (1.5.1) lib/thin/connection.rb:54:in `process'
+  thin (1.5.1) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.5) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.5) lib/eventmachine.rb:187:in `run'
+  thin (1.5.1) lib/thin/backends/base.rb:63:in `start'
+  thin (1.5.1) lib/thin/server.rb:159:in `start'
+  rack (1.5.2) lib/rack/handler/thin.rb:16:in `run'
+  rack (1.5.2) lib/rack/server.rb:264:in `start'
+  railties (4.1.8) lib/rails/commands/server.rb:69:in `start'
+  railties (4.1.8) lib/rails/commands/commands_tasks.rb:81:in `block in server'
+  railties (4.1.8) lib/rails/commands/commands_tasks.rb:76:in `tap'
+  railties (4.1.8) lib/rails/commands/commands_tasks.rb:76:in `server'
+  railties (4.1.8) lib/rails/commands/commands_tasks.rb:40:in `run_command!'
+  railties (4.1.8) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:4:in `require'
+  bin/rails:4:in `<main>'
+
+
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.3ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.6ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (62.6ms)
+
+
+Started GET "/users/7" for 127.0.0.1 at 2015-04-17 22:12:18 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 7]]
+  Rendered games/_search.html.erb (2.2ms)
+  Rendered users/show.html.erb within layouts/application (3.9ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  Rendered layouts/_navigation.html.erb (6.6ms)
+Completed 200 OK in 145ms (Views: 142.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:12:18 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 22:12:18 -0700
+
+
+Started GET "/assets/application.self-8d76ebc7dd191233bc8306470e16a96ed0d359136572b9c5593d278737d24e1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:12:18 -0700
+
+
+Started GET "/assets/redball-5c9d074ad1d6d085e7f1a19051bf7bce49cacba408a523f43117b0d0e1b59be5.png" for 127.0.0.1 at 2015-04-17 22:12:18 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:12:18 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 22:12:18 -0700
+
+
+Started GET "/users/7" for 127.0.0.1 at 2015-04-17 22:12:26 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 7]]
+  Rendered games/_search.html.erb (1.2ms)
+  Rendered users/show.html.erb within layouts/application (2.0ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  Rendered layouts/_navigation.html.erb (2.8ms)
+Completed 200 OK in 43ms (Views: 40.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/wood2.jpg" for 127.0.0.1 at 2015-04-17 22:12:26 -0700
+
+
+Started GET "/assets/introcondblackfree.otf" for 127.0.0.1 at 2015-04-17 22:12:26 -0700
+
+
+Started GET "/games/new" for 127.0.0.1 at 2015-04-17 22:12:35 -0700
+Processing by GamesController#new as HTML
+Completed 500 Internal Server Error in 4ms
+
+ActionView::MissingTemplate (Missing template games/new, application/new with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/stephaniebarreyro/Desktop/iball_rails/app/views"
+  * "/Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/foundation-rails-5.5.1.2/app/views"
+):
+  actionview (4.1.8) lib/action_view/path_set.rb:46:in `find'
+  actionview (4.1.8) lib/action_view/lookup_context.rb:124:in `find'
+  actionview (4.1.8) lib/action_view/renderer/abstract_renderer.rb:18:in `find_template'
+  actionview (4.1.8) lib/action_view/renderer/template_renderer.rb:41:in `determine_template'
+  actionview (4.1.8) lib/action_view/renderer/template_renderer.rb:8:in `render'
+  actionview (4.1.8) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionview (4.1.8) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionview (4.1.8) lib/action_view/rendering.rb:99:in `_render_template'
+  actionpack (4.1.8) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.1.8) lib/action_view/rendering.rb:82:in `render_to_body'
+  actionpack (4.1.8) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.1.8) lib/action_controller/metal/renderers.rb:32:in `render_to_body'
+  actionpack (4.1.8) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.1.8) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.1.8) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.1.8) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /Users/stephaniebarreyro/.rvm/rubies/ruby-2.0.0-p594/lib/ruby/2.0.0/benchmark.rb:296:in `realtime'
+  activesupport (4.1.8) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.1.8) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.1.8) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  activerecord (4.1.8) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.1.8) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.1.8) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.1.8) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.1.8) lib/abstract_controller/base.rb:189:in `process_action'
+  actionpack (4.1.8) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.1.8) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:113:in `call'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:113:in `call'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:229:in `block in halting'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:166:in `call'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:86:in `call'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:86:in `run_callbacks'
+  actionpack (4.1.8) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.1.8) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.1.8) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.1.8) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.1.8) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.1.8) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.1.8) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.1.8) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.1.8) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.1.8) lib/abstract_controller/base.rb:136:in `process'
+  actionview (4.1.8) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.1.8) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.1.8) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.1.8) lib/action_controller/metal.rb:232:in `block in action'
+  actionpack (4.1.8) lib/action_dispatch/routing/route_set.rb:82:in `call'
+  actionpack (4.1.8) lib/action_dispatch/routing/route_set.rb:82:in `dispatch'
+  actionpack (4.1.8) lib/action_dispatch/routing/route_set.rb:50:in `call'
+  actionpack (4.1.8) lib/action_dispatch/journey/router.rb:73:in `block in call'
+  actionpack (4.1.8) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.8) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.8) lib/action_dispatch/routing/route_set.rb:678:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.8) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.8) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.8) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  thin (1.5.1) lib/thin/connection.rb:81:in `block in pre_process'
+  thin (1.5.1) lib/thin/connection.rb:79:in `catch'
+  thin (1.5.1) lib/thin/connection.rb:79:in `pre_process'
+  thin (1.5.1) lib/thin/connection.rb:54:in `process'
+  thin (1.5.1) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.5) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.5) lib/eventmachine.rb:187:in `run'
+  thin (1.5.1) lib/thin/backends/base.rb:63:in `start'
+  thin (1.5.1) lib/thin/server.rb:159:in `start'
+  rack (1.5.2) lib/rack/handler/thin.rb:16:in `run'
+  rack (1.5.2) lib/rack/server.rb:264:in `start'
+  railties (4.1.8) lib/rails/commands/server.rb:69:in `start'
+  railties (4.1.8) lib/rails/commands/commands_tasks.rb:81:in `block in server'
+  railties (4.1.8) lib/rails/commands/commands_tasks.rb:76:in `tap'
+  railties (4.1.8) lib/rails/commands/commands_tasks.rb:76:in `server'
+  railties (4.1.8) lib/rails/commands/commands_tasks.rb:40:in `run_command!'
+  railties (4.1.8) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:4:in `require'
+  bin/rails:4:in `<main>'
+
+
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout (0.5ms)
+
+
+Started GET "/users/7" for 127.0.0.1 at 2015-04-17 22:13:01 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 7]]
+  Rendered games/_search.html.erb (1.4ms)
+  Rendered users/show.html.erb within layouts/application (2.3ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  Rendered layouts/_navigation.html.erb (3.0ms)
+Completed 200 OK in 39ms (Views: 37.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:13:01 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 22:13:01 -0700
+
+
+Started GET "/assets/application.self-8d76ebc7dd191233bc8306470e16a96ed0d359136572b9c5593d278737d24e1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:13:01 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:13:01 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 22:13:01 -0700
+
+
+Started GET "/assets/redball-5c9d074ad1d6d085e7f1a19051bf7bce49cacba408a523f43117b0d0e1b59be5.png" for 127.0.0.1 at 2015-04-17 22:13:01 -0700
+
+
+Started GET "/users/7" for 127.0.0.1 at 2015-04-17 22:13:03 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 7]]
+  Rendered games/_search.html.erb (1.2ms)
+  Rendered users/show.html.erb within layouts/application (2.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  Rendered layouts/_navigation.html.erb (4.4ms)
+Completed 200 OK in 48ms (Views: 46.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:13:03 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 22:13:03 -0700
+
+
+Started GET "/assets/application.self-8d76ebc7dd191233bc8306470e16a96ed0d359136572b9c5593d278737d24e1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:13:03 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:13:03 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 22:13:03 -0700
+
+
+Started GET "/assets/redball-5c9d074ad1d6d085e7f1a19051bf7bce49cacba408a523f43117b0d0e1b59be5.png" for 127.0.0.1 at 2015-04-17 22:13:03 -0700
+
+
+Started GET "/games/new" for 127.0.0.1 at 2015-04-17 22:13:05 -0700
+Processing by GamesController#new as HTML
+  Rendered games/new.html.erb within layouts/application (5.0ms)
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  Rendered layouts/_navigation.html.erb (6.7ms)
+Completed 200 OK in 55ms (Views: 54.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/users/7" for 127.0.0.1 at 2015-04-17 22:13:09 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 7]]
+  Rendered games/_search.html.erb (1.9ms)
+  Rendered users/show.html.erb within layouts/application (3.0ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  Rendered layouts/_navigation.html.erb (4.0ms)
+Completed 200 OK in 49ms (Views: 47.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-17 22:13:41 -0700
+Processing by WelcomeController#index as HTML
+  Rendered games/_search.html.erb (2.2ms)
+  Rendered welcome/index.html.erb within layouts/application (3.8ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  Rendered layouts/_navigation.html.erb (3.4ms)
+Completed 200 OK in 52ms (Views: 51.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/7" for 127.0.0.1 at 2015-04-17 22:13:43 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 7]]
+  Rendered games/_search.html.erb (2.4ms)
+  Rendered users/show.html.erb within layouts/application (4.2ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  Rendered layouts/_navigation.html.erb (3.4ms)
+Completed 200 OK in 41ms (Views: 39.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/users/7" for 127.0.0.1 at 2015-04-17 22:13:54 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 7]]
+  Rendered games/_search.html.erb (3.2ms)
+  Rendered users/show.html.erb within layouts/application (4.8ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  Rendered layouts/_navigation.html.erb (3.5ms)
+Completed 200 OK in 43ms (Views: 41.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:13:54 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 22:13:54 -0700
+
+
+Started GET "/assets/application.self-8d76ebc7dd191233bc8306470e16a96ed0d359136572b9c5593d278737d24e1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:13:54 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:13:54 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 22:13:54 -0700
+
+
+Started GET "/assets/redball-5c9d074ad1d6d085e7f1a19051bf7bce49cacba408a523f43117b0d0e1b59be5.png" for 127.0.0.1 at 2015-04-17 22:13:54 -0700
+
+
+Started GET "/users/7" for 127.0.0.1 at 2015-04-17 22:14:12 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 7]]
+  Rendered games/_search.html.erb (1.3ms)
+  Rendered users/show.html.erb within layouts/application (2.7ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  Rendered layouts/_navigation.html.erb (3.4ms)
+Completed 200 OK in 53ms (Views: 51.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:14:12 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 22:14:12 -0700
+
+
+Started GET "/assets/application.self-8d76ebc7dd191233bc8306470e16a96ed0d359136572b9c5593d278737d24e1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:14:12 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:14:12 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 22:14:12 -0700
+
+
+Started GET "/assets/redball-5c9d074ad1d6d085e7f1a19051bf7bce49cacba408a523f43117b0d0e1b59be5.png" for 127.0.0.1 at 2015-04-17 22:14:12 -0700
+
+
+Started GET "/games/new" for 127.0.0.1 at 2015-04-17 22:15:09 -0700
+Processing by GamesController#new as HTML
+  Rendered games/new.html.erb within layouts/application (3.0ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  Rendered layouts/_navigation.html.erb (3.6ms)
+Completed 200 OK in 135ms (Views: 134.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/games/new" for 127.0.0.1 at 2015-04-17 22:16:38 -0700
+Processing by GamesController#new as HTML
+  Rendered games/new.html.erb within layouts/application (3.3ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  Rendered layouts/_navigation.html.erb (5.0ms)
+Completed 200 OK in 63ms (Views: 61.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:16:38 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 22:16:38 -0700
+
+
+Started GET "/assets/application.self-8d76ebc7dd191233bc8306470e16a96ed0d359136572b9c5593d278737d24e1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:16:38 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:16:38 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 22:16:38 -0700
+
+
+Started GET "/assets/redball-5c9d074ad1d6d085e7f1a19051bf7bce49cacba408a523f43117b0d0e1b59be5.png" for 127.0.0.1 at 2015-04-17 22:16:38 -0700
+
+
+Started GET "/games/new" for 127.0.0.1 at 2015-04-17 22:16:47 -0700
+Processing by GamesController#new as HTML
+  Rendered games/new.html.erb within layouts/application (3.7ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  Rendered layouts/_navigation.html.erb (3.2ms)
+Completed 200 OK in 45ms (Views: 43.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:16:47 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 22:16:47 -0700
+
+
+Started GET "/assets/application.self-8d76ebc7dd191233bc8306470e16a96ed0d359136572b9c5593d278737d24e1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:16:47 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:16:47 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 22:16:47 -0700
+
+
+Started GET "/assets/redball-5c9d074ad1d6d085e7f1a19051bf7bce49cacba408a523f43117b0d0e1b59be5.png" for 127.0.0.1 at 2015-04-17 22:16:47 -0700
+
+
+Started GET "/games/new" for 127.0.0.1 at 2015-04-17 22:16:48 -0700
+Processing by GamesController#new as HTML
+  Rendered games/new.html.erb within layouts/application (1.4ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  Rendered layouts/_navigation.html.erb (2.7ms)
+Completed 200 OK in 38ms (Views: 37.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:16:48 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 22:16:48 -0700
+
+
+Started GET "/assets/application.self-8d76ebc7dd191233bc8306470e16a96ed0d359136572b9c5593d278737d24e1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:16:48 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:16:49 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 22:16:49 -0700
+
+
+Started GET "/assets/redball-5c9d074ad1d6d085e7f1a19051bf7bce49cacba408a523f43117b0d0e1b59be5.png" for 127.0.0.1 at 2015-04-17 22:16:49 -0700
+
+
+Started GET "/games/new" for 127.0.0.1 at 2015-04-17 22:16:55 -0700
+Processing by GamesController#new as HTML
+  Rendered games/new.html.erb within layouts/application (2.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  Rendered layouts/_navigation.html.erb (3.7ms)
+Completed 200 OK in 46ms (Views: 45.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:16:55 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 22:16:55 -0700
+
+
+Started GET "/assets/application.self-8d76ebc7dd191233bc8306470e16a96ed0d359136572b9c5593d278737d24e1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:16:55 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:16:55 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 22:16:55 -0700
+
+
+Started GET "/assets/redball-5c9d074ad1d6d085e7f1a19051bf7bce49cacba408a523f43117b0d0e1b59be5.png" for 127.0.0.1 at 2015-04-17 22:16:55 -0700
+
+
+Started GET "/users/7" for 127.0.0.1 at 2015-04-17 22:17:10 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 7]]
+  Rendered games/_search.html.erb (1.5ms)
+  Rendered users/show.html.erb within layouts/application (2.6ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  Rendered layouts/_navigation.html.erb (5.3ms)
+Completed 200 OK in 45ms (Views: 43.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:17:10 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 22:17:10 -0700
+
+
+Started GET "/assets/application.self-8d76ebc7dd191233bc8306470e16a96ed0d359136572b9c5593d278737d24e1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:17:10 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:17:10 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 22:17:10 -0700
+
+
+Started GET "/assets/redball-5c9d074ad1d6d085e7f1a19051bf7bce49cacba408a523f43117b0d0e1b59be5.png" for 127.0.0.1 at 2015-04-17 22:17:10 -0700
+
+
+Started GET "/games/new" for 127.0.0.1 at 2015-04-17 22:17:11 -0700
+Processing by GamesController#new as HTML
+  Rendered games/new.html.erb within layouts/application (2.5ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  Rendered layouts/_navigation.html.erb (4.9ms)
+Completed 200 OK in 60ms (Views: 58.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/games/new" for 127.0.0.1 at 2015-04-17 22:17:50 -0700
+Processing by GamesController#new as HTML
+  Rendered games/new.html.erb within layouts/application (4.7ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  Rendered layouts/_navigation.html.erb (5.8ms)
+Completed 200 OK in 52ms (Views: 51.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:17:50 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 22:17:50 -0700
+
+
+Started GET "/assets/application.self-8d76ebc7dd191233bc8306470e16a96ed0d359136572b9c5593d278737d24e1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:17:50 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:17:50 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 22:17:50 -0700
+
+
+Started GET "/assets/redball-5c9d074ad1d6d085e7f1a19051bf7bce49cacba408a523f43117b0d0e1b59be5.png" for 127.0.0.1 at 2015-04-17 22:17:50 -0700
+
+
+Started GET "/games/new" for 127.0.0.1 at 2015-04-17 22:18:13 -0700
+Processing by GamesController#new as HTML
+  Rendered games/new.html.erb within layouts/application (2.3ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  Rendered layouts/_navigation.html.erb (3.4ms)
+Completed 200 OK in 45ms (Views: 44.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:18:13 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 22:18:13 -0700
+
+
+Started GET "/assets/application.self-8d76ebc7dd191233bc8306470e16a96ed0d359136572b9c5593d278737d24e1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:18:13 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:18:13 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 22:18:13 -0700
+
+
+Started GET "/assets/redball-5c9d074ad1d6d085e7f1a19051bf7bce49cacba408a523f43117b0d0e1b59be5.png" for 127.0.0.1 at 2015-04-17 22:18:13 -0700
+
+
+Started GET "/games/new" for 127.0.0.1 at 2015-04-17 22:18:21 -0700
+Processing by GamesController#new as HTML
+  Rendered games/new.html.erb within layouts/application (3.2ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  Rendered layouts/_navigation.html.erb (101.2ms)
+Completed 200 OK in 141ms (Views: 139.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:18:21 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 22:18:21 -0700
+
+
+Started GET "/assets/application.self-8d76ebc7dd191233bc8306470e16a96ed0d359136572b9c5593d278737d24e1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:18:21 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:18:21 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 22:18:21 -0700
+
+
+Started GET "/assets/redball-5c9d074ad1d6d085e7f1a19051bf7bce49cacba408a523f43117b0d0e1b59be5.png" for 127.0.0.1 at 2015-04-17 22:18:21 -0700
+
+
+Started GET "/games/new" for 127.0.0.1 at 2015-04-17 22:18:36 -0700
+Processing by GamesController#new as HTML
+  Rendered games/new.html.erb within layouts/application (2.1ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  Rendered layouts/_navigation.html.erb (4.1ms)
+Completed 200 OK in 49ms (Views: 48.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:18:36 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 22:18:36 -0700
+
+
+Started GET "/assets/application.self-8d76ebc7dd191233bc8306470e16a96ed0d359136572b9c5593d278737d24e1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:18:36 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:18:36 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 22:18:36 -0700
+
+
+Started GET "/assets/redball-5c9d074ad1d6d085e7f1a19051bf7bce49cacba408a523f43117b0d0e1b59be5.png" for 127.0.0.1 at 2015-04-17 22:18:36 -0700
+
+
+Started GET "/games/new" for 127.0.0.1 at 2015-04-17 22:19:00 -0700
+Processing by GamesController#new as HTML
+  Rendered games/new.html.erb within layouts/application (2.8ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  Rendered layouts/_navigation.html.erb (3.9ms)
+Completed 200 OK in 44ms (Views: 43.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:19:00 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 22:19:00 -0700
+
+
+Started GET "/assets/application.self-8d76ebc7dd191233bc8306470e16a96ed0d359136572b9c5593d278737d24e1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:19:00 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:19:00 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 22:19:00 -0700
+
+
+Started GET "/assets/redball-5c9d074ad1d6d085e7f1a19051bf7bce49cacba408a523f43117b0d0e1b59be5.png" for 127.0.0.1 at 2015-04-17 22:19:00 -0700
+
+
+Started GET "/games/new" for 127.0.0.1 at 2015-04-17 22:19:09 -0700
+Processing by GamesController#new as HTML
+  Rendered games/new.html.erb within layouts/application (2.2ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  Rendered layouts/_navigation.html.erb (3.8ms)
+Completed 200 OK in 38ms (Views: 36.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:19:09 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 22:19:09 -0700
+
+
+Started GET "/assets/application.self-8d76ebc7dd191233bc8306470e16a96ed0d359136572b9c5593d278737d24e1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:19:09 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:19:09 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 22:19:09 -0700
+
+
+Started GET "/assets/redball-5c9d074ad1d6d085e7f1a19051bf7bce49cacba408a523f43117b0d0e1b59be5.png" for 127.0.0.1 at 2015-04-17 22:19:09 -0700
+
+
+Started GET "/games/new" for 127.0.0.1 at 2015-04-17 22:19:29 -0700
+Processing by GamesController#new as HTML
+  Rendered games/new.html.erb within layouts/application (2.1ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  Rendered layouts/_navigation.html.erb (3.3ms)
+Completed 200 OK in 41ms (Views: 39.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:19:29 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 22:19:29 -0700
+
+
+Started GET "/assets/application.self-8d76ebc7dd191233bc8306470e16a96ed0d359136572b9c5593d278737d24e1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:19:29 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:19:29 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 22:19:29 -0700
+
+
+Started GET "/assets/redball-5c9d074ad1d6d085e7f1a19051bf7bce49cacba408a523f43117b0d0e1b59be5.png" for 127.0.0.1 at 2015-04-17 22:19:29 -0700
+
+
+Started GET "/games/new" for 127.0.0.1 at 2015-04-17 22:20:07 -0700
+Processing by GamesController#new as HTML
+  Rendered games/new.html.erb within layouts/application (2.8ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  Rendered layouts/_navigation.html.erb (4.4ms)
+Completed 200 OK in 113ms (Views: 112.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:20:07 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 22:20:07 -0700
+
+
+Started GET "/assets/application.self-bf2d59cefe69c3d0ac3f5a6379744b5f4d73f1a4c0f3741795732ed1f2168d4b.css?body=1" for 127.0.0.1 at 2015-04-17 22:20:07 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:20:07 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 22:20:07 -0700
+
+
+Started GET "/assets/redball-5c9d074ad1d6d085e7f1a19051bf7bce49cacba408a523f43117b0d0e1b59be5.png" for 127.0.0.1 at 2015-04-17 22:20:07 -0700
+
+
+Started GET "/assets/wood2.jpg" for 127.0.0.1 at 2015-04-17 22:20:07 -0700
+
+
+Started GET "/assets/introcondblackfree.otf" for 127.0.0.1 at 2015-04-17 22:20:07 -0700
+
+
+Started GET "/games/new" for 127.0.0.1 at 2015-04-17 22:20:16 -0700
+Processing by GamesController#new as HTML
+  Rendered games/new.html.erb within layouts/application (2.1ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  Rendered layouts/_navigation.html.erb (4.5ms)
+Completed 200 OK in 190ms (Views: 189.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:20:16 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 22:20:16 -0700
+
+
+Started GET "/assets/application.self-ba0cce597287946b27c6c5692c82c8d3946b925fd1da479b31325618317218da.css?body=1" for 127.0.0.1 at 2015-04-17 22:20:16 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:20:16 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 22:20:16 -0700
+
+
+Started GET "/assets/redball-5c9d074ad1d6d085e7f1a19051bf7bce49cacba408a523f43117b0d0e1b59be5.png" for 127.0.0.1 at 2015-04-17 22:20:16 -0700
+
+
+Started GET "/assets/wood2.jpg" for 127.0.0.1 at 2015-04-17 22:20:16 -0700
+
+
+Started GET "/assets/introcondblackfree.otf" for 127.0.0.1 at 2015-04-17 22:20:16 -0700
+
+
+Started GET "/games/new" for 127.0.0.1 at 2015-04-17 22:20:33 -0700
+Processing by GamesController#new as HTML
+  Rendered games/new.html.erb within layouts/application (2.4ms)
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  Rendered layouts/_navigation.html.erb (7.0ms)
+Completed 200 OK in 205ms (Views: 204.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.self-d48bc039b3e2e60a37e411e9c68d214694e711f9e032b5bd27f3b1c2dc25d92c.css?body=1" for 127.0.0.1 at 2015-04-17 22:20:34 -0700
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:20:34 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 22:20:34 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:20:34 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 22:20:34 -0700
+
+
+Started GET "/assets/redball-5c9d074ad1d6d085e7f1a19051bf7bce49cacba408a523f43117b0d0e1b59be5.png" for 127.0.0.1 at 2015-04-17 22:20:34 -0700
+
+
+Started GET "/assets/wood2.jpg" for 127.0.0.1 at 2015-04-17 22:20:34 -0700
+
+
+Started GET "/assets/introcondblackfree.otf" for 127.0.0.1 at 2015-04-17 22:20:34 -0700
+
+
+Started GET "/games/new" for 127.0.0.1 at 2015-04-17 22:20:48 -0700
+Processing by GamesController#new as HTML
+  Rendered games/new.html.erb within layouts/application (1.5ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  Rendered layouts/_navigation.html.erb (4.4ms)
+Completed 200 OK in 196ms (Views: 195.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:20:48 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 22:20:48 -0700
+
+
+Started GET "/assets/application.self-ba5743030e339ce15341fcd8c9df20bbb8004b3faa598c3362c9916626445fa4.css?body=1" for 127.0.0.1 at 2015-04-17 22:20:48 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:20:48 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 22:20:48 -0700
+
+
+Started GET "/assets/redball-5c9d074ad1d6d085e7f1a19051bf7bce49cacba408a523f43117b0d0e1b59be5.png" for 127.0.0.1 at 2015-04-17 22:20:48 -0700
+
+
+Started GET "/assets/wood2.jpg" for 127.0.0.1 at 2015-04-17 22:20:48 -0700
+
+
+Started GET "/assets/introcondblackfree.otf" for 127.0.0.1 at 2015-04-17 22:20:48 -0700
+
+
+Started GET "/games/new" for 127.0.0.1 at 2015-04-17 22:20:58 -0700
+Processing by GamesController#new as HTML
+  Rendered games/new.html.erb within layouts/application (1.9ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  Rendered layouts/_navigation.html.erb (3.3ms)
+Completed 200 OK in 186ms (Views: 185.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:20:58 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 22:20:58 -0700
+
+
+Started GET "/assets/application.self-fd51fae17ce9c46cfaf12c7b7435f938d66445568e2a4b3162d9ec016ddd7356.css?body=1" for 127.0.0.1 at 2015-04-17 22:20:58 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:20:58 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 22:20:58 -0700
+
+
+Started GET "/assets/redball-5c9d074ad1d6d085e7f1a19051bf7bce49cacba408a523f43117b0d0e1b59be5.png" for 127.0.0.1 at 2015-04-17 22:20:58 -0700
+
+
+Started GET "/assets/wood2.jpg" for 127.0.0.1 at 2015-04-17 22:20:58 -0700
+
+
+Started GET "/assets/introcondblackfree.otf" for 127.0.0.1 at 2015-04-17 22:20:58 -0700
+
+
+Started GET "/games/new" for 127.0.0.1 at 2015-04-17 22:21:18 -0700
+Processing by GamesController#new as HTML
+  Rendered games/new.html.erb within layouts/application (1.6ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  Rendered layouts/_navigation.html.erb (4.3ms)
+Completed 200 OK in 119ms (Views: 118.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:21:18 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 22:21:18 -0700
+
+
+Started GET "/assets/application.self-c92cd41df2b16e7a81e7c3985954d5ba5d445a7d1cb197f0bac180796e9e5abc.css?body=1" for 127.0.0.1 at 2015-04-17 22:21:18 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:21:18 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 22:21:18 -0700
+
+
+Started GET "/assets/redball-5c9d074ad1d6d085e7f1a19051bf7bce49cacba408a523f43117b0d0e1b59be5.png" for 127.0.0.1 at 2015-04-17 22:21:18 -0700
+
+
+Started GET "/assets/wood2.jpg" for 127.0.0.1 at 2015-04-17 22:21:18 -0700
+
+
+Started GET "/assets/introcondblackfree.otf" for 127.0.0.1 at 2015-04-17 22:21:19 -0700
+
+
+Started GET "/games/new" for 127.0.0.1 at 2015-04-17 22:21:34 -0700
+Processing by GamesController#new as HTML
+  Rendered games/new.html.erb within layouts/application (2.2ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  Rendered layouts/_navigation.html.erb (5.9ms)
+Completed 200 OK in 126ms (Views: 125.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:21:34 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 22:21:34 -0700
+
+
+Started GET "/assets/application.self-c92cd41df2b16e7a81e7c3985954d5ba5d445a7d1cb197f0bac180796e9e5abc.css?body=1" for 127.0.0.1 at 2015-04-17 22:21:34 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:21:34 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 22:21:34 -0700
+
+
+Started GET "/assets/redball-5c9d074ad1d6d085e7f1a19051bf7bce49cacba408a523f43117b0d0e1b59be5.png" for 127.0.0.1 at 2015-04-17 22:21:34 -0700
+
+
+Started GET "/games/new" for 127.0.0.1 at 2015-04-17 22:21:51 -0700
+Processing by GamesController#new as HTML
+  Rendered games/new.html.erb within layouts/application (1.6ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  Rendered layouts/_navigation.html.erb (3.8ms)
+Completed 200 OK in 107ms (Views: 105.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.self-98a390df61b2a0d027297279c1cbda82fab9ffb8752a3053ee76b26f3f55dd91.css?body=1" for 127.0.0.1 at 2015-04-17 22:21:51 -0700
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:21:51 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 22:21:51 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:21:51 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 22:21:51 -0700
+
+
+Started GET "/assets/redball-5c9d074ad1d6d085e7f1a19051bf7bce49cacba408a523f43117b0d0e1b59be5.png" for 127.0.0.1 at 2015-04-17 22:21:51 -0700
+
+
+Started GET "/assets/wood2.jpg" for 127.0.0.1 at 2015-04-17 22:21:51 -0700
+
+
+Started GET "/assets/introcondblackfree.otf" for 127.0.0.1 at 2015-04-17 22:21:51 -0700
+
+
+Started GET "/games/new" for 127.0.0.1 at 2015-04-17 22:22:03 -0700
+Processing by GamesController#new as HTML
+  Rendered games/new.html.erb within layouts/application (1.5ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  Rendered layouts/_navigation.html.erb (4.0ms)
+Completed 200 OK in 125ms (Views: 124.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:22:03 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 22:22:03 -0700
+
+
+Started GET "/assets/application.self-98a390df61b2a0d027297279c1cbda82fab9ffb8752a3053ee76b26f3f55dd91.css?body=1" for 127.0.0.1 at 2015-04-17 22:22:03 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:22:03 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 22:22:03 -0700
+
+
+Started GET "/assets/redball-5c9d074ad1d6d085e7f1a19051bf7bce49cacba408a523f43117b0d0e1b59be5.png" for 127.0.0.1 at 2015-04-17 22:22:03 -0700
+
+
+Started GET "/assets/wood2.jpg" for 127.0.0.1 at 2015-04-17 22:22:03 -0700
+
+
+Started GET "/assets/introcondblackfree.otf" for 127.0.0.1 at 2015-04-17 22:22:03 -0700
+
+
+Started GET "/games/new" for 127.0.0.1 at 2015-04-17 22:22:31 -0700
+Processing by GamesController#new as HTML
+  Rendered games/new.html.erb within layouts/application (2.7ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  Rendered layouts/_navigation.html.erb (5.8ms)
+Completed 200 OK in 119ms (Views: 118.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:22:32 -0700
+
+
+Started GET "/assets/application.self-19c9e1716552f56e6aa0fbe3ff356473b5ffe73db4fbfb5a02cd8405b84837ea.css?body=1" for 127.0.0.1 at 2015-04-17 22:22:32 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 22:22:32 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:22:32 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 22:22:32 -0700
+
+
+Started GET "/assets/redball-5c9d074ad1d6d085e7f1a19051bf7bce49cacba408a523f43117b0d0e1b59be5.png" for 127.0.0.1 at 2015-04-17 22:22:32 -0700
+
+
+Started GET "/assets/wood2.jpg" for 127.0.0.1 at 2015-04-17 22:22:32 -0700
+
+
+Started GET "/assets/introcondblackfree.otf" for 127.0.0.1 at 2015-04-17 22:22:32 -0700
+
+
+Started GET "/games/new" for 127.0.0.1 at 2015-04-17 22:22:40 -0700
+Processing by GamesController#new as HTML
+  Rendered games/new.html.erb within layouts/application (3.9ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  Rendered layouts/_navigation.html.erb (6.1ms)
+Completed 200 OK in 99ms (Views: 97.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.self-e89bd366232af1df4b67f45d02e01d5db684907111c25c6587cf08ed1c4a50bf.css?body=1" for 127.0.0.1 at 2015-04-17 22:22:40 -0700
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:22:40 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 22:22:40 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:22:40 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 22:22:40 -0700
+
+
+Started GET "/assets/redball-5c9d074ad1d6d085e7f1a19051bf7bce49cacba408a523f43117b0d0e1b59be5.png" for 127.0.0.1 at 2015-04-17 22:22:40 -0700
+
+
+Started GET "/assets/wood2.jpg" for 127.0.0.1 at 2015-04-17 22:22:40 -0700
+
+
+Started GET "/assets/introcondblackfree.otf" for 127.0.0.1 at 2015-04-17 22:22:40 -0700
+
+
+Started GET "/games/new" for 127.0.0.1 at 2015-04-17 22:22:45 -0700
+Processing by GamesController#new as HTML
+  Rendered games/new.html.erb within layouts/application (1.3ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  Rendered layouts/_navigation.html.erb (2.9ms)
+Completed 200 OK in 35ms (Views: 34.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:22:45 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 22:22:45 -0700
+
+
+Started GET "/assets/application.self-e89bd366232af1df4b67f45d02e01d5db684907111c25c6587cf08ed1c4a50bf.css?body=1" for 127.0.0.1 at 2015-04-17 22:22:45 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:22:45 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 22:22:45 -0700
+
+
+Started GET "/assets/redball-5c9d074ad1d6d085e7f1a19051bf7bce49cacba408a523f43117b0d0e1b59be5.png" for 127.0.0.1 at 2015-04-17 22:22:45 -0700
+
+
+Started GET "/assets/wood2.jpg" for 127.0.0.1 at 2015-04-17 22:22:45 -0700
+
+
+Started GET "/assets/introcondblackfree.otf" for 127.0.0.1 at 2015-04-17 22:22:45 -0700
+
+
+Started GET "/games/new" for 127.0.0.1 at 2015-04-17 22:22:52 -0700
+Processing by GamesController#new as HTML
+  Rendered games/new.html.erb within layouts/application (3.0ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  Rendered layouts/_navigation.html.erb (3.4ms)
+Completed 200 OK in 104ms (Views: 102.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:22:52 -0700
+
+
+Started GET "/assets/application.self-d4ed20515b186fcd16a6d8fca2c1d715b5fcdc43f92881fa5ab9f4db5d158425.css?body=1" for 127.0.0.1 at 2015-04-17 22:22:52 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 22:22:52 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:22:52 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 22:22:52 -0700
+
+
+Started GET "/assets/redball-5c9d074ad1d6d085e7f1a19051bf7bce49cacba408a523f43117b0d0e1b59be5.png" for 127.0.0.1 at 2015-04-17 22:22:52 -0700
+
+
+Started GET "/assets/wood2.jpg" for 127.0.0.1 at 2015-04-17 22:22:52 -0700
+
+
+Started GET "/assets/introcondblackfree.otf" for 127.0.0.1 at 2015-04-17 22:22:52 -0700
+
+
+Started GET "/games/new" for 127.0.0.1 at 2015-04-17 22:22:54 -0700
+Processing by GamesController#new as HTML
+  Rendered games/new.html.erb within layouts/application (2.3ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  Rendered layouts/_navigation.html.erb (2.9ms)
+Completed 200 OK in 42ms (Views: 41.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:22:54 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 22:22:54 -0700
+
+
+Started GET "/assets/application.self-d4ed20515b186fcd16a6d8fca2c1d715b5fcdc43f92881fa5ab9f4db5d158425.css?body=1" for 127.0.0.1 at 2015-04-17 22:22:54 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:22:54 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 22:22:54 -0700
+
+
+Started GET "/assets/redball-5c9d074ad1d6d085e7f1a19051bf7bce49cacba408a523f43117b0d0e1b59be5.png" for 127.0.0.1 at 2015-04-17 22:22:54 -0700
+
+
+Started GET "/assets/wood2.jpg" for 127.0.0.1 at 2015-04-17 22:22:54 -0700
+
+
+Started GET "/assets/introcondblackfree.otf" for 127.0.0.1 at 2015-04-17 22:22:54 -0700
+
+
+Started GET "/games/new" for 127.0.0.1 at 2015-04-17 22:23:00 -0700
+Processing by GamesController#new as HTML
+  Rendered games/new.html.erb within layouts/application (2.3ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  Rendered layouts/_navigation.html.erb (5.4ms)
+Completed 200 OK in 105ms (Views: 104.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:23:00 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 22:23:00 -0700
+
+
+Started GET "/assets/application.self-c0c644e6919e1678cce3ee0630bcb2e2f30bea878c096a28a51b480e1a416e73.css?body=1" for 127.0.0.1 at 2015-04-17 22:23:00 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:23:00 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 22:23:00 -0700
+
+
+Started GET "/assets/redball-5c9d074ad1d6d085e7f1a19051bf7bce49cacba408a523f43117b0d0e1b59be5.png" for 127.0.0.1 at 2015-04-17 22:23:00 -0700
+
+
+Started GET "/assets/wood2.jpg" for 127.0.0.1 at 2015-04-17 22:23:01 -0700
+
+
+Started GET "/assets/introcondblackfree.otf" for 127.0.0.1 at 2015-04-17 22:23:01 -0700
+
+
+Started GET "/games/new" for 127.0.0.1 at 2015-04-17 22:23:03 -0700
+Processing by GamesController#new as HTML
+  Rendered games/new.html.erb within layouts/application (1.8ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  Rendered layouts/_navigation.html.erb (3.5ms)
+Completed 200 OK in 116ms (Views: 115.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:23:04 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 22:23:04 -0700
+
+
+Started GET "/assets/application.self-c0c644e6919e1678cce3ee0630bcb2e2f30bea878c096a28a51b480e1a416e73.css?body=1" for 127.0.0.1 at 2015-04-17 22:23:04 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:23:04 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 22:23:04 -0700
+
+
+Started GET "/assets/redball-5c9d074ad1d6d085e7f1a19051bf7bce49cacba408a523f43117b0d0e1b59be5.png" for 127.0.0.1 at 2015-04-17 22:23:04 -0700
+
+
+Started GET "/assets/wood2.jpg" for 127.0.0.1 at 2015-04-17 22:23:04 -0700
+
+
+Started GET "/assets/introcondblackfree.otf" for 127.0.0.1 at 2015-04-17 22:23:04 -0700
+
+
+Started GET "/games/new" for 127.0.0.1 at 2015-04-17 22:23:08 -0700
+Processing by GamesController#new as HTML
+  Rendered games/new.html.erb within layouts/application (2.7ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  Rendered layouts/_navigation.html.erb (2.9ms)
+Completed 200 OK in 112ms (Views: 111.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:23:09 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 22:23:09 -0700
+
+
+Started GET "/assets/application.self-c192f13364f9f137e57f1d7607e279c94d018e254b97e03a276a6da308c973ac.css?body=1" for 127.0.0.1 at 2015-04-17 22:23:09 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:23:09 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 22:23:09 -0700
+
+
+Started GET "/assets/redball-5c9d074ad1d6d085e7f1a19051bf7bce49cacba408a523f43117b0d0e1b59be5.png" for 127.0.0.1 at 2015-04-17 22:23:09 -0700
+
+
+Started GET "/assets/wood2.jpg" for 127.0.0.1 at 2015-04-17 22:23:09 -0700
+
+
+Started GET "/assets/introcondblackfree.otf" for 127.0.0.1 at 2015-04-17 22:23:09 -0700
+
+
+Started GET "/games/new" for 127.0.0.1 at 2015-04-17 22:23:11 -0700
+Processing by GamesController#new as HTML
+  Rendered games/new.html.erb within layouts/application (1.8ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  Rendered layouts/_navigation.html.erb (4.0ms)
+Completed 200 OK in 133ms (Views: 132.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:23:11 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 22:23:11 -0700
+
+
+Started GET "/assets/application.self-c192f13364f9f137e57f1d7607e279c94d018e254b97e03a276a6da308c973ac.css?body=1" for 127.0.0.1 at 2015-04-17 22:23:11 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:23:11 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 22:23:11 -0700
+
+
+Started GET "/assets/redball-5c9d074ad1d6d085e7f1a19051bf7bce49cacba408a523f43117b0d0e1b59be5.png" for 127.0.0.1 at 2015-04-17 22:23:11 -0700
+
+
+Started GET "/assets/wood2.jpg" for 127.0.0.1 at 2015-04-17 22:23:11 -0700
+
+
+Started GET "/assets/introcondblackfree.otf" for 127.0.0.1 at 2015-04-17 22:23:11 -0700
+
+
+Started GET "/games/new" for 127.0.0.1 at 2015-04-17 22:23:49 -0700
+Processing by GamesController#new as HTML
+  Rendered games/new.html.erb within layouts/application (3.4ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  Rendered layouts/_navigation.html.erb (4.6ms)
+Completed 200 OK in 110ms (Views: 108.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.self-708e14471a75a7e14fc465d9839234587c24d4ba9faaf2f2f4d2e9346682d628.css?body=1" for 127.0.0.1 at 2015-04-17 22:23:49 -0700
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:23:49 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 22:23:49 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:23:49 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 22:23:49 -0700
+
+
+Started GET "/assets/redball-5c9d074ad1d6d085e7f1a19051bf7bce49cacba408a523f43117b0d0e1b59be5.png" for 127.0.0.1 at 2015-04-17 22:23:49 -0700
+
+
+Started GET "/assets/wood2.jpg" for 127.0.0.1 at 2015-04-17 22:23:50 -0700
+
+
+Started GET "/assets/introcondblackfree.otf" for 127.0.0.1 at 2015-04-17 22:23:50 -0700
+
+
+Started GET "/games/new" for 127.0.0.1 at 2015-04-17 22:23:51 -0700
+Processing by GamesController#new as HTML
+  Rendered games/new.html.erb within layouts/application (2.5ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  Rendered layouts/_navigation.html.erb (3.8ms)
+Completed 200 OK in 126ms (Views: 125.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:23:52 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 22:23:52 -0700
+
+
+Started GET "/assets/application.self-708e14471a75a7e14fc465d9839234587c24d4ba9faaf2f2f4d2e9346682d628.css?body=1" for 127.0.0.1 at 2015-04-17 22:23:52 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:23:52 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 22:23:52 -0700
+
+
+Started GET "/assets/redball-5c9d074ad1d6d085e7f1a19051bf7bce49cacba408a523f43117b0d0e1b59be5.png" for 127.0.0.1 at 2015-04-17 22:23:52 -0700
+
+
+Started GET "/games/new" for 127.0.0.1 at 2015-04-17 22:23:56 -0700
+Processing by GamesController#new as HTML
+  Rendered games/new.html.erb within layouts/application (4.9ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  Rendered layouts/_navigation.html.erb (3.5ms)
+Completed 200 OK in 49ms (Views: 48.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:23:56 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 22:23:56 -0700
+
+
+Started GET "/assets/application.self-708e14471a75a7e14fc465d9839234587c24d4ba9faaf2f2f4d2e9346682d628.css?body=1" for 127.0.0.1 at 2015-04-17 22:23:56 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:23:56 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 22:23:56 -0700
+
+
+Started GET "/assets/redball-5c9d074ad1d6d085e7f1a19051bf7bce49cacba408a523f43117b0d0e1b59be5.png" for 127.0.0.1 at 2015-04-17 22:23:56 -0700
+
+
+Started GET "/games/new" for 127.0.0.1 at 2015-04-17 22:24:07 -0700
+Processing by GamesController#new as HTML
+  Rendered games/new.html.erb within layouts/application (1.4ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  [1m[35mCACHE (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  Rendered layouts/_navigation.html.erb (4.4ms)
+Completed 200 OK in 178ms (Views: 177.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:24:07 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 22:24:07 -0700
+
+
+Started GET "/assets/application.self-df602d96d6defe4ed2167b87c4c7271342cdf4ac7a1b017f51150a5b337883aa.css?body=1" for 127.0.0.1 at 2015-04-17 22:24:07 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:24:07 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 22:24:07 -0700
+
+
+Started GET "/assets/redball-5c9d074ad1d6d085e7f1a19051bf7bce49cacba408a523f43117b0d0e1b59be5.png" for 127.0.0.1 at 2015-04-17 22:24:07 -0700
+
+
+Started GET "/assets/wood2.jpg" for 127.0.0.1 at 2015-04-17 22:24:08 -0700
+
+
+Started GET "/assets/introcondblackfree.otf" for 127.0.0.1 at 2015-04-17 22:24:08 -0700
+
+
+Started GET "/users/7" for 127.0.0.1 at 2015-04-17 22:24:16 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 7]]
+  Rendered games/_search.html.erb (3.8ms)
+  Rendered users/show.html.erb within layouts/application (4.9ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  Rendered layouts/_navigation.html.erb (3.2ms)
+Completed 200 OK in 45ms (Views: 43.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/games/new" for 127.0.0.1 at 2015-04-17 22:27:37 -0700
+Processing by GamesController#new as HTML
+  Rendered games/new.html.erb within layouts/application (1.9ms)
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  Rendered layouts/_navigation.html.erb (4.3ms)
+Completed 200 OK in 60ms (Views: 59.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:27:37 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 22:27:37 -0700
+
+
+Started GET "/assets/application.self-df602d96d6defe4ed2167b87c4c7271342cdf4ac7a1b017f51150a5b337883aa.css?body=1" for 127.0.0.1 at 2015-04-17 22:27:37 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 22:27:37 -0700
+
+
+Started GET "/assets/redball-5c9d074ad1d6d085e7f1a19051bf7bce49cacba408a523f43117b0d0e1b59be5.png" for 127.0.0.1 at 2015-04-17 22:27:37 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:27:37 -0700
+
+
+Started GET "/assets/wood2.jpg" for 127.0.0.1 at 2015-04-17 22:27:38 -0700
+
+
+Started GET "/assets/introcondblackfree.otf" for 127.0.0.1 at 2015-04-17 22:27:38 -0700
+
+
+Started GET "/games/new" for 127.0.0.1 at 2015-04-17 22:27:54 -0700
+Processing by GamesController#new as HTML
+  Rendered games/new.html.erb within layouts/application (3.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  Rendered layouts/_navigation.html.erb (5.2ms)
+Completed 200 OK in 45ms (Views: 44.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:27:54 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 22:27:54 -0700
+
+
+Started GET "/assets/application.self-df602d96d6defe4ed2167b87c4c7271342cdf4ac7a1b017f51150a5b337883aa.css?body=1" for 127.0.0.1 at 2015-04-17 22:27:54 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:27:54 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 22:27:54 -0700
+
+
+Started GET "/assets/redball-5c9d074ad1d6d085e7f1a19051bf7bce49cacba408a523f43117b0d0e1b59be5.png" for 127.0.0.1 at 2015-04-17 22:27:54 -0700
+
+
+Started GET "/games/new" for 127.0.0.1 at 2015-04-17 22:28:05 -0700
+Processing by GamesController#new as HTML
+  Rendered games/new.html.erb within layouts/application (4.3ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  Rendered layouts/_navigation.html.erb (4.4ms)
+Completed 200 OK in 134ms (Views: 133.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:28:05 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 22:28:05 -0700
+
+
+Started GET "/assets/application.self-df602d96d6defe4ed2167b87c4c7271342cdf4ac7a1b017f51150a5b337883aa.css?body=1" for 127.0.0.1 at 2015-04-17 22:28:05 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:28:05 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 22:28:05 -0700
+
+
+Started GET "/assets/redball-5c9d074ad1d6d085e7f1a19051bf7bce49cacba408a523f43117b0d0e1b59be5.png" for 127.0.0.1 at 2015-04-17 22:28:05 -0700
+
+
+Started GET "/games/new" for 127.0.0.1 at 2015-04-17 22:28:14 -0700
+Processing by GamesController#new as HTML
+  Rendered games/new.html.erb within layouts/application (3.6ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  Rendered layouts/_navigation.html.erb (4.9ms)
+Completed 200 OK in 45ms (Views: 43.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:28:14 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 22:28:14 -0700
+
+
+Started GET "/assets/application.self-df602d96d6defe4ed2167b87c4c7271342cdf4ac7a1b017f51150a5b337883aa.css?body=1" for 127.0.0.1 at 2015-04-17 22:28:14 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:28:14 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 22:28:14 -0700
+
+
+Started GET "/assets/redball-5c9d074ad1d6d085e7f1a19051bf7bce49cacba408a523f43117b0d0e1b59be5.png" for 127.0.0.1 at 2015-04-17 22:28:14 -0700
+
+
+Started GET "/games/new" for 127.0.0.1 at 2015-04-17 22:28:29 -0700
+Processing by GamesController#new as HTML
+  Rendered games/new.html.erb within layouts/application (4.4ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  Rendered layouts/_navigation.html.erb (6.9ms)
+Completed 200 OK in 43ms (Views: 41.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:28:29 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 22:28:29 -0700
+
+
+Started GET "/assets/application.self-df602d96d6defe4ed2167b87c4c7271342cdf4ac7a1b017f51150a5b337883aa.css?body=1" for 127.0.0.1 at 2015-04-17 22:28:29 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:28:29 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 22:28:29 -0700
+
+
+Started GET "/assets/redball-5c9d074ad1d6d085e7f1a19051bf7bce49cacba408a523f43117b0d0e1b59be5.png" for 127.0.0.1 at 2015-04-17 22:28:29 -0700
+
+
+Started POST "/games" for 127.0.0.1 at 2015-04-17 22:29:08 -0700
+Processing by GamesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"knKhutjZtaeNVJfCCD9ftvDS/JdhAnjdkaM0W4d/kg0=", "game"=>{"date"=>"2015-04-18", "title"=>"Blazerrrrr", "time"=>"2 pm", "address"=>"baskin robbins", "city"=>"davis", "state"=>"CA"}, "commit"=>"Create"}
+Unpermitted parameters: time
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "games" ("address", "city", "created_at", "date", "state", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["address", "baskin robbins"], ["city", "davis"], ["created_at", "2015-04-18 05:29:09.014277"], ["date", "2015-04-18"], ["state", "CA"], ["title", "Blazerrrrr"], ["updated_at", "2015-04-18 05:29:09.014277"]]
+  [1m[35m (0.8ms)[0m  commit transaction
+Redirected to http://localhost:3000/games/1
+Completed 302 Found in 21ms (ActiveRecord: 1.9ms)
+
+
+Started GET "/games/1" for 127.0.0.1 at 2015-04-17 22:29:09 -0700
+Processing by GamesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mGame Load (0.3ms)[0m  [1mSELECT  "games".* FROM "games"  WHERE "games"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered games/show.html.erb within layouts/application (0.7ms)
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  Rendered layouts/_navigation.html.erb (6.0ms)
+Completed 200 OK in 54ms (Views: 51.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/users/7" for 127.0.0.1 at 2015-04-17 22:29:15 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 7]]
+  Rendered games/_search.html.erb (1.3ms)
+  Rendered users/show.html.erb within layouts/application (2.6ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  Rendered layouts/_navigation.html.erb (3.5ms)
+Completed 200 OK in 45ms (Views: 43.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/games?utf8=%E2%9C%93&date=2015-04-18&state=CA&commit=Find" for 127.0.0.1 at 2015-04-17 22:29:22 -0700
+Processing by GamesController#index as HTML
+  Parameters: {"utf8"=>"✓", "date"=>"2015-04-18", "state"=>"CA", "commit"=>"Find"}
+  [1m[36mGame Load (0.2ms)[0m  [1mSELECT "games".* FROM "games"[0m
+  Rendered games/index.html.erb within layouts/application (0.6ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  Rendered layouts/_navigation.html.erb (6.7ms)
+Completed 200 OK in 169ms (Views: 167.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/games/1" for 127.0.0.1 at 2015-04-17 22:29:24 -0700
+Processing by GamesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mGame Load (0.4ms)[0m  SELECT  "games".* FROM "games"  WHERE "games"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered games/show.html.erb within layouts/application (0.2ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  Rendered layouts/_navigation.html.erb (2.9ms)
+Completed 200 OK in 45ms (Views: 42.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-17 22:29:43 -0700
+Processing by WelcomeController#index as HTML
+  Rendered games/_search.html.erb (3.3ms)
+  Rendered welcome/index.html.erb within layouts/application (4.8ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  Rendered layouts/_navigation.html.erb (3.5ms)
+Completed 200 OK in 44ms (Views: 43.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/krinkes.ttf" for 127.0.0.1 at 2015-04-17 22:29:43 -0700
+
+
+Started GET "/users/7" for 127.0.0.1 at 2015-04-17 22:29:48 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 7]]
+  Rendered games/_search.html.erb (4.5ms)
+  Rendered users/show.html.erb within layouts/application (6.2ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  Rendered layouts/_navigation.html.erb (4.0ms)
+Completed 200 OK in 47ms (Views: 45.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/users/7" for 127.0.0.1 at 2015-04-17 22:30:30 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 7]]
+  Rendered games/_search.html.erb (2.0ms)
+  Rendered users/show.html.erb within layouts/application (4.0ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  Rendered layouts/_navigation.html.erb (3.4ms)
+Completed 200 OK in 44ms (Views: 42.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:30:30 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 22:30:31 -0700
+
+
+Started GET "/assets/application.self-df602d96d6defe4ed2167b87c4c7271342cdf4ac7a1b017f51150a5b337883aa.css?body=1" for 127.0.0.1 at 2015-04-17 22:30:31 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:30:31 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 22:30:31 -0700
+
+
+Started GET "/assets/redball-5c9d074ad1d6d085e7f1a19051bf7bce49cacba408a523f43117b0d0e1b59be5.png" for 127.0.0.1 at 2015-04-17 22:30:31 -0700
+
+
+Started GET "/users/7" for 127.0.0.1 at 2015-04-17 22:30:33 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 7]]
+  Rendered games/_search.html.erb (0.9ms)
+  Rendered users/show.html.erb within layouts/application (1.6ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  Rendered layouts/_navigation.html.erb (4.3ms)
+Completed 200 OK in 48ms (Views: 45.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:30:33 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 22:30:33 -0700
+
+
+Started GET "/assets/application.self-df602d96d6defe4ed2167b87c4c7271342cdf4ac7a1b017f51150a5b337883aa.css?body=1" for 127.0.0.1 at 2015-04-17 22:30:33 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:30:34 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 22:30:34 -0700
+
+
+Started GET "/assets/redball-5c9d074ad1d6d085e7f1a19051bf7bce49cacba408a523f43117b0d0e1b59be5.png" for 127.0.0.1 at 2015-04-17 22:30:34 -0700
+
+
+Started GET "/users/7" for 127.0.0.1 at 2015-04-17 22:30:50 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 7]]
+  Rendered games/_search.html.erb (1.9ms)
+  Rendered users/show.html.erb within layouts/application (3.7ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  Rendered layouts/_navigation.html.erb (4.1ms)
+Completed 200 OK in 140ms (Views: 138.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:30:50 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 22:30:50 -0700
+
+
+Started GET "/assets/application.self-df602d96d6defe4ed2167b87c4c7271342cdf4ac7a1b017f51150a5b337883aa.css?body=1" for 127.0.0.1 at 2015-04-17 22:30:50 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:30:50 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 22:30:50 -0700
+
+
+Started GET "/assets/redball-5c9d074ad1d6d085e7f1a19051bf7bce49cacba408a523f43117b0d0e1b59be5.png" for 127.0.0.1 at 2015-04-17 22:30:50 -0700
+
+
+Started GET "/users/7" for 127.0.0.1 at 2015-04-17 22:31:11 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 7]]
+  Rendered games/_search.html.erb (1.1ms)
+  Rendered users/show.html.erb within layouts/application (2.3ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  Rendered layouts/_navigation.html.erb (3.7ms)
+Completed 200 OK in 51ms (Views: 49.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:31:12 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 22:31:12 -0700
+
+
+Started GET "/assets/application.self-df602d96d6defe4ed2167b87c4c7271342cdf4ac7a1b017f51150a5b337883aa.css?body=1" for 127.0.0.1 at 2015-04-17 22:31:12 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:31:12 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 22:31:12 -0700
+
+
+Started GET "/assets/redball-5c9d074ad1d6d085e7f1a19051bf7bce49cacba408a523f43117b0d0e1b59be5.png" for 127.0.0.1 at 2015-04-17 22:31:12 -0700
+
+
+Started GET "/users/7" for 127.0.0.1 at 2015-04-17 22:31:38 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 7]]
+  Rendered games/_search.html.erb (1.9ms)
+  Rendered users/show.html.erb within layouts/application (4.2ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  Rendered layouts/_navigation.html.erb (6.0ms)
+Completed 200 OK in 48ms (Views: 46.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:31:38 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 22:31:38 -0700
+
+
+Started GET "/assets/application.self-df602d96d6defe4ed2167b87c4c7271342cdf4ac7a1b017f51150a5b337883aa.css?body=1" for 127.0.0.1 at 2015-04-17 22:31:38 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:31:38 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 22:31:38 -0700
+
+
+Started GET "/assets/redball-5c9d074ad1d6d085e7f1a19051bf7bce49cacba408a523f43117b0d0e1b59be5.png" for 127.0.0.1 at 2015-04-17 22:31:38 -0700
+
+
+Started GET "/users/7" for 127.0.0.1 at 2015-04-17 22:32:10 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 7]]
+  Rendered games/_search.html.erb (1.0ms)
+  Rendered users/show.html.erb within layouts/application (2.4ms)
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  Rendered layouts/_navigation.html.erb (5.5ms)
+Completed 200 OK in 46ms (Views: 43.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 22:32:10 -0700
+
+
+Started GET "/assets/application.self-df602d96d6defe4ed2167b87c4c7271342cdf4ac7a1b017f51150a5b337883aa.css?body=1" for 127.0.0.1 at 2015-04-17 22:32:10 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:32:10 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 22:32:10 -0700
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:32:10 -0700
+
+
+Started GET "/assets/redball-5c9d074ad1d6d085e7f1a19051bf7bce49cacba408a523f43117b0d0e1b59be5.png" for 127.0.0.1 at 2015-04-17 22:32:10 -0700
+
+
+Started GET "/users/7" for 127.0.0.1 at 2015-04-17 22:32:19 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 7]]
+  Rendered games/_search.html.erb (1.2ms)
+  Rendered users/show.html.erb within layouts/application (2.8ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  Rendered layouts/_navigation.html.erb (3.5ms)
+Completed 200 OK in 38ms (Views: 36.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:32:20 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 22:32:20 -0700
+
+
+Started GET "/assets/application.self-df602d96d6defe4ed2167b87c4c7271342cdf4ac7a1b017f51150a5b337883aa.css?body=1" for 127.0.0.1 at 2015-04-17 22:32:20 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:32:20 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 22:32:20 -0700
+
+
+Started GET "/assets/redball-5c9d074ad1d6d085e7f1a19051bf7bce49cacba408a523f43117b0d0e1b59be5.png" for 127.0.0.1 at 2015-04-17 22:32:20 -0700
+
+
+Started GET "/users/7" for 127.0.0.1 at 2015-04-17 22:32:26 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 7]]
+  Rendered games/_search.html.erb (1.6ms)
+  Rendered users/show.html.erb within layouts/application (3.7ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  Rendered layouts/_navigation.html.erb (5.5ms)
+Completed 200 OK in 51ms (Views: 48.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:32:26 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 22:32:26 -0700
+
+
+Started GET "/assets/application.self-df602d96d6defe4ed2167b87c4c7271342cdf4ac7a1b017f51150a5b337883aa.css?body=1" for 127.0.0.1 at 2015-04-17 22:32:26 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:32:26 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 22:32:26 -0700
+
+
+Started GET "/assets/redball-5c9d074ad1d6d085e7f1a19051bf7bce49cacba408a523f43117b0d0e1b59be5.png" for 127.0.0.1 at 2015-04-17 22:32:26 -0700
+
+
+Started GET "/users/7" for 127.0.0.1 at 2015-04-17 22:32:42 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 7]]
+  Rendered games/_search.html.erb (1.4ms)
+  Rendered users/show.html.erb within layouts/application (4.4ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  Rendered layouts/_navigation.html.erb (3.4ms)
+Completed 200 OK in 45ms (Views: 43.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:32:42 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 22:32:42 -0700
+
+
+Started GET "/assets/application.self-df602d96d6defe4ed2167b87c4c7271342cdf4ac7a1b017f51150a5b337883aa.css?body=1" for 127.0.0.1 at 2015-04-17 22:32:42 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:32:42 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 22:32:43 -0700
+
+
+Started GET "/assets/redball-5c9d074ad1d6d085e7f1a19051bf7bce49cacba408a523f43117b0d0e1b59be5.png" for 127.0.0.1 at 2015-04-17 22:32:43 -0700
+
+
+Started GET "/users/7" for 127.0.0.1 at 2015-04-17 22:32:57 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 7]]
+  Rendered games/_search.html.erb (1.8ms)
+  Rendered users/show.html.erb within layouts/application (5.0ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  Rendered layouts/_navigation.html.erb (4.7ms)
+Completed 200 OK in 47ms (Views: 44.9ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:32:58 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 22:32:58 -0700
+
+
+Started GET "/assets/application.self-df602d96d6defe4ed2167b87c4c7271342cdf4ac7a1b017f51150a5b337883aa.css?body=1" for 127.0.0.1 at 2015-04-17 22:32:58 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:32:58 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 22:32:58 -0700
+
+
+Started GET "/assets/redball-5c9d074ad1d6d085e7f1a19051bf7bce49cacba408a523f43117b0d0e1b59be5.png" for 127.0.0.1 at 2015-04-17 22:32:58 -0700
+
+
+Started GET "/users/7" for 127.0.0.1 at 2015-04-17 22:34:03 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 7]]
+  Rendered games/_search.html.erb (1.9ms)
+  Rendered users/show.html.erb within layouts/application (5.3ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  Rendered layouts/_navigation.html.erb (4.2ms)
+Completed 200 OK in 61ms (Views: 59.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:34:03 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 22:34:03 -0700
+
+
+Started GET "/assets/application.self-df602d96d6defe4ed2167b87c4c7271342cdf4ac7a1b017f51150a5b337883aa.css?body=1" for 127.0.0.1 at 2015-04-17 22:34:03 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:34:03 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 22:34:03 -0700
+
+
+Started GET "/assets/redball-5c9d074ad1d6d085e7f1a19051bf7bce49cacba408a523f43117b0d0e1b59be5.png" for 127.0.0.1 at 2015-04-17 22:34:03 -0700
+
+
+Started GET "/users/7" for 127.0.0.1 at 2015-04-17 22:34:23 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 7]]
+  Rendered games/_search.html.erb (1.5ms)
+  Rendered users/show.html.erb within layouts/application (4.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  Rendered layouts/_navigation.html.erb (3.8ms)
+Completed 200 OK in 140ms (Views: 137.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:34:24 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 22:34:24 -0700
+
+
+Started GET "/assets/application.self-df602d96d6defe4ed2167b87c4c7271342cdf4ac7a1b017f51150a5b337883aa.css?body=1" for 127.0.0.1 at 2015-04-17 22:34:24 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:34:24 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 22:34:24 -0700
+
+
+Started GET "/assets/redball-5c9d074ad1d6d085e7f1a19051bf7bce49cacba408a523f43117b0d0e1b59be5.png" for 127.0.0.1 at 2015-04-17 22:34:24 -0700
+
+
+Started GET "/users/7" for 127.0.0.1 at 2015-04-17 22:35:07 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 7]]
+  Rendered games/_search.html.erb (4.0ms)
+  Rendered users/show.html.erb within layouts/application (5.3ms)
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  Rendered layouts/_navigation.html.erb (4.2ms)
+Completed 200 OK in 114ms (Views: 112.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.self-1f330d5f18243bdb627818f25de7507cdd81b4b3fe016a29b865043cd43a9a2a.css?body=1" for 127.0.0.1 at 2015-04-17 22:35:07 -0700
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:35:07 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 22:35:07 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:35:07 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 22:35:07 -0700
+
+
+Started GET "/assets/redball-5c9d074ad1d6d085e7f1a19051bf7bce49cacba408a523f43117b0d0e1b59be5.png" for 127.0.0.1 at 2015-04-17 22:35:07 -0700
+
+
+Started GET "/assets/wood2.jpg" for 127.0.0.1 at 2015-04-17 22:35:08 -0700
+
+
+Started GET "/assets/introcondblackfree.otf" for 127.0.0.1 at 2015-04-17 22:35:08 -0700
+
+
+Started GET "/users/7" for 127.0.0.1 at 2015-04-17 22:36:00 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 7]]
+  Rendered games/_search.html.erb (1.7ms)
+  Rendered users/show.html.erb within layouts/application (3.7ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  Rendered layouts/_navigation.html.erb (5.2ms)
+Completed 200 OK in 53ms (Views: 50.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:36:01 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 22:36:01 -0700
+
+
+Started GET "/assets/application.self-1f330d5f18243bdb627818f25de7507cdd81b4b3fe016a29b865043cd43a9a2a.css?body=1" for 127.0.0.1 at 2015-04-17 22:36:01 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:36:01 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 22:36:01 -0700
+
+
+Started GET "/assets/redball-5c9d074ad1d6d085e7f1a19051bf7bce49cacba408a523f43117b0d0e1b59be5.png" for 127.0.0.1 at 2015-04-17 22:36:01 -0700
+
+
+Started GET "/users/7" for 127.0.0.1 at 2015-04-17 22:36:19 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 7]]
+  Rendered games/_search.html.erb (1.5ms)
+  Rendered users/show.html.erb within layouts/application (2.4ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  Rendered layouts/_navigation.html.erb (4.7ms)
+Completed 200 OK in 103ms (Views: 100.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.self-df5463846af14923c7c96c95f9512ca7e97cb599e11b62fc65d9ddc1b4f4ebcf.css?body=1" for 127.0.0.1 at 2015-04-17 22:36:19 -0700
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:36:19 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 22:36:19 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:36:19 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 22:36:19 -0700
+
+
+Started GET "/assets/redball-5c9d074ad1d6d085e7f1a19051bf7bce49cacba408a523f43117b0d0e1b59be5.png" for 127.0.0.1 at 2015-04-17 22:36:19 -0700
+
+
+Started GET "/assets/wood2.jpg" for 127.0.0.1 at 2015-04-17 22:36:19 -0700
+
+
+Started GET "/assets/introcondblackfree.otf" for 127.0.0.1 at 2015-04-17 22:36:19 -0700
+
+
+Started GET "/users/7" for 127.0.0.1 at 2015-04-17 22:36:23 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 7]]
+  Rendered games/_search.html.erb (3.0ms)
+  Rendered users/show.html.erb within layouts/application (4.4ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  Rendered layouts/_navigation.html.erb (4.0ms)
+Completed 200 OK in 45ms (Views: 43.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:36:24 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 22:36:24 -0700
+
+
+Started GET "/assets/application.self-df5463846af14923c7c96c95f9512ca7e97cb599e11b62fc65d9ddc1b4f4ebcf.css?body=1" for 127.0.0.1 at 2015-04-17 22:36:24 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:36:24 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 22:36:24 -0700
+
+
+Started GET "/assets/redball-5c9d074ad1d6d085e7f1a19051bf7bce49cacba408a523f43117b0d0e1b59be5.png" for 127.0.0.1 at 2015-04-17 22:36:24 -0700
+
+
+Started GET "/assets/wood2.jpg" for 127.0.0.1 at 2015-04-17 22:36:24 -0700
+
+
+Started GET "/assets/introcondblackfree.otf" for 127.0.0.1 at 2015-04-17 22:36:24 -0700
+
+
+Started GET "/users/7" for 127.0.0.1 at 2015-04-17 22:36:45 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 7]]
+  Rendered games/_search.html.erb (0.9ms)
+  Rendered users/show.html.erb within layouts/application (1.6ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  Rendered layouts/_navigation.html.erb (3.6ms)
+Completed 200 OK in 112ms (Views: 111.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.self-eab1f05dea8e9622264db7552d8b71717716bfd7c383c451a96cc25e18882bef.css?body=1" for 127.0.0.1 at 2015-04-17 22:36:45 -0700
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:36:45 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 22:36:45 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:36:45 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 22:36:45 -0700
+
+
+Started GET "/assets/redball-5c9d074ad1d6d085e7f1a19051bf7bce49cacba408a523f43117b0d0e1b59be5.png" for 127.0.0.1 at 2015-04-17 22:36:45 -0700
+
+
+Started GET "/assets/wood2.jpg" for 127.0.0.1 at 2015-04-17 22:36:45 -0700
+
+
+Started GET "/assets/introcondblackfree.otf" for 127.0.0.1 at 2015-04-17 22:36:45 -0700
+
+
+Started GET "/users/7" for 127.0.0.1 at 2015-04-17 22:37:00 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 7]]
+  Rendered games/_search.html.erb (2.2ms)
+  Rendered users/show.html.erb within layouts/application (3.3ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  Rendered layouts/_navigation.html.erb (3.1ms)
+Completed 200 OK in 45ms (Views: 41.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:37:00 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 22:37:00 -0700
+
+
+Started GET "/assets/application.self-eab1f05dea8e9622264db7552d8b71717716bfd7c383c451a96cc25e18882bef.css?body=1" for 127.0.0.1 at 2015-04-17 22:37:00 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:37:00 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 22:37:00 -0700
+
+
+Started GET "/assets/redball-5c9d074ad1d6d085e7f1a19051bf7bce49cacba408a523f43117b0d0e1b59be5.png" for 127.0.0.1 at 2015-04-17 22:37:00 -0700
+
+
+Started GET "/assets/wood2.jpg" for 127.0.0.1 at 2015-04-17 22:37:00 -0700
+
+
+Started GET "/assets/introcondblackfree.otf" for 127.0.0.1 at 2015-04-17 22:37:00 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-17 22:37:31 -0700
+Processing by WelcomeController#index as HTML
+  Rendered games/_search.html.erb (1.2ms)
+  Rendered welcome/index.html.erb within layouts/application (2.2ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  Rendered layouts/_navigation.html.erb (3.6ms)
+Completed 200 OK in 53ms (Views: 52.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/krinkes.ttf" for 127.0.0.1 at 2015-04-17 22:37:31 -0700
+
+
+Started GET "/users/7" for 127.0.0.1 at 2015-04-17 22:37:37 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 7]]
+  Rendered games/_search.html.erb (3.5ms)
+  Rendered users/show.html.erb within layouts/application (4.5ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  Rendered layouts/_navigation.html.erb (3.4ms)
+Completed 200 OK in 43ms (Views: 41.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-17 22:37:38 -0700
+Processing by WelcomeController#index as HTML
+  Rendered games/_search.html.erb (2.7ms)
+  Rendered welcome/index.html.erb within layouts/application (4.2ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  Rendered layouts/_navigation.html.erb (2.6ms)
+Completed 200 OK in 46ms (Views: 45.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/7" for 127.0.0.1 at 2015-04-17 22:39:09 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 7]]
+  Rendered games/_search.html.erb (2.9ms)
+  Rendered users/show.html.erb within layouts/application (5.2ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  Rendered layouts/_navigation.html.erb (3.4ms)
+Completed 200 OK in 56ms (Views: 53.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/users/7" for 127.0.0.1 at 2015-04-17 22:39:11 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 7]]
+  Rendered games/_search.html.erb (5.5ms)
+  Rendered users/show.html.erb within layouts/application (7.6ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  Rendered layouts/_navigation.html.erb (4.2ms)
+Completed 200 OK in 146ms (Views: 144.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/games/new" for 127.0.0.1 at 2015-04-17 22:39:45 -0700
+Processing by GamesController#new as HTML
+  Rendered games/new.html.erb within layouts/application (2.9ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  Rendered layouts/_navigation.html.erb (3.4ms)
+Completed 200 OK in 51ms (Views: 50.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/7" for 127.0.0.1 at 2015-04-17 22:39:52 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 7]]
+  Rendered games/_search.html.erb (1.2ms)
+  Rendered users/show.html.erb within layouts/application (2.9ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  Rendered layouts/_navigation.html.erb (2.6ms)
+Completed 200 OK in 45ms (Views: 43.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-17 22:40:49 -0700
+Processing by WelcomeController#index as HTML
+  Rendered games/_search.html.erb (1.4ms)
+  Rendered welcome/index.html.erb within layouts/application (2.5ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  Rendered layouts/_navigation.html.erb (3.7ms)
+Completed 200 OK in 37ms (Views: 36.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:40:49 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 22:40:49 -0700
+
+
+Started GET "/assets/application.self-eab1f05dea8e9622264db7552d8b71717716bfd7c383c451a96cc25e18882bef.css?body=1" for 127.0.0.1 at 2015-04-17 22:40:49 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 22:40:49 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 22:40:49 -0700
+
+
+Started GET "/assets/redball-5c9d074ad1d6d085e7f1a19051bf7bce49cacba408a523f43117b0d0e1b59be5.png" for 127.0.0.1 at 2015-04-17 22:40:49 -0700
+
+
+Started GET "/games?utf8=%E2%9C%93&date=2015-04-18&state=CA&commit=Find" for 127.0.0.1 at 2015-04-17 22:40:58 -0700
+Processing by GamesController#index as HTML
+  Parameters: {"utf8"=>"✓", "date"=>"2015-04-18", "state"=>"CA", "commit"=>"Find"}
+  [1m[35mGame Load (0.3ms)[0m  SELECT "games".* FROM "games"
+  Rendered games/index.html.erb within layouts/application (0.6ms)
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  Rendered layouts/_navigation.html.erb (5.0ms)
+Completed 200 OK in 49ms (Views: 46.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/games/1" for 127.0.0.1 at 2015-04-17 22:41:00 -0700
+Processing by GamesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mGame Load (0.1ms)[0m  [1mSELECT  "games".* FROM "games"  WHERE "games"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered games/show.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  Rendered layouts/_navigation.html.erb (2.8ms)
+Completed 200 OK in 39ms (Views: 37.5ms | ActiveRecord: 0.3ms)
