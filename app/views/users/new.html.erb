@@ -2,16 +2,16 @@
 
 </h3>
 
-<h1>Create a user:</h1>
-<div class="form-info">
+<div class="small-6 small-offset-3 medium-4 medium-offset-3 large-4 large-offset-4 columns" id="newuserform">
+Create an account
   <%= form_for User.new do |f| %>
-    <%= f.text_field :email, placeholder: "Email" %><br>
-    <%= f.text_field :username, placeholder: "Username" %><br>
-    <%= f.password_field :password, placeholder: "Password" %><br>
-    <%= f.text_field :city, placeholder: "City" %><br>
-    <%= f.text_field :state, placeholder: "State" %><br>
-    <%= f.text_field :age, placeholder: "Age" %><br>
-    <%= f.text_field :bio, placeholder: "Bio" %><br>
-    <%= submit_tag 'signup' %>
+    <%= f.text_field :email, placeholder: "Email" %>
+    <%= f.text_field :username, placeholder: "Username" %>
+    <%= f.password_field :password, placeholder: "Password" %>
+    <%= f.text_field :city, placeholder: "City" %>
+    <%= f.text_field :state, placeholder: "State" %>
+    <%= f.text_field :age, placeholder: "Age" %>
+    <%= f.text_field :bio, placeholder: "Team" %>
+    <%= submit_tag 'signup', class: "button tiny" %>
   <% end %>
 </div>
