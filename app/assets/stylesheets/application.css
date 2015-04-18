@@ -138,6 +138,22 @@ h1 {
   font-size: 200% !important;
 }
 
+h2{
+  font-family: "Intro Cond Black Free" !important;
+  text-align: center !important;
+  color: #C0392B !important;
+  font-size: 150% !important;
+  letter-spacing: -.1em;
+}
+
+h3{
+  font-family: "Intro Cond Black Free" !important;
+  text-align: center !important;
+  color: #7f8c8d !important;
+  font-size: 130% !important;
+  letter-spacing: -.1em;
+}
+
 #newgameform{
   line-height: 76%;
   font-family: "Intro Cond Black Free";
@@ -150,4 +166,9 @@ h1 {
 
 #searchgame a:hover{
   color: white !important;
+}
+
+#singlegame{
+  font-family: "Intro Cond Black Free";
+  color: #ffffff;
 }

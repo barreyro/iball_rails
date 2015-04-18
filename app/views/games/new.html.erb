@@ -1,0 +1,12 @@
+<br><h1>Create a new game</h1>
+<div class="small-6 small-offset-3 medium-4 medium-offset-4 large-4 large-offset-4 columns" id="newgameform">
+<%= form_tag(games_path, method: "post") do %>
+    <br>Date    <%= date_field_tag 'game[date]', nil, placeholder: 'date' %>
+    <%= text_field_tag 'game[title]', nil, placeholder:'title' %>
+    <%= text_field_tag 'game[zip]', nil, placeholder:'time' %>
+    <%= text_field_tag 'game[address]', nil, placeholder:'address' %>
+    <%= text_field_tag 'game[city]', nil, placeholder:'city' %>
+    <%= select_tag 'game[state]', options_for_select(us_states) %>
+    <%= submit_tag 'Create', class: "button tiny" %>
+<% end %>
+</div>
