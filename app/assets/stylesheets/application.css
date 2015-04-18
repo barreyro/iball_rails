@@ -185,3 +185,8 @@ h3{
 #gameindex a:hover{
   color: #7f8c8d !important;
 }
+
+#edituserform{
+  font-family: "Intro Cond Black Free";
+  color: #ffffff;
+}

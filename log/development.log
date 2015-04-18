@@ -33231,3 +33231,444 @@ AbstractController::ActionNotFound (The action 'edit' could not be found for Use
 
 
   Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-17 23:19:23 -0700
+Processing by WelcomeController#index as HTML
+  Rendered games/_search.html.erb (2.6ms)
+  Rendered welcome/index.html.erb within layouts/application (4.2ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  Rendered layouts/_navigation.html.erb (6.0ms)
+Completed 200 OK in 57ms (Views: 56.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/7" for 127.0.0.1 at 2015-04-17 23:19:33 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 7]]
+  Rendered games/_search.html.erb (1.4ms)
+  Rendered users/show.html.erb within layouts/application (3.6ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  Rendered layouts/_navigation.html.erb (3.4ms)
+Completed 200 OK in 44ms (Views: 43.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-17 23:19:37 -0700
+Processing by WelcomeController#index as HTML
+  Rendered games/_search.html.erb (1.0ms)
+  Rendered welcome/index.html.erb within layouts/application (1.9ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  Rendered layouts/_navigation.html.erb (3.6ms)
+Completed 200 OK in 140ms (Views: 139.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/7" for 127.0.0.1 at 2015-04-17 23:19:56 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 7]]
+  Rendered games/_search.html.erb (2.1ms)
+  Rendered users/show.html.erb within layouts/application (8.0ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  Rendered layouts/_navigation.html.erb (3.1ms)
+Completed 200 OK in 67ms (Views: 65.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/games/new" for 127.0.0.1 at 2015-04-17 23:19:58 -0700
+Processing by GamesController#new as HTML
+  Rendered games/new.html.erb within layouts/application (1.9ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  Rendered layouts/_navigation.html.erb (4.5ms)
+Completed 200 OK in 43ms (Views: 42.5ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/games" for 127.0.0.1 at 2015-04-17 23:20:25 -0700
+Processing by GamesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"knKhutjZtaeNVJfCCD9ftvDS/JdhAnjdkaM0W4d/kg0=", "game"=>{"date"=>"2015-04-30", "title"=>"FUN", "zip"=>"2 PM", "address"=>"WALMART", "city"=>"Hayward", "state"=>"CA"}, "commit"=>"Create"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "games" ("address", "city", "created_at", "date", "state", "title", "updated_at", "zip") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["address", "WALMART"], ["city", "Hayward"], ["created_at", "2015-04-18 06:20:25.400632"], ["date", "2015-04-30"], ["state", "CA"], ["title", "FUN"], ["updated_at", "2015-04-18 06:20:25.400632"], ["zip", "2 PM"]]
+  [1m[35m (1.1ms)[0m  commit transaction
+Redirected to http://localhost:3000/games/2
+Completed 302 Found in 9ms (ActiveRecord: 1.7ms)
+
+
+Started GET "/games/2" for 127.0.0.1 at 2015-04-17 23:20:25 -0700
+Processing by GamesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mGame Load (0.5ms)[0m  [1mSELECT  "games".* FROM "games"  WHERE "games"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered games/show.html.erb within layouts/application (0.3ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  Rendered layouts/_navigation.html.erb (5.4ms)
+Completed 200 OK in 61ms (Views: 57.8ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-17 23:20:31 -0700
+Processing by WelcomeController#index as HTML
+  Rendered games/_search.html.erb (2.5ms)
+  Rendered welcome/index.html.erb within layouts/application (5.0ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  Rendered layouts/_navigation.html.erb (3.5ms)
+Completed 200 OK in 50ms (Views: 49.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/games?utf8=%E2%9C%93&date=2015-04-30&state=CA&commit=Find" for 127.0.0.1 at 2015-04-17 23:20:37 -0700
+Processing by GamesController#index as HTML
+  Parameters: {"utf8"=>"✓", "date"=>"2015-04-30", "state"=>"CA", "commit"=>"Find"}
+  [1m[35mGame Load (0.2ms)[0m  SELECT "games".* FROM "games"
+  Rendered games/index.html.erb within layouts/application (1.0ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  Rendered layouts/_navigation.html.erb (5.4ms)
+Completed 200 OK in 49ms (Views: 47.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/games/2" for 127.0.0.1 at 2015-04-17 23:20:39 -0700
+Processing by GamesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mGame Load (0.1ms)[0m  [1mSELECT  "games".* FROM "games"  WHERE "games"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered games/show.html.erb within layouts/application (0.2ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  Rendered layouts/_navigation.html.erb (2.8ms)
+Completed 200 OK in 40ms (Views: 38.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-17 23:20:53 -0700
+Processing by WelcomeController#index as HTML
+  Rendered games/_search.html.erb (1.5ms)
+  Rendered welcome/index.html.erb within layouts/application (2.7ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  Rendered layouts/_navigation.html.erb (4.3ms)
+Completed 200 OK in 154ms (Views: 153.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/7" for 127.0.0.1 at 2015-04-17 23:32:05 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 7]]
+  Rendered games/_search.html.erb (2.3ms)
+  Rendered users/show.html.erb within layouts/application (3.9ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  Rendered layouts/_navigation.html.erb (5.1ms)
+Completed 200 OK in 68ms (Views: 49.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/users/7/edit" for 127.0.0.1 at 2015-04-17 23:32:07 -0700
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"7"}
+  Rendered users/edit.html.erb within layouts/application (1.3ms)
+Completed 500 Internal Server Error in 4ms
+
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    1: <%= form_for @user do |f| %>
+    2:   <%= f.text_field :email, placeholder: "Email" %>
+    3:   <%= f.text_field :username, placeholder: @user.username %>
+    4:   <%= f.password_field :password, placeholder: "Password" %>
+  app/views/users/edit.html.erb:1:in `_app_views_users_edit_html_erb___2150620214257796653_70122985677480'
+
+
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.1ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (15.6ms)
+
+
+Started GET "/users/7" for 127.0.0.1 at 2015-04-17 23:32:13 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 7]]
+  Rendered games/_search.html.erb (1.2ms)
+  Rendered users/show.html.erb within layouts/application (2.8ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  Rendered layouts/_navigation.html.erb (3.0ms)
+Completed 200 OK in 42ms (Views: 38.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/users/7/edit" for 127.0.0.1 at 2015-04-17 23:32:14 -0700
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"7"}
+  Rendered users/edit.html.erb within layouts/application (1.2ms)
+Completed 500 Internal Server Error in 4ms
+
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    1: <%= form_for @user do |f| %>
+    2:   <%= f.text_field :email, placeholder: "Email" %>
+    3:   <%= f.text_field :username, placeholder: @user.username %>
+    4:   <%= f.password_field :password, placeholder: "Password" %>
+  app/views/users/edit.html.erb:1:in `_app_views_users_edit_html_erb___2150620214257796653_70122985677480'
+
+
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (15.9ms)
+
+
+Started GET "/users/7/edit" for 127.0.0.1 at 2015-04-17 23:32:40 -0700
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"7"}
+  Rendered users/edit.html.erb within layouts/application (0.9ms)
+Completed 500 Internal Server Error in 4ms
+
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    1: <%= form_for @user do |f| %>
+    2:   <%= f.text_field :email, placeholder: "Email" %>
+    3:   <%= f.text_field :username, placeholder: @user.username %>
+    4:   <%= f.password_field :password, placeholder: "Password" %>
+  app/views/users/edit.html.erb:1:in `_app_views_users_edit_html_erb___2150620214257796653_70122985677480'
+
+
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.7ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (14.4ms)
+
+
+Started GET "/users/7/edit" for 127.0.0.1 at 2015-04-17 23:32:43 -0700
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"7"}
+  Rendered users/edit.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 3ms
+
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    1: <%= form_for @user do |f| %>
+    2:   <%= f.text_field :email, placeholder: "Email" %>
+    3:   <%= f.text_field :username, placeholder: @user.username %>
+    4:   <%= f.password_field :password, placeholder: "Password" %>
+  app/views/users/edit.html.erb:1:in `_app_views_users_edit_html_erb___2150620214257796653_70122985677480'
+
+
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (14.1ms)
+
+
+Started GET "/users/7/edit" for 127.0.0.1 at 2015-04-17 23:32:43 -0700
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"7"}
+  Rendered users/edit.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 4ms
+
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    1: <%= form_for @user do |f| %>
+    2:   <%= f.text_field :email, placeholder: "Email" %>
+    3:   <%= f.text_field :username, placeholder: @user.username %>
+    4:   <%= f.password_field :password, placeholder: "Password" %>
+  app/views/users/edit.html.erb:1:in `_app_views_users_edit_html_erb___2150620214257796653_70122985677480'
+
+
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (12.3ms)
+
+
+Started GET "/users/7/edit" for 127.0.0.1 at 2015-04-17 23:32:45 -0700
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"7"}
+  Rendered users/edit.html.erb within layouts/application (0.9ms)
+Completed 500 Internal Server Error in 4ms
+
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    1: <%= form_for @user do |f| %>
+    2:   <%= f.text_field :email, placeholder: "Email" %>
+    3:   <%= f.text_field :username, placeholder: @user.username %>
+    4:   <%= f.password_field :password, placeholder: "Password" %>
+  app/views/users/edit.html.erb:1:in `_app_views_users_edit_html_erb___2150620214257796653_70122985677480'
+
+
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (14.3ms)
+
+
+Started GET "/users/7/edit" for 127.0.0.1 at 2015-04-17 23:32:46 -0700
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"7"}
+  Rendered users/edit.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 3ms
+
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    1: <%= form_for @user do |f| %>
+    2:   <%= f.text_field :email, placeholder: "Email" %>
+    3:   <%= f.text_field :username, placeholder: @user.username %>
+    4:   <%= f.password_field :password, placeholder: "Password" %>
+  app/views/users/edit.html.erb:1:in `_app_views_users_edit_html_erb___2150620214257796653_70122985677480'
+
+
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (13.6ms)
+
+
+Started GET "/users/7/edit" for 127.0.0.1 at 2015-04-17 23:33:02 -0700
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"7"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+Completed 500 Internal Server Error in 14ms
+
+TypeError (can't cast Hash to integer):
+  app/controllers/users_controller.rb:11:in `edit'
+
+
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (24.0ms)
+
+
+Started GET "/users/7/edit" for 127.0.0.1 at 2015-04-17 23:35:14 -0700
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"7"}
+  Rendered users/edit.html.erb within layouts/application (1.1ms)
+Completed 500 Internal Server Error in 5ms
+
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    1: <%= form_for @user do |f| %>
+    2:   <%= f.text_field :email, placeholder: "Email" %>
+    3:   <%= f.text_field :username, placeholder: @user.username %>
+    4:   <%= f.password_field :password, placeholder: "Password" %>
+  app/views/users/edit.html.erb:1:in `_app_views_users_edit_html_erb___2150620214257796653_70122985677480'
+
+
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (85.5ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p594/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (96.5ms)
+
+
+Started GET "/users/7/edit" for 127.0.0.1 at 2015-04-17 23:36:18 -0700
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 7]]
+  Rendered users/edit.html.erb within layouts/application (2.5ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  Rendered layouts/_navigation.html.erb (4.7ms)
+Completed 200 OK in 65ms (Views: 49.6ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/users/7/edit" for 127.0.0.1 at 2015-04-17 23:37:06 -0700
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"7"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 7]]
+  Rendered users/edit.html.erb within layouts/application (3.8ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  Rendered layouts/_navigation.html.erb (3.7ms)
+Completed 200 OK in 53ms (Views: 51.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 23:37:06 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 23:37:06 -0700
+
+
+Started GET "/assets/application.self-0a7bcfe451b2fe272c354fa319c55751b09978c35aa573fab0d7e0f22c8b7d62.css?body=1" for 127.0.0.1 at 2015-04-17 23:37:06 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 23:37:06 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 23:37:06 -0700
+
+
+Started GET "/assets/redball-5c9d074ad1d6d085e7f1a19051bf7bce49cacba408a523f43117b0d0e1b59be5.png" for 127.0.0.1 at 2015-04-17 23:37:07 -0700
+
+
+Started GET "/users/7/edit" for 127.0.0.1 at 2015-04-17 23:37:39 -0700
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 7]]
+  Rendered users/edit.html.erb within layouts/application (4.9ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  Rendered layouts/_navigation.html.erb (5.1ms)
+Completed 200 OK in 203ms (Views: 201.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.self-fef25579cab5ac75131ddd0716a0f6f80f5febf22085faaed114a820f0d2f90e.css?body=1" for 127.0.0.1 at 2015-04-17 23:37:39 -0700
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 23:37:39 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 23:37:39 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 23:37:39 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 23:37:39 -0700
+
+
+Started GET "/assets/redball-5c9d074ad1d6d085e7f1a19051bf7bce49cacba408a523f43117b0d0e1b59be5.png" for 127.0.0.1 at 2015-04-17 23:37:39 -0700
+
+
+Started GET "/assets/wood2.jpg" for 127.0.0.1 at 2015-04-17 23:37:39 -0700
+
+
+Started GET "/assets/introcondblackfree.otf" for 127.0.0.1 at 2015-04-17 23:37:40 -0700
+
+
+Started GET "/users/7/edit" for 127.0.0.1 at 2015-04-17 23:37:53 -0700
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"7"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 7]]
+  Rendered users/edit.html.erb within layouts/application (2.9ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  Rendered layouts/_navigation.html.erb (3.2ms)
+Completed 200 OK in 45ms (Views: 42.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 23:37:53 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 23:37:53 -0700
+
+
+Started GET "/assets/application.self-fef25579cab5ac75131ddd0716a0f6f80f5febf22085faaed114a820f0d2f90e.css?body=1" for 127.0.0.1 at 2015-04-17 23:37:53 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 23:37:53 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 23:37:53 -0700
+
+
+Started GET "/assets/redball-5c9d074ad1d6d085e7f1a19051bf7bce49cacba408a523f43117b0d0e1b59be5.png" for 127.0.0.1 at 2015-04-17 23:37:53 -0700
+
+
+Started GET "/users/7/edit" for 127.0.0.1 at 2015-04-17 23:38:02 -0700
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 7]]
+  Rendered users/edit.html.erb within layouts/application (5.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7 LIMIT 1[0m
+  Rendered layouts/_navigation.html.erb (3.3ms)
+Completed 200 OK in 42ms (Views: 41.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 23:38:02 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-17 23:38:02 -0700
+
+
+Started GET "/assets/application.self-fef25579cab5ac75131ddd0716a0f6f80f5febf22085faaed114a820f0d2f90e.css?body=1" for 127.0.0.1 at 2015-04-17 23:38:02 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-17 23:38:02 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-17 23:38:02 -0700
+
+
+Started GET "/assets/redball-5c9d074ad1d6d085e7f1a19051bf7bce49cacba408a523f43117b0d0e1b59be5.png" for 127.0.0.1 at 2015-04-17 23:38:02 -0700
