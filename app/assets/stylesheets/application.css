@@ -172,3 +172,16 @@ h3{
   font-family: "Intro Cond Black Free";
   color: #ffffff;
 }
+
+#gameindex{
+  font-family: "Intro Cond Black Free";
+  color: #ffffff;
+}
+
+#gameindex a{
+  color: white !important;
+}
+
+#gameindex a:hover{
+  color: #7f8c8d !important;
+}

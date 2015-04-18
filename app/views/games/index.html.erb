@@ -1,8 +1,11 @@
-<% if @found_games.empty? %>
-  <h1> Sorry, no games were found at the location and date.</h1>
-<% else %>
-  <% @found_games.map do |event| %>
-    <%= link_to event.title, event %><br>
-    <%= event.address %><br>
+<div class="small-6 small-offset-3 medium-4 medium-offset-4 large-4 large-offset-4 columns" id="gameindex">
+  <% if @found_games.empty? %>
+    <h1> Sorry, no games were found at that location and date.</h1>
+  <% else %>
+    <ol>
+      <% @found_games.map do |event| %>
+        <li><%= link_to event.title, event %></li>
+      <% end %>
+    </ol>
   <% end %>
-<% end %>
+</div>
