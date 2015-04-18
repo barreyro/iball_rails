@@ -117,3 +117,10 @@ body{
   max-width: 50px;
   max-height: 50px;
 }
+
+#newuserform{
+  margin-top: 2em;
+  line-height: 76%;
+  font-family: "Intro Cond Black Free";
+  color: #ffffff;
+}
