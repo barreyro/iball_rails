@@ -10,13 +10,12 @@
   </div>
 
   <div class="small-12 medium-5 large-5 columns end" id="welcome-login">
+    <% if session[:user_id].nil? %>
     Login <br>
-    <% if !session[:user_id] %>
         <%= render partial: "layouts/login" %>
     <% else %>
+    Find a game
       <%= render partial: "games/search" %>
-      <br> -OR- <br>
-      <%= render partial: "games/new" %>
     <% end %>
   </div>
 </div>

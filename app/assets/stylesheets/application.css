@@ -63,7 +63,7 @@ body{
   font-size: 3em;
   line-height: 76%;
   letter-spacing: -.06em;
-  margin-top: 3em;
+  margin-top: 2em;
 }
 
 #iball{
@@ -83,7 +83,7 @@ body{
 #welcome-login {
   color: white;
   font-family: "Intro Cond Black Free";
-  margin-top: 8em;
+  margin-top: 7em;
 }
 
 .button.tiny{
@@ -94,4 +94,26 @@ body{
 .button.tiny:hover{
   background-color: #7f8c8d;
   font-family: "Intro Cond Black Free";
+}
+
+#navlink a{
+  font-family: "Intro Cond Black Free";
+  color: white !important;
+}
+#navlink {
+  text-align: right;
+  font-family: "Intro Cond Black Free";
+  color: white !important;
+}
+
+#navlog a{
+  font-family: "Intro Cond Black Free";
+  color: white !important;
+}
+
+.navlogo {
+  text-align: center;
+  color: white !important;
+  max-width: 50px;
+  max-height: 50px;
 }
