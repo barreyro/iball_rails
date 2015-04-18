@@ -1,5 +1,4 @@
   <%= form_tag(controller: "sessions", action: "login", method: "get") %>
-  <%= text_field_tag "user_input", nil, :placeholder => "Enter Username" %>
-  <%= password_field_tag "password", nil, :placeholder => "Enter Password" %>
-  <%= submit_tag "Login" %>
-
+  <%= text_field_tag "user_input", nil, :placeholder => " Username" %>
+  <%= password_field_tag "password", nil, :placeholder => " Password" %>
+  <%= submit_tag "GO", class: "button tiny" %>

@@ -82,5 +82,16 @@ body{
 
 #welcome-login {
   color: white;
-  margin-top: 10em;
+  font-family: "Intro Cond Black Free";
+  margin-top: 8em;
+}
+
+.button.tiny{
+  background-color: #C0392b;
+  font-family: "Intro Cond Black Free";
+}
+
+.button.tiny:hover{
+  background-color: #7f8c8d;
+  font-family: "Intro Cond Black Free";
 }
