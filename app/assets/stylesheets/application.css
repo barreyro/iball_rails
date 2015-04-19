@@ -190,3 +190,11 @@ h3{
   font-family: "Intro Cond Black Free";
   color: #ffffff;
 }
+
+#navlog a:hover{
+  color: #7f8c8d !important;
+}
+
+#navlink a:hover{
+  color: #7f8c8d !important;
+}

@@ -35058,3 +35058,268 @@ Processing by WelcomeController#index as HTML
   Rendered welcome/index.html.erb within layouts/application (2.6ms)
   Rendered layouts/_navigation.html.erb (6.6ms)
 Completed 200 OK in 195ms (Views: 194.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2015-04-18 21:38:17 -0700
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (2.8ms)
+  Rendered layouts/_navigation.html.erb (1.8ms)
+Completed 200 OK in 58ms (Views: 56.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-18 21:38:19 -0700
+Processing by WelcomeController#index as HTML
+  Rendered layouts/_login.html.erb (0.9ms)
+  Rendered welcome/index.html.erb within layouts/application (2.7ms)
+  Rendered layouts/_navigation.html.erb (2.1ms)
+Completed 200 OK in 50ms (Views: 50.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2015-04-18 21:38:21 -0700
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_navigation.html.erb (2.4ms)
+Completed 200 OK in 48ms (Views: 47.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-18 21:38:22 -0700
+Processing by WelcomeController#index as HTML
+  Rendered layouts/_login.html.erb (1.1ms)
+  Rendered welcome/index.html.erb within layouts/application (3.2ms)
+  Rendered layouts/_navigation.html.erb (4.4ms)
+Completed 200 OK in 144ms (Views: 143.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2015-04-18 21:38:23 -0700
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (4.0ms)
+  Rendered layouts/_navigation.html.erb (2.7ms)
+Completed 200 OK in 54ms (Views: 53.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-18 21:38:24 -0700
+Processing by WelcomeController#index as HTML
+  Rendered layouts/_login.html.erb (0.6ms)
+  Rendered welcome/index.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_navigation.html.erb (2.6ms)
+Completed 200 OK in 51ms (Views: 51.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2015-04-18 21:38:25 -0700
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (3.2ms)
+  Rendered layouts/_navigation.html.erb (1.7ms)
+Completed 200 OK in 44ms (Views: 43.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-18 21:38:27 -0700
+Processing by WelcomeController#index as HTML
+  Rendered layouts/_login.html.erb (1.0ms)
+  Rendered welcome/index.html.erb within layouts/application (2.6ms)
+  Rendered layouts/_navigation.html.erb (2.9ms)
+Completed 200 OK in 54ms (Views: 53.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-18 21:40:10 -0700
+Processing by WelcomeController#index as HTML
+  Rendered layouts/_login.html.erb (1.3ms)
+  Rendered welcome/index.html.erb within layouts/application (3.5ms)
+  Rendered layouts/_navigation.html.erb (3.4ms)
+Completed 200 OK in 190ms (Views: 189.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-60b47bbbb98d6fdfe0c08673313b551c55797388576879ecdc580308cc4f36a7.css?body=1" for 127.0.0.1 at 2015-04-18 21:40:10 -0700
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-18 21:40:10 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-18 21:40:10 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-18 21:40:10 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-18 21:40:10 -0700
+
+
+Started GET "/assets/redball-5c9d074ad1d6d085e7f1a19051bf7bce49cacba408a523f43117b0d0e1b59be5.png" for 127.0.0.1 at 2015-04-18 21:40:10 -0700
+
+
+Started GET "/assets/wood2.jpg" for 127.0.0.1 at 2015-04-18 21:40:10 -0700
+
+
+Started GET "/assets/introcondblackfree.otf" for 127.0.0.1 at 2015-04-18 21:40:10 -0700
+
+
+Started GET "/assets/krinkes.ttf" for 127.0.0.1 at 2015-04-18 21:40:10 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-18 21:40:43 -0700
+Processing by WelcomeController#index as HTML
+  Rendered layouts/_login.html.erb (1.0ms)
+  Rendered welcome/index.html.erb within layouts/application (2.4ms)
+  Rendered layouts/_navigation.html.erb (1.8ms)
+Completed 200 OK in 186ms (Views: 185.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-3760a614c2b34ebfd1223eed6ead9f4eb8fc7b0633efe5803fe0f39c517ae5cd.css?body=1" for 127.0.0.1 at 2015-04-18 21:40:44 -0700
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-18 21:40:44 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-18 21:40:44 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-18 21:40:44 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-18 21:40:44 -0700
+
+
+Started GET "/assets/redball-5c9d074ad1d6d085e7f1a19051bf7bce49cacba408a523f43117b0d0e1b59be5.png" for 127.0.0.1 at 2015-04-18 21:40:44 -0700
+
+
+Started GET "/assets/wood2.jpg" for 127.0.0.1 at 2015-04-18 21:40:44 -0700
+
+
+Started GET "/assets/introcondblackfree.otf" for 127.0.0.1 at 2015-04-18 21:40:44 -0700
+
+
+Started GET "/assets/krinkes.ttf" for 127.0.0.1 at 2015-04-18 21:40:44 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-18 21:40:54 -0700
+Processing by WelcomeController#index as HTML
+  Rendered layouts/_login.html.erb (0.9ms)
+  Rendered welcome/index.html.erb within layouts/application (2.4ms)
+  Rendered layouts/_navigation.html.erb (2.7ms)
+Completed 200 OK in 198ms (Views: 197.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-75be71ea53128b5d22e6d74bc1289010a7baf6844677285c0a434abe8b4ca5a7.css?body=1" for 127.0.0.1 at 2015-04-18 21:40:54 -0700
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-18 21:40:54 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-18 21:40:54 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-18 21:40:54 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-18 21:40:54 -0700
+
+
+Started GET "/assets/redball-5c9d074ad1d6d085e7f1a19051bf7bce49cacba408a523f43117b0d0e1b59be5.png" for 127.0.0.1 at 2015-04-18 21:40:54 -0700
+
+
+Started GET "/assets/wood2.jpg" for 127.0.0.1 at 2015-04-18 21:40:54 -0700
+
+
+Started GET "/assets/introcondblackfree.otf" for 127.0.0.1 at 2015-04-18 21:40:54 -0700
+
+
+Started GET "/assets/krinkes.ttf" for 127.0.0.1 at 2015-04-18 21:40:54 -0700
+
+
+Started GET "/signup" for 127.0.0.1 at 2015-04-18 21:41:16 -0700
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_navigation.html.erb (2.2ms)
+Completed 200 OK in 55ms (Views: 54.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2015-04-18 21:41:35 -0700
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (2.2ms)
+  Rendered layouts/_navigation.html.erb (2.9ms)
+Completed 200 OK in 196ms (Views: 195.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-40283040b1798e999420eeea7fe3ff878cb768336fec3356fa8b55c7a1243c54.css?body=1" for 127.0.0.1 at 2015-04-18 21:41:36 -0700
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-18 21:41:36 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-18 21:41:36 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-18 21:41:36 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-18 21:41:36 -0700
+
+
+Started GET "/assets/redball-5c9d074ad1d6d085e7f1a19051bf7bce49cacba408a523f43117b0d0e1b59be5.png" for 127.0.0.1 at 2015-04-18 21:41:36 -0700
+
+
+Started GET "/assets/wood2.jpg" for 127.0.0.1 at 2015-04-18 21:41:36 -0700
+
+
+Started GET "/assets/introcondblackfree.otf" for 127.0.0.1 at 2015-04-18 21:41:36 -0700
+
+
+Started GET "/signup" for 127.0.0.1 at 2015-04-18 21:41:53 -0700
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_navigation.html.erb (2.5ms)
+Completed 200 OK in 185ms (Views: 184.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-18 21:41:54 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-18 21:41:54 -0700
+
+
+Started GET "/assets/application.self-21503cb1061e16d3134dee7e0a4b562468edde0fa4eadd79e5623f6c6ad51851.css?body=1" for 127.0.0.1 at 2015-04-18 21:41:54 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-18 21:41:54 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-18 21:41:54 -0700
+
+
+Started GET "/assets/redball-5c9d074ad1d6d085e7f1a19051bf7bce49cacba408a523f43117b0d0e1b59be5.png" for 127.0.0.1 at 2015-04-18 21:41:54 -0700
+
+
+Started GET "/assets/wood2.jpg" for 127.0.0.1 at 2015-04-18 21:41:54 -0700
+
+
+Started GET "/assets/introcondblackfree.otf" for 127.0.0.1 at 2015-04-18 21:41:54 -0700
+
+
+Started GET "/signup" for 127.0.0.1 at 2015-04-18 21:42:10 -0700
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (1.8ms)
+  Rendered layouts/_navigation.html.erb (3.9ms)
+Completed 200 OK in 199ms (Views: 198.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-18 21:42:10 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-18 21:42:10 -0700
+
+
+Started GET "/assets/application.self-ba50dc021a71c3f8c082df52614720d5b11b3fd04647fdc89745ecea05c2b6cc.css?body=1" for 127.0.0.1 at 2015-04-18 21:42:10 -0700
+
+
+Started GET "/assets/foundation.self-cb2ff91eb5d91009c539146d0c678a1463c05381e9df8738b8eed567c0f76b1f.css?body=1" for 127.0.0.1 at 2015-04-18 21:42:10 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-04-18 21:42:10 -0700
+
+
+Started GET "/assets/redball-5c9d074ad1d6d085e7f1a19051bf7bce49cacba408a523f43117b0d0e1b59be5.png" for 127.0.0.1 at 2015-04-18 21:42:10 -0700
+
+
+Started GET "/assets/wood2.jpg" for 127.0.0.1 at 2015-04-18 21:42:10 -0700
+
+
+Started GET "/assets/introcondblackfree.otf" for 127.0.0.1 at 2015-04-18 21:42:10 -0700
