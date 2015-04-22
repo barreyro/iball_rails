@@ -1,6 +1,5 @@
 source 'https://rubygems.org'
 
-ruby '2.0.0'
 gem 'faker'
 gem 'foundation-rails'
 
@@ -55,3 +54,5 @@ end
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 gem "font-awesome-rails"
+
+ruby '2.0.0'
