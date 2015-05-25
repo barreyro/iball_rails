@@ -12,31 +12,27 @@
  *
  *= require_tree .
  *= require_self
- *= require foundation
  *= require foundation_and_overrides
+ *= require foundation
 
  */
+
+@import "foundation_and_overrides";
+
 @font-face {
   font-family: "Intro Cond Black Free";
-  src: url('/assets/introcondblackfree.otf') format("truetype");
-}
-@font-face {
-  font-family: "Krinkes";
-  src: url('/assets/krinkes.ttf') format("truetype");
+  src: url(font-path('introcondblackfree.otf'));
+  src: url(font-path('introcondblackfree.otf')) format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
 
-/*@include keyframes(bounce) {
-  0%, 20%, 50%, 80%, 100% {
-    @include transform(translateY(0));
-  }
-  40% {
-    @include transform(translateY(-30px));
-  }
-  60% {
-    @include transform(translateY(-15px));
-  }
+@font-face {
+  font-family: "Krinkes";
+  src: url(font-path('krinkes.ttf')) format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
-*/
 
 .rotate {
   font-family: verdana, sans-serif;
@@ -49,7 +45,7 @@
 }
 
 body{
-  background: url('/assets/wood2.jpg') no-repeat center center fixed !important;
+  background: asset-data-url('wood2.jpg') no-repeat center center fixed !important;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
