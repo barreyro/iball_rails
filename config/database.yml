@@ -79,7 +79,4 @@ test:
 #     url: <%= ENV['DATABASE_URL'] %>
 #
 production:
-  <<: *default
-  database: i-ball_production
-  username: i-ball
-  password: <%= ENV['SECRET_KEY_BASE'] %>
+  SECRET_KEY_BASE: <%= ENV['SECRET_KEY_BASE'] %>
