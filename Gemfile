@@ -56,6 +56,5 @@ end
 gem "font-awesome-rails"
 
 gem 'puma'
-
-ruby '2.0.0'
+gem 'thin'
 
