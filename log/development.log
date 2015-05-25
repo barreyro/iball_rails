@@ -35688,3 +35688,714 @@ Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696a
 
 
 Started GET "/assets/redball-5c9d074ad1d6d085e7f1a19051bf7bce49cacba408a523f43117b0d0e1b59be5.png" for 127.0.0.1 at 2015-04-22 00:23:40 -0700
+  [1m[36m (1.3ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (1.2ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateUsers (20150408074836)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.5ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "username" varchar(255), "first_name" varchar(255), "last_name" varchar(255), "email" varchar(255), "password_digest" varchar(255), "city" varchar(255), "state" varchar(255), "age" integer, "games_total" integer, "games_won" integer, "bio" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150408074836"]]
+  [1m[36m (1.1ms)[0m  [1mcommit transaction[0m
+Migrating to CreateFriendships (20150408080240)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.5ms)[0m  [1mCREATE TABLE "friendships" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "friendee_id" integer, "friend_id" integer, "status" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150408080240"]]
+  [1m[36m (1.1ms)[0m  [1mcommit transaction[0m
+Migrating to CreateComments (20150408080522)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.3ms)[0m  [1mCREATE TABLE "comments" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "sender_id" integer, "receiver_id" integer, "content" text, "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150408080522"]]
+  [1m[36m (1.1ms)[0m  [1mcommit transaction[0m
+Migrating to CreateGames (20150408081227)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.5ms)[0m  [1mCREATE TABLE "games" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id_id" integer, "title" varchar(255), "date" date, "city" varchar(255), "state" varchar(255), "zip" varchar(255), "address" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150408081227"]]
+  [1m[36m (1.1ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."username" = 'KD35' LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users"  WHERE "users"."email" = 'k@k.com' LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "users" ("age", "bio", "city", "created_at", "email", "first_name", "last_name", "password_digest", "state", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["age", 26], ["bio", "OKC"], ["city", "Oklahoma City"], ["created_at", "2015-05-25 02:05:02.709283"], ["email", "k@k.com"], ["first_name", "Kevin"], ["last_name", "Durant"], ["password_digest", "$2a$10$3.5Mx2V8iu3MZRGSPMgjp.gWTW33TKwStyG4fZzkfTpzjgFXD9bei"], ["state", "OK"], ["updated_at", "2015-05-25 02:05:02.709283"], ["username", "KD35"]]
+  [1m[35m (1.1ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE "users"."username" = 'SwaggyP' LIMIT 1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 's@s.com' LIMIT 1[0m
+Binary data inserted for `string` type on column `password_digest`
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "users" ("age", "bio", "city", "created_at", "email", "first_name", "last_name", "password_digest", "state", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["age", 26], ["bio", "LAL"], ["city", "Los Angeles"], ["created_at", "2015-05-25 02:05:02.820213"], ["email", "s@s.com"], ["first_name", "Nick"], ["last_name", "Young"], ["password_digest", "$2a$10$NumyuYLhMWaGK8pBYpXyUO2AN0EVaD2FHJURf/lDTwvF9cnctZ.XG"], ["state", "CA"], ["updated_at", "2015-05-25 02:05:02.820213"], ["username", "SwaggyP"]]
+  [1m[36m (9.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."username" = 'Chef Stef' LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users"  WHERE "users"."email" = 'c@c.com' LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "users" ("age", "bio", "city", "created_at", "email", "first_name", "last_name", "password_digest", "state", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["age", 26], ["bio", "GSW"], ["city", "Oakland"], ["created_at", "2015-05-25 02:05:02.919212"], ["email", "c@c.com"], ["first_name", "Stephen"], ["last_name", "Curry"], ["password_digest", "$2a$10$k23dycD9j4K/FZ8B1gcTIOrSzD00/CxUTU2IsV4nzYPgI4t/goAUy"], ["state", "CA"], ["updated_at", "2015-05-25 02:05:02.919212"], ["username", "Chef Stef"]]
+  [1m[35m (1.1ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE "users"."username" = 'K.Love' LIMIT 1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'kl@kl.com' LIMIT 1[0m
+Binary data inserted for `string` type on column `password_digest`
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "users" ("age", "bio", "city", "created_at", "email", "first_name", "last_name", "password_digest", "state", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["age", 26], ["bio", "CLC"], ["city", "Cleveland"], ["created_at", "2015-05-25 02:05:03.019176"], ["email", "kl@kl.com"], ["first_name", "Kevin"], ["last_name", "Love"], ["password_digest", "$2a$10$qLBQWgq1sjoiETU1qSt22u5vS86nce/fgGd6Pypl1OP4.rgR4Xel."], ["state", "OH"], ["updated_at", "2015-05-25 02:05:03.019176"], ["username", "K.Love"]]
+  [1m[36m (9.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."username" = 'Black Mamba' LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users"  WHERE "users"."email" = 'b@b.com' LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("age", "bio", "city", "created_at", "email", "first_name", "last_name", "password_digest", "state", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["age", 36], ["bio", "LAL"], ["city", "Los Angeles"], ["created_at", "2015-05-25 02:05:03.133740"], ["email", "b@b.com"], ["first_name", "Kobe"], ["last_name", "Bryant"], ["password_digest", "$2a$10$6L7aG2fWsYF3P9Y.YGaQwe.0Dmm21R.3MI4QEc3XlBCGshBHwN4gO"], ["state", "CA"], ["updated_at", "2015-05-25 02:05:03.133740"], ["username", "Black Mamba"]]
+  [1m[35m (8.7ms)[0m  commit transaction
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-24 19:06:28 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered layouts/_login.html.erb (1.9ms)
+  Rendered welcome/index.html.erb within layouts/application (17.9ms)
+  Rendered layouts/_navigation.html.erb (11.1ms)
+Completed 200 OK in 22924ms (Views: 22924.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-24 19:06:51 -0700
+Processing by WelcomeController#index as HTML
+  Rendered layouts/_login.html.erb (0.7ms)
+  Rendered welcome/index.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_navigation.html.erb (3.8ms)
+Completed 200 OK in 51ms (Views: 51.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-61e9549c766aa32865dbc4053ecbb9be1510e25cddb47e3a3079780129e8fa34.css?body=1" for 127.0.0.1 at 2015-05-24 19:06:52 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-24 19:06:52 -0700
+
+
+Started GET "/assets/application.self-f1bb17872bdaf3f984bc3ed6c57277499c64abae426a90ff52b158518844094b.css?body=1" for 127.0.0.1 at 2015-05-24 19:06:52 -0700
+
+
+Started GET "/assets/foundation.self-61e9549c766aa32865dbc4053ecbb9be1510e25cddb47e3a3079780129e8fa34.css?body=1" for 127.0.0.1 at 2015-05-24 19:06:52 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-05-24 19:06:52 -0700
+
+
+Started GET "/assets/redball-5c9d074ad1d6d085e7f1a19051bf7bce49cacba408a523f43117b0d0e1b59be5.png" for 127.0.0.1 at 2015-05-24 19:06:52 -0700
+
+
+Started GET "/assets/wood2.jpg" for 127.0.0.1 at 2015-05-24 19:06:52 -0700
+
+
+Started GET "/assets/introcondblackfree.otf" for 127.0.0.1 at 2015-05-24 19:06:52 -0700
+
+
+Started GET "/assets/krinkes.ttf" for 127.0.0.1 at 2015-05-24 19:06:52 -0700
+
+
+Started GET "/signup" for 127.0.0.1 at 2015-05-24 19:06:59 -0700
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (41.4ms)
+  Rendered layouts/_navigation.html.erb (1.6ms)
+Completed 200 OK in 103ms (Views: 87.7ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2015-05-24 19:07:24 -0700
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MUpZZYT9O13rnEqvYK97C1ZKcdnMwKmRChwWNiRdRJo=", "user"=>{"email"=>"stephanie@stephanie.com", "username"=>"Stephanie", "password"=>"[FILTERED]", "city"=>"hayward", "state"=>"ca", "age"=>"24", "bio"=>"lal"}, "commit"=>"signup"}
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."username" = 'Stephanie' LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users"  WHERE "users"."email" = 'stephanie@stephanie.com' LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "users" ("age", "bio", "city", "created_at", "email", "password_digest", "state", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["age", 24], ["bio", "lal"], ["city", "hayward"], ["created_at", "2015-05-25 02:07:24.390545"], ["email", "stephanie@stephanie.com"], ["password_digest", "$2a$10$ir847/xQhs3SVAhZvSnHVOdp7BRKFGJchfYXuKafCneBK0LPwVcF2"], ["state", "ca"], ["updated_at", "2015-05-25 02:07:24.390545"], ["username", "Stephanie"]]
+  [1m[35m (8.1ms)[0m  commit transaction
+Redirected to http://localhost:3000/
+Completed 302 Found in 137ms (ActiveRecord: 9.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-24 19:07:24 -0700
+Processing by WelcomeController#index as HTML
+  Rendered layouts/_login.html.erb (0.6ms)
+  Rendered welcome/index.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_navigation.html.erb (2.3ms)
+Completed 200 OK in 49ms (Views: 48.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login?method=get" for 127.0.0.1 at 2015-05-24 19:07:30 -0700
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MUpZZYT9O13rnEqvYK97C1ZKcdnMwKmRChwWNiRdRJo=", "user_input"=>"stephanie", "password"=>"[FILTERED]", "commit"=>"GO", "method"=>"get"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."username" = 'stephanie' LIMIT 1[0m
+Redirected to http://localhost:3000/login
+Completed 302 Found in 19ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2015-05-24 19:07:30 -0700
+Processing by SessionsController#login as HTML
+  Rendered sessions/login.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_navigation.html.erb (2.0ms)
+Completed 200 OK in 40ms (Views: 39.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login?method=get" for 127.0.0.1 at 2015-05-24 19:07:37 -0700
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MUpZZYT9O13rnEqvYK97C1ZKcdnMwKmRChwWNiRdRJo=", "user_input"=>"stephanie", "password"=>"[FILTERED]", "commit"=>"REBOUND", "method"=>"get"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."username" = 'stephanie' LIMIT 1
+Redirected to http://localhost:3000/login
+Completed 302 Found in 3ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2015-05-24 19:07:37 -0700
+Processing by SessionsController#login as HTML
+  Rendered sessions/login.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_navigation.html.erb (1.8ms)
+Completed 200 OK in 44ms (Views: 43.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login?method=get" for 127.0.0.1 at 2015-05-24 19:07:45 -0700
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MUpZZYT9O13rnEqvYK97C1ZKcdnMwKmRChwWNiRdRJo=", "user_input"=>"stephanie@stephanie.com", "password"=>"[FILTERED]", "commit"=>"REBOUND", "method"=>"get"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."email" = 'stephanie@stephanie.com' LIMIT 1[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 99ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-24 19:07:45 -0700
+Processing by WelcomeController#index as HTML
+  Rendered games/_search.html.erb (1.6ms)
+  Rendered welcome/index.html.erb within layouts/application (2.7ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 6 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 6 LIMIT 1[0m
+  Rendered layouts/_navigation.html.erb (5.0ms)
+Completed 200 OK in 41ms (Views: 40.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/games?utf8=%E2%9C%93&date=2015-05-20&state=CA&commit=Find" for 127.0.0.1 at 2015-05-24 19:08:03 -0700
+Processing by GamesController#index as HTML
+  Parameters: {"utf8"=>"✓", "date"=>"2015-05-20", "state"=>"CA", "commit"=>"Find"}
+  [1m[35mGame Load (0.3ms)[0m  SELECT "games".* FROM "games"
+  Rendered games/index.html.erb within layouts/application (0.6ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 6 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 6 LIMIT 1
+  Rendered layouts/_navigation.html.erb (5.7ms)
+Completed 200 OK in 68ms (Views: 61.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/users/6" for 127.0.0.1 at 2015-05-24 19:08:05 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered games/_search.html.erb (2.1ms)
+  Rendered users/show.html.erb within layouts/application (4.4ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 6 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 6 LIMIT 1[0m
+  Rendered layouts/_navigation.html.erb (3.3ms)
+Completed 200 OK in 47ms (Views: 45.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/games/new" for 127.0.0.1 at 2015-05-24 19:08:08 -0700
+Processing by GamesController#new as HTML
+  Rendered games/new.html.erb within layouts/application (3.4ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 6 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 6 LIMIT 1[0m
+  Rendered layouts/_navigation.html.erb (6.3ms)
+Completed 200 OK in 53ms (Views: 50.9ms | ActiveRecord: 0.8ms)
+
+
+Started POST "/games" for 127.0.0.1 at 2015-05-24 19:08:28 -0700
+Processing by GamesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MUpZZYT9O13rnEqvYK97C1ZKcdnMwKmRChwWNiRdRJo=", "game"=>{"date"=>"2015-05-29", "title"=>"ball", "zip"=>"12:45 pm", "address"=>"123 Colgate dr.", "city"=>"hayward", "state"=>"CA"}, "commit"=>"Create"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (1.2ms)[0m  [1mINSERT INTO "games" ("address", "city", "created_at", "date", "state", "title", "updated_at", "zip") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["address", "123 Colgate dr."], ["city", "hayward"], ["created_at", "2015-05-25 02:08:28.529108"], ["date", "2015-05-29"], ["state", "CA"], ["title", "ball"], ["updated_at", "2015-05-25 02:08:28.529108"], ["zip", "12:45 pm"]]
+  [1m[35m (1.8ms)[0m  commit transaction
+Redirected to http://localhost:3000/games/1
+Completed 302 Found in 22ms (ActiveRecord: 3.1ms)
+
+
+Started GET "/games/1" for 127.0.0.1 at 2015-05-24 19:08:28 -0700
+Processing by GamesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mGame Load (0.3ms)[0m  [1mSELECT  "games".* FROM "games"  WHERE "games"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered games/show.html.erb within layouts/application (1.0ms)
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 6 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 6 LIMIT 1[0m
+  Rendered layouts/_navigation.html.erb (4.8ms)
+Completed 200 OK in 51ms (Views: 48.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/users/6" for 127.0.0.1 at 2015-05-24 19:08:52 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  Rendered games/_search.html.erb (1.6ms)
+  Rendered users/show.html.erb within layouts/application (2.7ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 6 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 6 LIMIT 1
+  Rendered layouts/_navigation.html.erb (4.3ms)
+Completed 200 OK in 151ms (Views: 149.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/users/6/edit" for 127.0.0.1 at 2015-05-24 19:08:54 -0700
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered users/edit.html.erb within layouts/application (3.0ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 6 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 6 LIMIT 1[0m
+  Rendered layouts/_navigation.html.erb (3.3ms)
+Completed 200 OK in 54ms (Views: 53.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-24 19:08:57 -0700
+Processing by WelcomeController#index as HTML
+  Rendered games/_search.html.erb (1.4ms)
+  Rendered welcome/index.html.erb within layouts/application (2.5ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 6 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 6 LIMIT 1[0m
+  Rendered layouts/_navigation.html.erb (3.7ms)
+Completed 200 OK in 50ms (Views: 50.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/games?utf8=%E2%9C%93&date=2015-05-29&state=CA&commit=Find" for 127.0.0.1 at 2015-05-24 19:09:06 -0700
+Processing by GamesController#index as HTML
+  Parameters: {"utf8"=>"✓", "date"=>"2015-05-29", "state"=>"CA", "commit"=>"Find"}
+  [1m[35mGame Load (0.3ms)[0m  SELECT "games".* FROM "games"
+  Rendered games/index.html.erb within layouts/application (0.4ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 6 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 6 LIMIT 1
+  Rendered layouts/_navigation.html.erb (3.5ms)
+Completed 200 OK in 51ms (Views: 49.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/games/1" for 127.0.0.1 at 2015-05-24 19:09:08 -0700
+Processing by GamesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mGame Load (0.1ms)[0m  [1mSELECT  "games".* FROM "games"  WHERE "games"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered games/show.html.erb within layouts/application (0.2ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 6 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 6 LIMIT 1[0m
+  Rendered layouts/_navigation.html.erb (2.8ms)
+Completed 200 OK in 42ms (Views: 40.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-24 19:09:17 -0700
+Processing by WelcomeController#index as HTML
+  Rendered games/_search.html.erb (1.3ms)
+  Rendered welcome/index.html.erb within layouts/application (2.4ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 6 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 6 LIMIT 1[0m
+  Rendered layouts/_navigation.html.erb (5.3ms)
+Completed 200 OK in 80ms (Views: 79.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-24 19:20:56 -0700
+Processing by WelcomeController#index as HTML
+  Rendered games/_search.html.erb (1.6ms)
+  Rendered welcome/index.html.erb within layouts/application (2.9ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 6 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 6 LIMIT 1[0m
+  Rendered layouts/_navigation.html.erb (3.7ms)
+Completed 200 OK in 249ms (Views: 248.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.self-740910411c9b33744d95052e386fed16d227d49be9a3cec448f3c1b488dd4260.css?body=1" for 127.0.0.1 at 2015-05-24 19:20:56 -0700
+
+
+Started GET "/assets/foundation_and_overrides.self-61e9549c766aa32865dbc4053ecbb9be1510e25cddb47e3a3079780129e8fa34.css?body=1" for 127.0.0.1 at 2015-05-24 19:20:56 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-24 19:20:56 -0700
+
+
+Started GET "/assets/foundation.self-61e9549c766aa32865dbc4053ecbb9be1510e25cddb47e3a3079780129e8fa34.css?body=1" for 127.0.0.1 at 2015-05-24 19:20:56 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-05-24 19:20:56 -0700
+
+
+Started GET "/assets/redball-5c9d074ad1d6d085e7f1a19051bf7bce49cacba408a523f43117b0d0e1b59be5.png" for 127.0.0.1 at 2015-05-24 19:20:56 -0700
+
+
+Started GET "/assets/foundation_and_overrides" for 127.0.0.1 at 2015-05-24 19:20:56 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-24 19:20:58 -0700
+Processing by WelcomeController#index as HTML
+  Rendered games/_search.html.erb (3.8ms)
+  Rendered welcome/index.html.erb within layouts/application (5.7ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 6 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 6 LIMIT 1[0m
+  Rendered layouts/_navigation.html.erb (3.2ms)
+Completed 200 OK in 59ms (Views: 58.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/foundation_and_overrides" for 127.0.0.1 at 2015-05-24 19:20:58 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-24 19:20:59 -0700
+Processing by WelcomeController#index as HTML
+  Rendered games/_search.html.erb (1.4ms)
+  Rendered welcome/index.html.erb within layouts/application (2.6ms)
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 6 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 6 LIMIT 1[0m
+  Rendered layouts/_navigation.html.erb (5.0ms)
+Completed 200 OK in 47ms (Views: 46.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/foundation_and_overrides" for 127.0.0.1 at 2015-05-24 19:20:59 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-24 19:21:14 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered games/_search.html.erb (1.7ms)
+  Rendered welcome/index.html.erb within layouts/application (21.8ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 6 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 6 LIMIT 1[0m
+  Rendered layouts/_navigation.html.erb (36.1ms)
+Completed 200 OK in 523ms (Views: 522.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-61e9549c766aa32865dbc4053ecbb9be1510e25cddb47e3a3079780129e8fa34.css?body=1" for 127.0.0.1 at 2015-05-24 19:21:15 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-24 19:21:15 -0700
+
+
+Started GET "/assets/application.self-740910411c9b33744d95052e386fed16d227d49be9a3cec448f3c1b488dd4260.css?body=1" for 127.0.0.1 at 2015-05-24 19:21:15 -0700
+
+
+Started GET "/assets/foundation.self-61e9549c766aa32865dbc4053ecbb9be1510e25cddb47e3a3079780129e8fa34.css?body=1" for 127.0.0.1 at 2015-05-24 19:21:15 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-05-24 19:21:15 -0700
+
+
+Started GET "/assets/redball-5c9d074ad1d6d085e7f1a19051bf7bce49cacba408a523f43117b0d0e1b59be5.png" for 127.0.0.1 at 2015-05-24 19:21:15 -0700
+
+
+Started GET "/assets/foundation_and_overrides" for 127.0.0.1 at 2015-05-24 19:21:15 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-24 19:21:17 -0700
+Processing by WelcomeController#index as HTML
+  Rendered games/_search.html.erb (1.5ms)
+  Rendered welcome/index.html.erb within layouts/application (2.7ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 6 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 6 LIMIT 1[0m
+  Rendered layouts/_navigation.html.erb (5.8ms)
+Completed 200 OK in 126ms (Views: 125.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-61e9549c766aa32865dbc4053ecbb9be1510e25cddb47e3a3079780129e8fa34.css?body=1" for 127.0.0.1 at 2015-05-24 19:21:17 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-24 19:21:17 -0700
+
+
+Started GET "/assets/application.self-740910411c9b33744d95052e386fed16d227d49be9a3cec448f3c1b488dd4260.css?body=1" for 127.0.0.1 at 2015-05-24 19:21:17 -0700
+
+
+Started GET "/assets/foundation.self-61e9549c766aa32865dbc4053ecbb9be1510e25cddb47e3a3079780129e8fa34.css?body=1" for 127.0.0.1 at 2015-05-24 19:21:17 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-05-24 19:21:17 -0700
+
+
+Started GET "/assets/redball-5c9d074ad1d6d085e7f1a19051bf7bce49cacba408a523f43117b0d0e1b59be5.png" for 127.0.0.1 at 2015-05-24 19:21:17 -0700
+
+
+Started GET "/assets/foundation_and_overrides" for 127.0.0.1 at 2015-05-24 19:21:17 -0700
+  [1m[36m (1.5ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (1.3ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreateUsers (20150408074836)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "username" varchar(255), "first_name" varchar(255), "last_name" varchar(255), "email" varchar(255), "password_digest" varchar(255), "city" varchar(255), "state" varchar(255), "age" integer, "games_total" integer, "games_won" integer, "bio" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20150408074836"]]
+  [1m[35m (1.2ms)[0m  commit transaction
+Migrating to CreateFriendships (20150408080240)
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  CREATE TABLE "friendships" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "friendee_id" integer, "friend_id" integer, "status" varchar(255), "created_at" datetime, "updated_at" datetime) 
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20150408080240"]]
+  [1m[35m (1.1ms)[0m  commit transaction
+Migrating to CreateComments (20150408080522)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  CREATE TABLE "comments" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "sender_id" integer, "receiver_id" integer, "content" text, "created_at" datetime, "updated_at" datetime) 
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20150408080522"]]
+  [1m[35m (0.9ms)[0m  commit transaction
+Migrating to CreateGames (20150408081227)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  CREATE TABLE "games" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id_id" integer, "title" varchar(255), "date" date, "city" varchar(255), "state" varchar(255), "zip" varchar(255), "address" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20150408081227"]]
+  [1m[35m (1.1ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-24 19:31:00 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered games/_search.html.erb (3.9ms)
+  Rendered welcome/index.html.erb within layouts/application (24.5ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 6 LIMIT 1
+  Rendered layouts/_navigation.html.erb (27.4ms)
+Completed 500 Internal Server Error in 551ms
+
+ActionView::Template::Error (undefined method `username' for nil:NilClass):
+    15:    <% if !session[:user_id] %>
+    16:       <a href="/signup">Signup</a>
+    17:    <% else %>
+    18:      <%= link_to current_user.username, current_user %>
+    19:    <% end %>
+    20:   </nav>
+    21: </div>
+  app/views/layouts/_navigation.html.erb:18:in `_app_views_layouts__navigation_html_erb__176775693346889254_70271772623360'
+  app/views/layouts/application.html.erb:17:in `_app_views_layouts_application_html_erb___1247165232027337913_70271731269520'
+
+
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p643/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p643/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p643/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (21.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-24 19:31:06 -0700
+Processing by WelcomeController#index as HTML
+  Rendered games/_search.html.erb (1.7ms)
+  Rendered welcome/index.html.erb within layouts/application (3.3ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 6 LIMIT 1[0m
+  Rendered layouts/_navigation.html.erb (4.5ms)
+Completed 500 Internal Server Error in 51ms
+
+ActionView::Template::Error (undefined method `username' for nil:NilClass):
+    15:    <% if !session[:user_id] %>
+    16:       <a href="/signup">Signup</a>
+    17:    <% else %>
+    18:      <%= link_to current_user.username, current_user %>
+    19:    <% end %>
+    20:   </nav>
+    21: </div>
+  app/views/layouts/_navigation.html.erb:18:in `_app_views_layouts__navigation_html_erb__176775693346889254_70271772623360'
+  app/views/layouts/application.html.erb:17:in `_app_views_layouts_application_html_erb___1247165232027337913_70271731269520'
+
+
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p643/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p643/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p643/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (18.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-24 19:31:20 -0700
+Processing by WelcomeController#index as HTML
+  Rendered layouts/_login.html.erb (1.8ms)
+  Rendered welcome/index.html.erb within layouts/application (11.6ms)
+  Rendered layouts/_navigation.html.erb (2.7ms)
+Completed 200 OK in 127ms (Views: 126.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-61e9549c766aa32865dbc4053ecbb9be1510e25cddb47e3a3079780129e8fa34.css?body=1" for 127.0.0.1 at 2015-05-24 19:31:20 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-24 19:31:20 -0700
+
+
+Started GET "/assets/application.self-740910411c9b33744d95052e386fed16d227d49be9a3cec448f3c1b488dd4260.css?body=1" for 127.0.0.1 at 2015-05-24 19:31:20 -0700
+
+
+Started GET "/assets/foundation.self-61e9549c766aa32865dbc4053ecbb9be1510e25cddb47e3a3079780129e8fa34.css?body=1" for 127.0.0.1 at 2015-05-24 19:31:20 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-05-24 19:31:20 -0700
+
+
+Started GET "/assets/redball-5c9d074ad1d6d085e7f1a19051bf7bce49cacba408a523f43117b0d0e1b59be5.png" for 127.0.0.1 at 2015-05-24 19:31:20 -0700
+
+
+Started GET "/assets/foundation_and_overrides" for 127.0.0.1 at 2015-05-24 19:31:20 -0700
+  [1m[36m (9.9ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (1.7ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreateUsers (20150408074836)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "username" varchar(255), "first_name" varchar(255), "last_name" varchar(255), "email" varchar(255), "password_digest" varchar(255), "city" varchar(255), "state" varchar(255), "age" integer, "games_total" integer, "games_won" integer, "bio" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20150408074836"]]
+  [1m[35m (0.9ms)[0m  commit transaction
+Migrating to CreateFriendships (20150408080240)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  CREATE TABLE "friendships" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "friendee_id" integer, "friend_id" integer, "status" varchar(255), "created_at" datetime, "updated_at" datetime) 
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20150408080240"]]
+  [1m[35m (1.0ms)[0m  commit transaction
+Migrating to CreateComments (20150408080522)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  CREATE TABLE "comments" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "sender_id" integer, "receiver_id" integer, "content" text, "created_at" datetime, "updated_at" datetime) 
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20150408080522"]]
+  [1m[35m (1.0ms)[0m  commit transaction
+Migrating to CreateGames (20150408081227)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  CREATE TABLE "games" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id_id" integer, "title" varchar(255), "date" date, "city" varchar(255), "state" varchar(255), "zip" varchar(255), "address" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20150408081227"]]
+  [1m[35m (1.0ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started POST "/login?method=get" for 127.0.0.1 at 2015-05-24 19:35:22 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"pvEziAVq6+XkfaV4rmC/Ah8/BtBZ9eq7hbQDEgZ9fNg=", "user_input"=>"", "password"=>"[FILTERED]", "commit"=>"GO", "method"=>"get"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."username" = '' LIMIT 1
+Redirected to http://localhost:3000/login
+Completed 302 Found in 28ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2015-05-24 19:35:22 -0700
+Processing by SessionsController#login as HTML
+  Rendered sessions/login.html.erb within layouts/application (5.3ms)
+Completed 500 Internal Server Error in 312ms
+
+ActionView::Template::Error (Invalid CSS after "...mat("truetype")": expected ")", was ";"):
+     6: 
+     7:     <title>iBall</title>
+     8: 
+     9:     <%= stylesheet_link_tag    "application" %>
+    10:     <%= javascript_include_tag "vendor/modernizr" %>
+    11:     <%= javascript_include_tag "application" 'data-turbolinks-track' => true %>
+    12:     <%= csrf_meta_tags %>
+  app/assets/stylesheets/application.scss:33
+  app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb___1076024859942497099_70212065671260'
+
+
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p643/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p643/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p643/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (12.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-24 19:36:39 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered layouts/_login.html.erb (1.8ms)
+  Rendered welcome/index.html.erb within layouts/application (18.9ms)
+  Rendered layouts/_navigation.html.erb (3.0ms)
+Completed 200 OK in 250ms (Views: 249.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/application.scss.css" for 127.0.0.1 at 2015-05-24 19:36:40 -0700
+
+ActionController::RoutingError (No route matches [GET] "/stylesheets/application.scss.css"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  thin (1.5.1) lib/thin/connection.rb:81:in `block in pre_process'
+  thin (1.5.1) lib/thin/connection.rb:79:in `catch'
+  thin (1.5.1) lib/thin/connection.rb:79:in `pre_process'
+  thin (1.5.1) lib/thin/connection.rb:54:in `process'
+  thin (1.5.1) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.5) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.5) lib/eventmachine.rb:187:in `run'
+  thin (1.5.1) lib/thin/backends/base.rb:63:in `start'
+  thin (1.5.1) lib/thin/server.rb:159:in `start'
+  rack (1.5.2) lib/rack/handler/thin.rb:16:in `run'
+  rack (1.5.2) lib/rack/server.rb:264:in `start'
+  railties (4.1.8) lib/rails/commands/server.rb:69:in `start'
+  railties (4.1.8) lib/rails/commands/commands_tasks.rb:81:in `block in server'
+  railties (4.1.8) lib/rails/commands/commands_tasks.rb:76:in `tap'
+  railties (4.1.8) lib/rails/commands/commands_tasks.rb:76:in `server'
+  railties (4.1.8) lib/rails/commands/commands_tasks.rb:40:in `run_command!'
+  railties (4.1.8) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:4:in `require'
+  bin/rails:4:in `<main>'
+
+
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p643/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p643/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (6.1ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p643/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (10.4ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p643/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (72.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-24 19:36:55 -0700
+Processing by WelcomeController#index as HTML
+  Rendered layouts/_login.html.erb (1.0ms)
+  Rendered welcome/index.html.erb within layouts/application (2.4ms)
+Completed 500 Internal Server Error in 85ms
+
+ActionView::Template::Error (Invalid CSS after "...mat("truetype")": expected ")", was ";"):
+     6: 
+     7:     <title>iBall</title>
+     8: 
+     9:     <%= stylesheet_link_tag    "application" %>
+    10:     <%= javascript_include_tag "vendor/modernizr" %>
+    11:     <%= javascript_include_tag "application" 'data-turbolinks-track' => true %>
+    12:     <%= csrf_meta_tags %>
+  app/assets/stylesheets/application.scss:33
+  app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb__2300323376366576411_70238022943000'
+
+
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p643/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p643/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p643/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (11.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-24 19:36:56 -0700
+Processing by WelcomeController#index as HTML
+  Rendered layouts/_login.html.erb (0.7ms)
+  Rendered welcome/index.html.erb within layouts/application (1.7ms)
+Completed 500 Internal Server Error in 14ms
+
+ActionView::Template::Error (Invalid CSS after "...mat("truetype")": expected ")", was ";"):
+     6: 
+     7:     <title>iBall</title>
+     8: 
+     9:     <%= stylesheet_link_tag    "application" %>
+    10:     <%= javascript_include_tag "vendor/modernizr" %>
+    11:     <%= javascript_include_tag "application" 'data-turbolinks-track' => true %>
+    12:     <%= csrf_meta_tags %>
+  app/assets/stylesheets/application.scss:33
+  app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb__2300323376366576411_70238022943000'
+
+
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p643/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p643/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/stephaniebarreyro/.rvm/gems/ruby-2.0.0-p643/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (11.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-24 19:37:35 -0700
+Processing by WelcomeController#index as HTML
+  Rendered layouts/_login.html.erb (1.0ms)
+  Rendered welcome/index.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_navigation.html.erb (2.4ms)
+Completed 200 OK in 11550ms (Views: 11549.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-61e9549c766aa32865dbc4053ecbb9be1510e25cddb47e3a3079780129e8fa34.css?body=1" for 127.0.0.1 at 2015-05-24 19:37:47 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-24 19:37:47 -0700
+
+
+Started GET "/assets/application.self-83b0111d9eed57b9ce62f7f417baf304fe6e31d40684051d2264c8164d111c48.css?body=1" for 127.0.0.1 at 2015-05-24 19:37:47 -0700
+
+
+Started GET "/assets/foundation.self-61e9549c766aa32865dbc4053ecbb9be1510e25cddb47e3a3079780129e8fa34.css?body=1" for 127.0.0.1 at 2015-05-24 19:37:47 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-05-24 19:37:47 -0700
+
+
+Started GET "/assets/redball-5c9d074ad1d6d085e7f1a19051bf7bce49cacba408a523f43117b0d0e1b59be5.png" for 127.0.0.1 at 2015-05-24 19:37:47 -0700
+
+
+Started GET "/assets/introcondblackfree-330387dc45b74f71eb00ba134ae5983391d8971f586a3e0cba8d4f5d2abf3590.otf" for 127.0.0.1 at 2015-05-24 19:37:47 -0700
+
+
+Started GET "/assets/krinkes-84d0fe1e471c6a5554dfd99dc84cb94fd5864d4662509cb9352edc236f8a3130.ttf" for 127.0.0.1 at 2015-05-24 19:37:47 -0700
