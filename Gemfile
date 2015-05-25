@@ -55,4 +55,7 @@ end
 # gem 'debugger', group: [:development, :test]
 gem "font-awesome-rails"
 
+gem 'puma'
+
 ruby '2.0.0'
+
