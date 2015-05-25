@@ -4,11 +4,11 @@ ruby '2.0.0'
 gem 'faker'
 gem 'foundation-rails'
 
-gem 'rails_12factor', group: :production
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.8'
 # Use postgresql as the database for Active Record
 gem 'pg'
+gem 'rails_12factor', group: :production
 # Use SCSS for stylesheets
 gem 'sass-rails'
 # Use Uglifier as compressor for JavaScript assets
