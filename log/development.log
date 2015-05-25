@@ -37129,3 +37129,74 @@ Processing by UsersController#new as HTML
   Rendered users/new.html.erb within layouts/application (31.8ms)
   Rendered layouts/_navigation.html.erb (2.3ms)
 Completed 200 OK in 87ms (Views: 78.9ms | ActiveRecord: 5.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-24 21:59:37 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered layouts/_login.html.erb (1.8ms)
+  Rendered welcome/index.html.erb within layouts/application (20.3ms)
+  Rendered layouts/_navigation.html.erb (4.9ms)
+Completed 200 OK in 681ms (Views: 680.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-24 21:59:38 -0700
+Processing by WelcomeController#index as HTML
+  Rendered layouts/_login.html.erb (1.0ms)
+  Rendered welcome/index.html.erb within layouts/application (2.4ms)
+  Rendered layouts/_navigation.html.erb (2.4ms)
+Completed 200 OK in 53ms (Views: 52.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-61e9549c766aa32865dbc4053ecbb9be1510e25cddb47e3a3079780129e8fa34.css?body=1" for 127.0.0.1 at 2015-05-24 21:59:38 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-24 21:59:38 -0700
+
+
+Started GET "/assets/application.self-83b0111d9eed57b9ce62f7f417baf304fe6e31d40684051d2264c8164d111c48.css?body=1" for 127.0.0.1 at 2015-05-24 21:59:38 -0700
+
+
+Started GET "/assets/foundation.self-61e9549c766aa32865dbc4053ecbb9be1510e25cddb47e3a3079780129e8fa34.css?body=1" for 127.0.0.1 at 2015-05-24 21:59:38 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-05-24 21:59:39 -0700
+
+
+Started GET "/assets/redball-5c9d074ad1d6d085e7f1a19051bf7bce49cacba408a523f43117b0d0e1b59be5.png" for 127.0.0.1 at 2015-05-24 21:59:39 -0700
+
+
+Started GET "/assets/introcondblackfree-330387dc45b74f71eb00ba134ae5983391d8971f586a3e0cba8d4f5d2abf3590.otf" for 127.0.0.1 at 2015-05-24 21:59:39 -0700
+
+
+Started GET "/assets/krinkes-84d0fe1e471c6a5554dfd99dc84cb94fd5864d4662509cb9352edc236f8a3130.ttf" for 127.0.0.1 at 2015-05-24 21:59:39 -0700
+
+
+Started GET "/signup" for 127.0.0.1 at 2015-05-24 21:59:40 -0700
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (18.3ms)
+  Rendered layouts/_navigation.html.erb (2.6ms)
+Completed 200 OK in 146ms (Views: 61.6ms | ActiveRecord: 4.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-24 21:59:42 -0700
+Processing by WelcomeController#index as HTML
+  Rendered layouts/_login.html.erb (0.7ms)
+  Rendered welcome/index.html.erb within layouts/application (1.8ms)
+  Rendered layouts/_navigation.html.erb (3.2ms)
+Completed 200 OK in 45ms (Views: 44.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login?method=get" for 127.0.0.1 at 2015-05-24 22:08:33 -0700
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"0C1QSF+XB/HAwX0FzKxOGkrcqT6Jc+DRz2ODPT0QcLU=", "user_input"=>"", "password"=>"[FILTERED]", "commit"=>"GO", "method"=>"get"}
+  [1m[35mUser Load (10.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."username" = '' LIMIT 1
+Redirected to http://localhost:3000/login
+Completed 302 Found in 22ms (ActiveRecord: 10.1ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2015-05-24 22:08:33 -0700
+Processing by SessionsController#login as HTML
+  Rendered sessions/login.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_navigation.html.erb (2.0ms)
+Completed 200 OK in 123ms (Views: 122.5ms | ActiveRecord: 0.0ms)
