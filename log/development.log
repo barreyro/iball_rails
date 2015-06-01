@@ -37129,3 +37129,186 @@ Processing by UsersController#new as HTML
   Rendered users/new.html.erb within layouts/application (31.8ms)
   Rendered layouts/_navigation.html.erb (2.3ms)
 Completed 200 OK in 87ms (Views: 78.9ms | ActiveRecord: 5.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-24 21:59:37 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered layouts/_login.html.erb (1.8ms)
+  Rendered welcome/index.html.erb within layouts/application (20.3ms)
+  Rendered layouts/_navigation.html.erb (4.9ms)
+Completed 200 OK in 681ms (Views: 680.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-24 21:59:38 -0700
+Processing by WelcomeController#index as HTML
+  Rendered layouts/_login.html.erb (1.0ms)
+  Rendered welcome/index.html.erb within layouts/application (2.4ms)
+  Rendered layouts/_navigation.html.erb (2.4ms)
+Completed 200 OK in 53ms (Views: 52.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-61e9549c766aa32865dbc4053ecbb9be1510e25cddb47e3a3079780129e8fa34.css?body=1" for 127.0.0.1 at 2015-05-24 21:59:38 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-24 21:59:38 -0700
+
+
+Started GET "/assets/application.self-83b0111d9eed57b9ce62f7f417baf304fe6e31d40684051d2264c8164d111c48.css?body=1" for 127.0.0.1 at 2015-05-24 21:59:38 -0700
+
+
+Started GET "/assets/foundation.self-61e9549c766aa32865dbc4053ecbb9be1510e25cddb47e3a3079780129e8fa34.css?body=1" for 127.0.0.1 at 2015-05-24 21:59:38 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-05-24 21:59:39 -0700
+
+
+Started GET "/assets/redball-5c9d074ad1d6d085e7f1a19051bf7bce49cacba408a523f43117b0d0e1b59be5.png" for 127.0.0.1 at 2015-05-24 21:59:39 -0700
+
+
+Started GET "/assets/introcondblackfree-330387dc45b74f71eb00ba134ae5983391d8971f586a3e0cba8d4f5d2abf3590.otf" for 127.0.0.1 at 2015-05-24 21:59:39 -0700
+
+
+Started GET "/assets/krinkes-84d0fe1e471c6a5554dfd99dc84cb94fd5864d4662509cb9352edc236f8a3130.ttf" for 127.0.0.1 at 2015-05-24 21:59:39 -0700
+
+
+Started GET "/signup" for 127.0.0.1 at 2015-05-24 21:59:40 -0700
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (18.3ms)
+  Rendered layouts/_navigation.html.erb (2.6ms)
+Completed 200 OK in 146ms (Views: 61.6ms | ActiveRecord: 4.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-24 21:59:42 -0700
+Processing by WelcomeController#index as HTML
+  Rendered layouts/_login.html.erb (0.7ms)
+  Rendered welcome/index.html.erb within layouts/application (1.8ms)
+  Rendered layouts/_navigation.html.erb (3.2ms)
+Completed 200 OK in 45ms (Views: 44.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login?method=get" for 127.0.0.1 at 2015-05-24 22:08:33 -0700
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"0C1QSF+XB/HAwX0FzKxOGkrcqT6Jc+DRz2ODPT0QcLU=", "user_input"=>"", "password"=>"[FILTERED]", "commit"=>"GO", "method"=>"get"}
+  [1m[35mUser Load (10.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."username" = '' LIMIT 1
+Redirected to http://localhost:3000/login
+Completed 302 Found in 22ms (ActiveRecord: 10.1ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2015-05-24 22:08:33 -0700
+Processing by SessionsController#login as HTML
+  Rendered sessions/login.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_navigation.html.erb (2.0ms)
+Completed 200 OK in 123ms (Views: 122.5ms | ActiveRecord: 0.0ms)
+  [1m[36m (15.5ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) [0m
+  [1m[35m (8.3ms)[0m  CREATE UNIQUE INDEX  "unique_schema_migrations" ON "schema_migrations"  ("version")
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateUsers (20150408074836)
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (7.4ms)[0m  [1mCREATE TABLE "users" ("id" serial primary key, "username" character varying(255), "first_name" character varying(255), "last_name" character varying(255), "email" character varying(255), "password_digest" character varying(255), "city" character varying(255), "state" character varying(255), "age" integer, "games_total" integer, "games_won" integer, "bio" text, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) [0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20150408074836"]]
+  [1m[36m (11.3ms)[0m  [1mCOMMIT[0m
+Migrating to CreateFriendships (20150408080240)
+  [1m[35m (6.2ms)[0m  BEGIN
+  [1m[36m (18.0ms)[0m  [1mCREATE TABLE "friendships" ("id" serial primary key, "friendee_id" integer, "friend_id" integer, "status" character varying(255), "created_at" timestamp, "updated_at" timestamp) [0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20150408080240"]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+Migrating to CreateComments (20150408080522)
+  [1m[35m (5.8ms)[0m  BEGIN
+  [1m[36m (18.8ms)[0m  [1mCREATE TABLE "comments" ("id" serial primary key, "sender_id" integer, "receiver_id" integer, "content" text, "created_at" timestamp, "updated_at" timestamp) [0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20150408080522"]]
+  [1m[36m (4.9ms)[0m  [1mCOMMIT[0m
+Migrating to CreateGames (20150408081227)
+  [1m[35m (6.1ms)[0m  BEGIN
+  [1m[36m (18.7ms)[0m  [1mCREATE TABLE "games" ("id" serial primary key, "user_id_id" integer, "title" character varying(255), "date" date, "city" character varying(255), "state" character varying(255), "zip" character varying(255), "address" character varying(255), "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) [0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20150408081227"]]
+  [1m[36m (0.7ms)[0m  [1mCOMMIT[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.4ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-24 22:19:58 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered layouts/_login.html.erb (2.5ms)
+  Rendered welcome/index.html.erb within layouts/application (24.7ms)
+  Rendered layouts/_navigation.html.erb (7.5ms)
+Completed 200 OK in 734ms (Views: 734.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-61e9549c766aa32865dbc4053ecbb9be1510e25cddb47e3a3079780129e8fa34.css?body=1" for 127.0.0.1 at 2015-05-24 22:19:59 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-24 22:19:59 -0700
+
+
+Started GET "/assets/application.self-83b0111d9eed57b9ce62f7f417baf304fe6e31d40684051d2264c8164d111c48.css?body=1" for 127.0.0.1 at 2015-05-24 22:19:59 -0700
+
+
+Started GET "/assets/foundation.self-61e9549c766aa32865dbc4053ecbb9be1510e25cddb47e3a3079780129e8fa34.css?body=1" for 127.0.0.1 at 2015-05-24 22:19:59 -0700
+
+
+Started GET "/assets/vendor/modernizr.self-814ad01c57ce829f5b64d92d12bf6cbcd696ade25b8d1fa2b07c52ecc2a19743.js?body=1" for 127.0.0.1 at 2015-05-24 22:19:59 -0700
+
+
+Started GET "/assets/redball-5c9d074ad1d6d085e7f1a19051bf7bce49cacba408a523f43117b0d0e1b59be5.png" for 127.0.0.1 at 2015-05-24 22:19:59 -0700
+
+
+Started GET "/assets/introcondblackfree-330387dc45b74f71eb00ba134ae5983391d8971f586a3e0cba8d4f5d2abf3590.otf" for 127.0.0.1 at 2015-05-24 22:19:59 -0700
+
+
+Started GET "/assets/krinkes-84d0fe1e471c6a5554dfd99dc84cb94fd5864d4662509cb9352edc236f8a3130.ttf" for 127.0.0.1 at 2015-05-24 22:19:59 -0700
+
+
+Started GET "/signup" for 127.0.0.1 at 2015-05-24 22:20:00 -0700
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (23.8ms)
+  Rendered layouts/_navigation.html.erb (2.3ms)
+Completed 200 OK in 163ms (Views: 142.2ms | ActiveRecord: 5.1ms)
+  [1m[36m (14.0ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) [0m
+  [1m[35m (14.0ms)[0m  CREATE UNIQUE INDEX  "unique_schema_migrations" ON "schema_migrations"  ("version")
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateUsers (20150408074836)
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (7.7ms)[0m  [1mCREATE TABLE "users" ("id" serial primary key, "username" character varying(255), "first_name" character varying(255), "last_name" character varying(255), "email" character varying(255), "password_digest" character varying(255), "city" character varying(255), "state" character varying(255), "age" integer, "games_total" integer, "games_won" integer, "bio" text, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) [0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20150408074836"]]
+  [1m[36m (6.5ms)[0m  [1mCOMMIT[0m
+Migrating to CreateFriendships (20150408080240)
+  [1m[35m (5.9ms)[0m  BEGIN
+  [1m[36m (13.0ms)[0m  [1mCREATE TABLE "friendships" ("id" serial primary key, "friendee_id" integer, "friend_id" integer, "status" character varying(255), "created_at" timestamp, "updated_at" timestamp) [0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20150408080240"]]
+  [1m[36m (5.8ms)[0m  [1mCOMMIT[0m
+Migrating to CreateComments (20150408080522)
+  [1m[35m (5.8ms)[0m  BEGIN
+  [1m[36m (18.3ms)[0m  [1mCREATE TABLE "comments" ("id" serial primary key, "sender_id" integer, "receiver_id" integer, "content" text, "created_at" timestamp, "updated_at" timestamp) [0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20150408080522"]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+Migrating to CreateGames (20150408081227)
+  [1m[35m (6.1ms)[0m  BEGIN
+  [1m[36m (17.3ms)[0m  [1mCREATE TABLE "games" ("id" serial primary key, "user_id_id" integer, "title" character varying(255), "date" date, "city" character varying(255), "state" character varying(255), "zip" character varying(255), "address" character varying(255), "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) [0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20150408081227"]]
+  [1m[36m (1.9ms)[0m  [1mCOMMIT[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.5ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (15.5ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) [0m
+  [1m[35m (14.9ms)[0m  CREATE UNIQUE INDEX  "unique_schema_migrations" ON "schema_migrations"  ("version")
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateUsers (20150408074836)
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (26.6ms)[0m  [1mCREATE TABLE "users" ("id" serial primary key, "username" character varying(255), "first_name" character varying(255), "last_name" character varying(255), "email" character varying(255), "password_digest" character varying(255), "city" character varying(255), "state" character varying(255), "age" integer, "games_total" integer, "games_won" integer, "bio" text, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) [0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20150408074836"]]
+  [1m[36m (6.2ms)[0m  [1mCOMMIT[0m
+Migrating to CreateFriendships (20150408080240)
+  [1m[35m (6.2ms)[0m  BEGIN
+  [1m[36m (10.8ms)[0m  [1mCREATE TABLE "friendships" ("id" serial primary key, "friendee_id" integer, "friend_id" integer, "status" character varying(255), "created_at" timestamp, "updated_at" timestamp) [0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20150408080240"]]
+  [1m[36m (6.7ms)[0m  [1mCOMMIT[0m
+Migrating to CreateComments (20150408080522)
+  [1m[35m (6.4ms)[0m  BEGIN
+  [1m[36m (18.2ms)[0m  [1mCREATE TABLE "comments" ("id" serial primary key, "sender_id" integer, "receiver_id" integer, "content" text, "created_at" timestamp, "updated_at" timestamp) [0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20150408080522"]]
+  [1m[36m (0.7ms)[0m  [1mCOMMIT[0m
+Migrating to CreateGames (20150408081227)
+  [1m[35m (6.1ms)[0m  BEGIN
+  [1m[36m (17.6ms)[0m  [1mCREATE TABLE "games" ("id" serial primary key, "user_id_id" integer, "title" character varying(255), "date" date, "city" character varying(255), "state" character varying(255), "zip" character varying(255), "address" character varying(255), "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) [0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20150408081227"]]
+  [1m[36m (3.6ms)[0m  [1mCOMMIT[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.7ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
