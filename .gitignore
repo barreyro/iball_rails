@@ -16,3 +16,5 @@
 /tmp
 *.swp
 /log/*
+/tmp/*
+/tmp*
